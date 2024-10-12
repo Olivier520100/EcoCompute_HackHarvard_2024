@@ -15,49 +15,41 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown, DollarSign, Server, Wifi, Zap } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import {
+	Area,
+	Line,
+	LineChart,
+	ResponsiveContainer,
+	XAxis,
+	YAxis,
+} from "recharts";
 
-// Sample data for each metric
-const powerData = [
-	{ name: "Jan", value: 40000 },
-	{ name: "Feb", value: 39000 },
-	{ name: "Mar", value: 42000 },
-	{ name: "Apr", value: 43000 },
-	{ name: "May", value: 45231 },
-];
+import type * as dataTypes from "@/lib/datatypes"; // Adjust the path based on your project structure
 
-const costData = [
-	{ name: "Jan", value: 10000 },
-	{ name: "Feb", value: 10500 },
-	{ name: "Mar", value: 11000 },
-	{ name: "Apr", value: 11500 },
-	{ name: "May", value: 12234 },
-];
-
-const programsData = [
-	{ name: "Jan", value: 300 },
-	{ name: "Feb", value: 350 },
-	{ name: "Mar", value: 400 },
-	{ name: "Apr", value: 450 },
-	{ name: "May", value: 573 },
-];
-
-const bandwidthData = [
-	{ name: "Jan", value: 0.8 },
-	{ name: "Feb", value: 0.9 },
-	{ name: "Mar", value: 1.0 },
-	{ name: "Apr", value: 1.1 },
-	{ name: "May", value: 1.2 },
-];
+import fakedata from "@/lib/fakedata.json";
 
 export default function Dashboard() {
-	// const powerData: number[] = [];
-	// const costData: number[] = [];
-	// const machinesData: number[] = [];
-	// const bandwidthData: number[] = [];
-	const [timePeriod, setTimePeriod] = useState("This Month");
+	const [data, setData] = useState<dataTypes.AllData>({ ...fakedata });
 
-	const data: object | undefined = getAllDashBoardData();
+	const [timePeriod, setTimePeriod] = useState("today");
+
+	// useEffect(() => {
+	// 	async function fetchData() {
+	// 		try {
+	// 			const response = await fetch("/fakedata.json"); // No need for relative paths like ../../
+	// 			console.log(response);
+	// 			if (!response.ok) {
+	// 				throw new Error(`HTTP error! status: ${response.status}`);
+	// 			}
+	// 			const data = await response.json();
+	// 			setData(data); // Assuming you have setData from useState
+	// 		} catch (error) {
+	// 			console.error("Error fetching data:", error);
+	// 		}
+	// 	}
+
+	// 	fetchData();
+	// }, []);
 
 	return (
 		<div className="p-8">
@@ -70,171 +62,248 @@ export default function Dashboard() {
 						</Button>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent>
-						<DropdownMenuItem onClick={() => setTimePeriod("Today")}>
+						<DropdownMenuItem onClick={() => setTimePeriod("today")}>
 							Today
 						</DropdownMenuItem>
-						<DropdownMenuItem onClick={() => setTimePeriod("This Week")}>
+						<DropdownMenuItem onClick={() => setTimePeriod("week")}>
 							This Week
 						</DropdownMenuItem>
-						<DropdownMenuItem onClick={() => setTimePeriod("This Month")}>
+						<DropdownMenuItem onClick={() => setTimePeriod("month")}>
 							This Month
 						</DropdownMenuItem>
-						<DropdownMenuItem onClick={() => setTimePeriod("This Year")}>
+						<DropdownMenuItem onClick={() => setTimePeriod("year")}>
 							This Year
 						</DropdownMenuItem>
 					</DropdownMenuContent>
 				</DropdownMenu>
 			</div>
 			<div className="grid gap-4 md:grid-cols-2">
-				<Card>
-					<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-						<CardTitle className="text-sm font-medium">
-							Power Consumption
-						</CardTitle>
-						<Zap className="h-4 w-4 text-muted-foreground" />
-					</CardHeader>
-					<CardContent>
-						<div className="text-2xl font-bold">45,231 kWh</div>
-						<p className="text-xs text-muted-foreground">
-							+20.1% from last month
-						</p>
-						<ChartContainer
-							config={{ value: { label: "kWh", color: "hsl(var(--chart-1))" } }}
-							className="h-[200px]"
-						>
-							<ResponsiveContainer width="100%" height="100%">
-								<LineChart data={powerData ? powerData : [0]}>
-									<XAxis dataKey="name" />
-									<YAxis />
-									<ChartTooltip content={<ChartTooltipContent />} />
-									<Line
-										type="monotone"
-										dataKey="value"
-										stroke="var(--color-value)"
-										strokeWidth={2}
-										dot={false}
-									/>
-								</LineChart>
-							</ResponsiveContainer>
-						</ChartContainer>
-					</CardContent>
-				</Card>
-				<Card>
-					<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-						<CardTitle className="text-sm font-medium">
-							Compute Power Cost
-						</CardTitle>
-						<DollarSign className="h-4 w-4 text-muted-foreground" />
-					</CardHeader>
-					<CardContent>
-						<div className="text-2xl font-bold">$12,234</div>
-						<p className="text-xs text-muted-foreground">
-							+15% from last month
-						</p>
-						<ChartContainer
-							config={{ value: { label: "USD", color: "hsl(var(--chart-2))" } }}
-							className="h-[200px]"
-						>
-							<ResponsiveContainer width="100%" height="100%">
-								<LineChart data={costData ? costData : [0]}>
-									<XAxis dataKey="name" />
-									<YAxis />
-									<ChartTooltip content={<ChartTooltipContent />} />
-									<Line
-										type="monotone"
-										dataKey="value"
-										stroke="var(--color-value)"
-										strokeWidth={2}
-										dot={false}
-									/>
-								</LineChart>
-							</ResponsiveContainer>
-						</ChartContainer>
-					</CardContent>
-				</Card>
-				<Card>
-					<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-						<CardTitle className="text-sm font-medium">
-							Programs Running
-						</CardTitle>
-						<Server className="h-4 w-4 text-muted-foreground" />
-					</CardHeader>
-					<CardContent>
-						<div className="text-2xl font-bold">573</div>
-						<p className="text-xs text-muted-foreground">
-							+201 since last month
-						</p>
-						<ChartContainer
-							config={{
-								value: { label: "Machines", color: "hsl(var(--chart-3))" },
-							}}
-							className="h-[200px]"
-						>
-							<ResponsiveContainer width="100%" height="100%">
-								<LineChart data={programsData ? programsData : [0]}>
-									<XAxis dataKey="name" />
-									<YAxis />
-									<ChartTooltip content={<ChartTooltipContent />} />
-									<Line
-										type="monotone"
-										dataKey="value"
-										stroke="var(--color-value)"
-										strokeWidth={2}
-										dot={false}
-									/>
-								</LineChart>
-							</ResponsiveContainer>
-						</ChartContainer>
-					</CardContent>
-				</Card>
-				<Card>
-					<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-						<CardTitle className="text-sm font-medium">
-							Network Bandwidth
-						</CardTitle>
-						<Wifi className="h-4 w-4 text-muted-foreground" />
-					</CardHeader>
-					<CardContent>
-						<div className="text-2xl font-bold">1.2 TB</div>
-						<p className="text-xs text-muted-foreground">+5% from last month</p>
-						<ChartContainer
-							config={{ value: { label: "TB", color: "hsl(var(--chart-4))" } }}
-							className="h-[200px]"
-						>
-							<ResponsiveContainer width="100%" height="100%">
-								<LineChart data={bandwidthData ? bandwidthData : [0]}>
-									<XAxis dataKey="name" />
-									<YAxis />
-									<ChartTooltip content={<ChartTooltipContent />} />
-									<Line
-										type="monotone"
-										dataKey="value"
-										stroke="var(--color-value)"
-										strokeWidth={2}
-										dot={false}
-									/>
-								</LineChart>
-							</ResponsiveContainer>
-						</ChartContainer>
-					</CardContent>
-				</Card>
+                
+				<ChartConsumption
+					data={data.powerConsumption}
+					timePeriod={timePeriod}
+				/>
+
+				<ChartCost data={data.costData} timePeriod={timePeriod} />
+
+				<ChartProgramsRunning
+					data={data.programsRunning}
+					timePeriod={timePeriod}
+				/>
+
+				<ChartBandWidth data={data.bandwidthUsage} timePeriod={timePeriod} />
 			</div>
 		</div>
 	);
 }
 
-function getAllDashBoardData() {
-	const [data, setData] = useState<object>();
+// EACH TYPE OF CHART IS BELOW
 
-	useEffect(() => {
-		async function name() {
-			// get from backend
-			// setData()
-		}
-		name();
-	}, []);
+function ChartConsumption({
+	data,
+	timePeriod,
+}: { data: dataTypes.PowerConsumptionData; timePeriod: string }) {
+	return (
+		<Card>
+			<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+				<CardTitle className="text-sm font-medium">Power Consumption</CardTitle>
+				<Zap className="h-4 w-4 text-muted-foreground" />
+			</CardHeader>
+			<CardContent>
+				<div className="text-2xl font-bold">AMOUNT</div>
+				<p className="text-xs text-muted-foreground">POURCENTAGE</p>
+				<ChartContainer
+					config={{ value: { label: "kWh", color: "hsl(var(--chart-1))" } }}
+					className="h-[200px]"
+				>
+					<ResponsiveContainer width="100%" height="100%">
+						<LineChart
+							data={
+								timePeriod === "today"
+									? data?.powerConsumptionToday
+									: timePeriod === "week"
+										? data?.powerConsumptionThisWeek
+										: timePeriod === "month"
+											? data?.powerConsumptionThisMonth
+											: timePeriod === "year"
+												? data?.powerConsumptionThisYear
+												: [0]
+							}
+						>
+							<XAxis dataKey="name" />
+							<YAxis />
+							<ChartTooltip content={<ChartTooltipContent />} />
+							<Line
+								type="monotone"
+								dataKey="value"
+								stroke="var(--color-value)"
+								strokeWidth={2}
+								dot={false}
+							/>
+						</LineChart>
+					</ResponsiveContainer>
+				</ChartContainer>
+			</CardContent>
+		</Card>
+	);
+}
 
-	// can seperate different data here
+function ChartCost({
+	data,
+	timePeriod,
+}: { data: dataTypes.CostData; timePeriod: string }) {
+	return (
+		<Card>
+			<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+				<CardTitle className="text-sm font-medium">
+					Compute Power Cost
+				</CardTitle>
+				<DollarSign className="h-4 w-4 text-muted-foreground" />
+			</CardHeader>
+			<CardContent>
+				<div className="text-2xl font-bold">AMOUNT</div>
+				<p className="text-xs text-muted-foreground">POURCENTAGE</p>
+				<ChartContainer
+					config={{ value: { label: "USD", color: "hsl(var(--chart-2))" } }}
+					className="h-[200px]"
+				>
+					<ResponsiveContainer width="100%" height="100%">
+						<LineChart
+							data={
+								timePeriod === "today"
+									? data?.costDataToday
+									: timePeriod === "week"
+										? data?.costDataThisWeek
+										: timePeriod === "month"
+											? data?.costDataThisMonth
+											: timePeriod === "year"
+												? data?.costDataThisYear
+												: [0]
+							}
+						>
+							<XAxis dataKey="name" />
+							<YAxis />
+							<ChartTooltip content={<ChartTooltipContent />} />
+							<Line
+								type="monotone"
+								dataKey="value"
+								stroke="var(--color-value)"
+								strokeWidth={2}
+								dot={false}
+							/>
+						</LineChart>
+					</ResponsiveContainer>
+				</ChartContainer>
+			</CardContent>
+		</Card>
+	);
+}
 
-	return data;
+function ChartProgramsRunning({
+	data,
+	timePeriod,
+}: { data: dataTypes.ProgramsRunningData; timePeriod: string }) {
+	return (
+		<Card>
+			<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+				<CardTitle className="text-sm font-medium">Programs Running</CardTitle>
+				<Server className="h-4 w-4 text-muted-foreground" />
+			</CardHeader>
+			<CardContent>
+				<div className="text-2xl font-bold">AMOUNT</div>
+				<p className="text-xs text-muted-foreground">
+					+HOW MANY SINCE LAST WTV
+				</p>
+				<ChartContainer
+					config={{
+						value: { label: "Programs", color: "hsl(var(--chart-3))" },
+					}}
+					className="h-[200px]"
+				>
+					<ResponsiveContainer width="100%" height="100%">
+						<LineChart
+							data={
+								timePeriod === "today"
+									? data?.programsRunningToday
+									: timePeriod === "week"
+										? data?.programsRunningThisWeek
+										: timePeriod === "month"
+											? data?.programsRunningThisMonth
+											: timePeriod === "year"
+												? data?.programsRunningThisYear
+												: [0]
+							}
+						>
+							<XAxis dataKey="name" />
+							<YAxis />
+							<ChartTooltip content={<ChartTooltipContent />} />
+							<Line
+								type="monotone"
+								dataKey="value"
+								stroke="var(--color-value)"
+								strokeWidth={2}
+								dot={false}
+							/>
+						</LineChart>
+					</ResponsiveContainer>
+				</ChartContainer>
+			</CardContent>
+		</Card>
+	);
+}
+
+function ChartBandWidth({
+	data,
+	timePeriod,
+}: { data: dataTypes.BandwidthUsageData; timePeriod: string }) {
+	return (
+		<Card>
+			<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+				<CardTitle className="text-sm font-medium">Network Bandwidth</CardTitle>
+				<Wifi className="h-4 w-4 text-muted-foreground" />
+			</CardHeader>
+			<CardContent>
+				<div className="text-2xl font-bold">AMOUNT</div>
+				<p className="text-xs text-muted-foreground">POURCENTAGE</p>
+				<ChartContainer
+					config={{ value: { label: "TB", color: "hsl(var(--chart-4))" } }}
+					className="h-[200px]"
+				>
+					<ResponsiveContainer width="100%" height="100%">
+						<LineChart
+							data={
+								timePeriod === "today"
+									? data?.bandwidthUsageToday
+									: timePeriod === "week"
+										? data?.bandwidthUsageThisWeek
+										: timePeriod === "month"
+											? data?.bandwidthUsageThisMonth
+											: timePeriod === "year"
+												? data?.bandwidthUsageThisYear
+												: [0]
+							}
+						>
+							<XAxis dataKey="name" />
+							<YAxis />
+							<ChartTooltip content={<ChartTooltipContent />} />
+							<Line
+								type="monotone"
+								dataKey="value"
+								stroke="var(--color-value)"
+								strokeWidth={2}
+								dot={false}
+							/>
+							<Area
+								type="monotone"
+								dataKey="value"
+								stroke="none"
+								fill="var(--color-value)"
+								fillOpacity={0.4}
+							/>
+						</LineChart>
+					</ResponsiveContainer>
+				</ChartContainer>
+			</CardContent>
+		</Card>
+	);
 }
