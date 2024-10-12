@@ -92,3 +92,10 @@ async def run_code_cell(request: CodeCellRequest):
     code_lines = request.code_lines
     output = "\n".join([f"Output of line {i}: {line}" for i, line in enumerate(code_lines)])
     return {"output": output}
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    while True:
+        data = await websocket.receive_text()
+        await websocket.send_text(f"Message text was: {data}")
