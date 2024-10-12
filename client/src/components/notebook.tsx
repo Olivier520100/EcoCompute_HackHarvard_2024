@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FileText, Folder, Plus, Menu, X } from "lucide-react";
+import { FileText, Folder, Plus, Menu, X, Trees } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
 import MarkdownCell from "./markdown-cell";
@@ -16,7 +16,7 @@ export default function NoteBook() {
 
   const addCell = (type: "markdown" | "code") => {
     setCells([...cells, { id: cellCount, type }]);
-    setCellCount(prev => prev + 1);
+    setCellCount((prev) => prev + 1);
   };
 
   const addMarkdownCell = () => addCell("markdown");
@@ -48,7 +48,8 @@ export default function NoteBook() {
               <Menu className="h-5 w-5" />
             )}
           </Button>
-          <h1 className="text-xl font-bold">Green Notebook</h1>
+          <Trees className="h-8 w-8" />
+          <h1 className="text-xl font-bold">Eco Compute</h1>
         </div>
         <div className="flex space-x-2">
           {/* <Button
@@ -63,7 +64,7 @@ export default function NoteBook() {
             onClick={addCodeCell}
             variant="outline"
             size="sm"
-            className="text-white border-white hover:bg-green-500 transition-colors duration-200"
+            className="text-green-700 border-green-500 bg-white hover:bg-green-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
           >
             + Add Code
           </Button>
@@ -71,7 +72,7 @@ export default function NoteBook() {
             onClick={clearAll}
             variant="outline"
             size="sm"
-            className="text-white border-white hover:bg-green-500 transition-colors duration-200"
+            className="text-red-700 border-red-500 bg-white hover:bg-red-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
           >
             Clear All
           </Button>
@@ -110,10 +111,15 @@ export default function NoteBook() {
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-y-auto">
           {cells.map((cell) =>
-            cell.type === 'markdown' ? (
+            cell.type === "markdown" ? (
               <MarkdownCell key={cell.id} />
             ) : (
-              <CodeCell key={cell.id} id={cell.id} onDelete={() => removeCell(cell.id)} onAdd={addCodeCell} />
+              <CodeCell
+                key={cell.id}
+                id={cell.id}
+                onDelete={() => removeCell(cell.id)}
+                onAdd={addCodeCell}
+              />
             )
           )}
         </main>
