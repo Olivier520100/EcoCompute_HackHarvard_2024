@@ -4,7 +4,12 @@ import { python } from "@codemirror/lang-python";
 import { Button } from "./ui/button";
 import { Play, Plus, Trash } from "lucide-react";
 
-export default function CodeCell() {
+interface CodeCellProps {
+  onDelete: () => void;
+  onAdd: () => void;
+}
+
+export default function CodeCell({ onDelete, onAdd }: CodeCellProps) {
   const [code, setCode] = useState("");
 
   return (
@@ -15,6 +20,7 @@ export default function CodeCell() {
           <Button
             size="sm"
             variant="ghost"
+            onClick={onAdd} // Call the onAdd prop when clicked
             className="hover:bg-green-200 text-green-700 transition-colors duration-200"
           >
             <Plus className="h-4 w-4 mr-1" />
@@ -35,6 +41,7 @@ export default function CodeCell() {
           <Button
             size="sm"
             variant="ghost"
+            onClick={onDelete} // Call the onDelete prop when clicked
             className="hover:bg-red-200 text-red-700 transition-colors duration-200"
           >
             <Trash className="h-4 w-4 mr-1" />
@@ -43,15 +50,24 @@ export default function CodeCell() {
         </div>
       </div>
 
+      {/* Auto-resizing CodeMirror */}
       <div className="p-4 bg-gray-50">
         <CodeMirror
           value={code}
-          height="200px"
-          extensions={[python()]} // Add Python syntax highlighting
+          extensions={[python()]}
           onChange={(value) => {
             setCode(value); // Update the code state on change
           }}
           theme="light"
+          basicSetup={{
+            lineNumbers: true,
+            foldGutter: true,
+            highlightActiveLineGutter: true,
+          }}
+          style={{
+            maxHeight: "400px", // Set a max height if needed
+            overflow: "auto", // Enable scrolling when the height exceeds maxHeight
+          }}
         />
       </div>
     </div>

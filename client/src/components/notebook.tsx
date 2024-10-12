@@ -1,19 +1,30 @@
 import React, { useState } from "react";
-import {
-  FileText,
-  Folder,
-  Plus,
-  Menu,
-  X,
-} from "lucide-react";
+import { FileText, Folder, Plus, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import CodeCell from "./code-cell";
 import MarkdownCell from "./markdown-cell";
-import OutputCell from "./output-cell";
+
+type Cell = {
+  id: number;
+  type: "markdown" | "code";
+};
 
 export default function NoteBook() {
+  const [cellCount, setCellCount] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [cells, setCells] = useState<Cell[]>([]);
+
+  const addCell = (type: "markdown" | "code") => {
+    setCells([...cells, { id: cellCount, type }]);
+    setCellCount(prev => prev + 1);
+  };
+
+  const addMarkdownCell = () => addCell("markdown");
+  const addCodeCell = () => addCell("code");
+
+  const removeCell = (id: number) => {
+    setCells(cells.filter((cell) => cell.id !== id));
+  };
 
   return (
     <div className="flex flex-col h-screen bg-green-50">
@@ -35,19 +46,21 @@ export default function NoteBook() {
           <h1 className="text-xl font-bold">Green Notebook</h1>
         </div>
         <div className="flex space-x-2">
-          <Button
+          {/* <Button
+            onClick={addMarkdownCell}
             variant="outline"
             size="sm"
             className="text-white border-white hover:bg-green-500 transition-colors duration-200"
           >
-            Share
-          </Button>
+            + Add Markdown
+          </Button> */}
           <Button
+            onClick={addCodeCell}
             variant="outline"
             size="sm"
             className="text-white border-white hover:bg-green-500 transition-colors duration-200"
           >
-            Save
+            + Add Code
           </Button>
         </div>
       </header>
@@ -81,29 +94,15 @@ export default function NoteBook() {
           </div>
         </aside>
 
-        {/* Main content */}
+        {/* Main Content */}
         <main className="flex-1 p-6 overflow-y-auto">
-          <MarkdownCell />
-
-          <CodeCell />
-          <CodeCell />
-
-          <OutputCell />
-
-          {/* New cell input */}
-          <div className="flex items-center space-x-2">
-            <Button
-              size="icon"
-              variant="outline"
-              className="hover:bg-green-100 text-green-700 transition-colors duration-200"
-            >
-              <Plus className="h-4 w-4" />
-            </Button>
-            <Input
-              placeholder="Type '/' for commands"
-              className="flex-1 border-green-200 focus:ring-green-500 focus:border-green-500 transition-all duration-200"
-            />
-          </div>
+          {cells.map((cell) =>
+            cell.type === 'markdown' ? (
+              <MarkdownCell key={cell.id} />
+            ) : (
+              <CodeCell key={cell.id} onDelete={() => removeCell(cell.id)} onAdd={addCodeCell} />
+            )
+          )}
         </main>
       </div>
     </div>
