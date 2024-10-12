@@ -152,7 +152,7 @@ function ChartCard({
 
 		// Ensure data is in the correct format
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-						return dataSet.map((item: any) => ({
+		return dataSet.map((item: any) => ({
 			name: item.name,
 			value: item.value,
 		}));
@@ -224,9 +224,28 @@ function ChartCard({
 			<DialogTrigger
 				asChild
 				onClick={() => {
+					let selectedData: Array<{ name: string; value: number }> | undefined;
 					setTimePeriod("year");
 					getChartData();
-					setSelectedYears([{ year: 2024, value: data[`${dataKey}ThisYear`] }]);
+					if (dataKey === "powerConsumption") {
+						selectedData = (data as dataTypes.PowerConsumptionData)[
+							`${dataKey}ThisYear`
+						];
+					} else if (dataKey === "costData") {
+						selectedData = (data as dataTypes.CostData)[`${dataKey}ThisYear`];
+					} else if (dataKey === "programsRunning") {
+						selectedData = (data as dataTypes.ProgramsRunningData)[
+							`${dataKey}ThisYear`
+						];
+					}
+					setSelectedYears([
+						{
+							year: 2024,
+							value: selectedData
+								? selectedData
+								: [{ name: "Monday", value: 2 }],
+						},
+					]);
 				}}
 			>
 				<Card className="cursor-pointer hover:bg-accent/50 transition-colors">
