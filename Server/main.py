@@ -100,11 +100,34 @@ async def read_root():
 class CodeCellRequest(BaseModel):
     code_lines: str
 
+import io
+import sys
+
+def run_python_code(code_string):
+    # Redirect stdout to capture print statements
+    old_stdout = sys.stdout
+    new_stdout = io.StringIO()
+    sys.stdout = new_stdout
+
+    try:
+        # Execute the code string
+        exec(code_string)
+    except Exception as e:
+        # In case of an error, return the exception message
+        return f"Error: {str(e)}"
+    finally:
+        # Restore stdout to the original state
+        sys.stdout = old_stdout
+
+    # Get the output from the code execution
+    output = new_stdout.getvalue()
+    return output
+
+
 @app.post("/run-code-cell")
 async def run_code_cell(request: CodeCellRequest):
     code_lines = request.code_lines
-    output = "\n".join([f"Output of line {i}: {line}" for i, line in enumerate(code_lines)])
-    return {"output": output}
+    return {"result": run_python_code(code_lines)}
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
