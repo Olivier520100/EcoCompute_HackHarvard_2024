@@ -15,6 +15,37 @@ export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [cells, setCells] = useState<Cell[]>([]);
 
+  const runCodeCell = async (id: number) => {
+    const cell = cells.find((cell) => cell.id === id);
+    if (!cell) {
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        `http://localhost:8000/run-code-cell`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            code: cell.code,
+          }),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log("Response:", data);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
   const addCodeCell = (code: string = "") => {
     setCells([...cells, { id: cellCount, code }]);
     setCellCount((prev) => prev + 1);
@@ -171,6 +202,7 @@ export default function NoteBook() {
               initialCode={cell.code}
               onCodeChange={(newCode) => handleCodeChange(cell.id, newCode)}
               onDelete={() => removeCodeCell(cell.id)}
+              onRun={() => runCodeCell(cell.id)}
               onAdd={() => addCodeCell()}
             />
           ))}

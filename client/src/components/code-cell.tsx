@@ -3,12 +3,12 @@ import CodeMirror from "@uiw/react-codemirror";
 import { python } from "@codemirror/lang-python";
 import { Button } from "./ui/button";
 import { Play, Plus, Trash } from "lucide-react";
-import { on } from "events";
 
 interface CodeCellProps {
   onCodeChange: (code: string) => void;
   onDelete: () => void;
   onAdd: () => void;
+  onRun: () => void;
   id: number;
   initialCode: string;
 }
@@ -19,6 +19,7 @@ export default function CodeCell({
   id,
   initialCode = "",
   onCodeChange,
+  onRun,
 }: CodeCellProps) {
   const [code, setCode] = useState(initialCode);
 
@@ -41,6 +42,7 @@ export default function CodeCell({
         {/* Run and Delete buttons */}
         <div className="flex space-x-2 items-center">
           <Button
+            onClick={onRun}
             size="sm"
             variant="ghost"
             className="hover:bg-green-200 text-green-700 transition-colors duration-200"
@@ -51,7 +53,7 @@ export default function CodeCell({
           <Button
             size="sm"
             variant="ghost"
-            onClick={onDelete} // Call the onDelete prop when clicked
+            onClick={onDelete}
             className="hover:bg-red-200 text-red-700 transition-colors duration-200"
           >
             <Trash className="h-4 w-4 mr-1" />
@@ -66,8 +68,8 @@ export default function CodeCell({
           value={code}
           extensions={[python()]}
           onChange={(value) => {
-            onCodeChange(value); 
-            setCode(value); // Update the code state on change
+            onCodeChange(value);
+            setCode(value);
           }}
           theme="light"
           basicSetup={{
@@ -76,8 +78,8 @@ export default function CodeCell({
             highlightActiveLineGutter: true,
           }}
           style={{
-            maxHeight: "400px", // Set a max height if needed
-            overflow: "auto", // Enable scrolling when the height exceeds maxHeight
+            maxHeight: "400px",
+            overflow: "auto",
           }}
         />
       </div>
