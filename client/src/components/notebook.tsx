@@ -123,46 +123,44 @@ export default function NoteBook() {
 
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
-        <aside
-          className={`w-64 bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out ${
-            sidebarOpen ? "translate-x-0" : "-translate-x-full"
-          }`}
-        >
-          <div className="flex justify-between items-center mb-4">
-            <h2 className="font-semibold text-green-800">Settings</h2>
-          </div>
+        {sidebarOpen && (
+          <aside className="w-64 bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="font-semibold text-green-800">Settings</h2>
+            </div>
 
-          <div className="space-y-4">
-            {/* Upload Notebook Button */}
-            <div className="flex items-center space-x-2">
-              <Button className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full">
-                <input
-                  type="file"
-                  accept=".ipynb" // Forces the file system to only allow .ipynb files
-                  id="uploadNotebook"
-                  className="hidden"
-                  onChange={handleFileUpload}
-                />
-                <label
-                  htmlFor="uploadNotebook"
-                  className="cursor-pointer bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full text-center"
+            <div className="space-y-4">
+              {/* Upload Notebook Button */}
+              <div className="flex items-center space-x-2">
+                <Button className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full">
+                  <input
+                    type="file"
+                    accept=".ipynb"
+                    id="uploadNotebook"
+                    className="hidden"
+                    onChange={handleFileUpload}
+                  />
+                  <label
+                    htmlFor="uploadNotebook"
+                    className="cursor-pointer bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full text-center"
+                  >
+                    Upload Notebook
+                  </label>
+                </Button>
+              </div>
+
+              {/* Download Notebook Button */}
+              <div className="flex items-center space-x-2">
+                <Button
+                  onClick={() => handleDownload(cells)}
+                  className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full"
                 >
-                  Upload Notebook
-                </label>
-              </Button>
+                  Download Notebook
+                </Button>
+              </div>
             </div>
-
-            {/* Download Notebook Button */}
-            <div className="flex items-center space-x-2">
-              <Button
-                onClick={() => handleDownload(cells)}
-                className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full"
-              >
-                Download Notebook
-              </Button>
-            </div>
-          </div>
-        </aside>
+          </aside>
+        )}
 
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-y-auto">
