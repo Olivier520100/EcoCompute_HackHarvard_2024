@@ -6,7 +6,7 @@ import MarkdownCell from "./markdown-cell";
 
 type Cell = {
   id: number;
-  type: "markdown" | "code";
+  initialCode: string;
 };
 
 export default function NoteBook() {
@@ -14,13 +14,10 @@ export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [cells, setCells] = useState<Cell[]>([]);
 
-  const addCell = (type: "markdown" | "code") => {
-    setCells([...cells, { id: cellCount, type }]);
+  const addCodeCell = (initialCode: string = "") => {
+    setCells([...cells, { id: cellCount, initialCode }]);
     setCellCount((prev) => prev + 1);
   };
-
-  const addMarkdownCell = () => addCell("markdown");
-  const addCodeCell = () => addCell("code");
 
   const removeCell = (id: number) => {
     setCells(cells.filter((cell) => cell.id !== id));
@@ -29,6 +26,42 @@ export default function NoteBook() {
   const clearAll = () => {
     setCells([]);
     setCellCount(0);
+  };
+
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const notebookContent = JSON.parse(event.target?.result as string);
+          let i = cellCount;
+
+          // Check if the content has 'cells' (typical structure of a .ipynb file)
+          if (notebookContent.cells) {
+            const codeCells: Cell[] = notebookContent.cells
+              .filter((cell: any) => cell.cell_type === "code") // Filter for code cells only
+              .map((cell: any) => {
+                const newCell: Cell = {
+                  id: i++,
+                  initialCode: cell.source.join(""),
+                };
+                return newCell;
+              });
+            setCellCount(i);
+            console.log(codeCells);
+
+            setCells(codeCells); // Set the state with the extracted code cells
+          } else {
+            console.error("Invalid .ipynb file format");
+          }
+        } catch (error) {
+          console.error("Error parsing the .ipynb file:", error);
+        }
+      };
+
+      reader.readAsText(file);
+    }
   };
 
   return (
@@ -61,7 +94,7 @@ export default function NoteBook() {
             + Add Markdown
           </Button> */}
           <Button
-            onClick={addCodeCell}
+            onClick={() => addCodeCell()}
             variant="outline"
             size="sm"
             className="text-green-700 border-green-500 bg-white hover:bg-green-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
@@ -87,41 +120,53 @@ export default function NoteBook() {
           }`}
         >
           <div className="flex justify-between items-center mb-4">
-            <h2 className="font-semibold text-green-800">Files</h2>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="hover:bg-green-200 text-green-700"
-            >
-              <Plus className="h-4 w-4" />
-            </Button>
+            <h2 className="font-semibold text-green-800">Settings</h2>
           </div>
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2 text-green-700 hover:bg-green-200 p-2 rounded-md transition-colors duration-200">
-              <Folder className="h-4 w-4" />
-              <span>Project</span>
+
+          <div className="space-y-4">
+            {/* Upload Notebook Button */}
+            <div className="flex items-center space-x-2">
+              <input
+                type="file"
+                accept=".ipynb" // Forces the file system to only allow .ipynb files
+                id="uploadNotebook"
+                className="hidden"
+                onChange={handleFileUpload}
+              />
+              <label
+                htmlFor="uploadNotebook"
+                className="cursor-pointer bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full text-center"
+              >
+                Upload Notebook
+              </label>
             </div>
-            <div className="flex items-center space-x-2 text-green-700 hover:bg-green-200 p-2 rounded-md transition-colors duration-200 ml-4">
-              <FileText className="h-4 w-4" />
-              <span>notebook.ipynb</span>
+
+            {/* Download Notebook Button */}
+            <div className="flex items-center space-x-2">
+              <Button
+                onClick={() => {
+                  // Add download logic here
+                  console.log("Download notebook");
+                }}
+                className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full"
+              >
+                Download Notebook
+              </Button>
             </div>
           </div>
         </aside>
 
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-y-auto">
-          {cells.map((cell) =>
-            cell.type === "markdown" ? (
-              <MarkdownCell key={cell.id} />
-            ) : (
-              <CodeCell
-                key={cell.id}
-                id={cell.id}
-                onDelete={() => removeCell(cell.id)}
-                onAdd={addCodeCell}
-              />
-            )
-          )}
+          {cells.map((cell) => (
+            <CodeCell
+              key={cell.id}
+              id={cell.id}
+              initialCode={cell.initialCode}
+              onDelete={() => removeCell(cell.id)}
+              onAdd={addCodeCell}
+            />
+          ))}
         </main>
       </div>
     </div>

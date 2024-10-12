@@ -8,10 +8,11 @@ interface CodeCellProps {
   onDelete: () => void;
   onAdd: () => void;
   id: number;
+  initialCode: string;
 }
 
-export default function CodeCell({ onDelete, onAdd, id }: CodeCellProps) {
-  const [code, setCode] = useState("");
+export default function CodeCell({ onDelete, onAdd, id, initialCode = "" }: CodeCellProps) {
+  const [code, setCode] = useState(initialCode);
 
   return (
     <div className="mb-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
