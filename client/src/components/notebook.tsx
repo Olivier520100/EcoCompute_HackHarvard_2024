@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { FileText, Folder, Plus, Menu, X } from "lucide-react";
+import { FileText, Folder, Plus, Menu, X, Trees } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
 import MarkdownCell from "./markdown-cell";
+import { handleDownload } from "@/lib/utils";
 
-type Cell = {
+export type Cell = {
   id: number;
-  type: "markdown" | "code";
+  code: string;
 };
 
 export default function NoteBook() {
@@ -14,16 +15,62 @@ export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [cells, setCells] = useState<Cell[]>([]);
 
-  const addCell = (type: "markdown" | "code") => {
-    setCells([...cells, { id: cellCount, type }]);
-    setCellCount(prev => prev + 1);
+  const addCodeCell = (code: string = "") => {
+    setCells([...cells, { id: cellCount, code }]);
+    setCellCount((prev) => prev + 1);
   };
 
-  const addMarkdownCell = () => addCell("markdown");
-  const addCodeCell = () => addCell("code");
-
-  const removeCell = (id: number) => {
+  const removeCodeCell = (id: number) => {
     setCells(cells.filter((cell) => cell.id !== id));
+  };
+
+  const clearAll = () => {
+    setCells([]);
+    setCellCount(0);
+  };
+
+  const handleCodeChange = (id: number, newCode: string) => {
+    setCells((prevCells) =>
+      prevCells.map((cell) =>
+        cell.id === id ? { ...cell, code: newCode } : cell
+      )
+    );
+  };
+
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const notebookContent = JSON.parse(event.target?.result as string);
+          let i = cellCount;
+
+          if (notebookContent.cells) {
+            const codeCells: Cell[] = notebookContent.cells
+              .filter((cell: any) => cell.cell_type === "code")
+              .map((cell: any) => {
+                const newCell: Cell = {
+                  id: i++,
+                  code: cell.source.join(""),
+                };
+                return newCell;
+              });
+
+            setCellCount(i);
+            setCells([...codeCells]);
+          } else {
+            console.error("Invalid .ipynb file format");
+          }
+        } catch (error) {
+          console.error("Error parsing the .ipynb file:", error);
+        }
+      };
+
+      reader.readAsText(file);
+
+      e.target.value = "";
+    }
   };
 
   return (
@@ -43,7 +90,8 @@ export default function NoteBook() {
               <Menu className="h-5 w-5" />
             )}
           </Button>
-          <h1 className="text-xl font-bold">Green Notebook</h1>
+          <Trees className="h-8 w-8" />
+          <h1 className="text-xl font-bold">Eco Compute</h1>
         </div>
         <div className="flex space-x-2">
           {/* <Button
@@ -55,54 +103,77 @@ export default function NoteBook() {
             + Add Markdown
           </Button> */}
           <Button
-            onClick={addCodeCell}
+            onClick={() => addCodeCell()}
             variant="outline"
             size="sm"
-            className="text-white border-white hover:bg-green-500 transition-colors duration-200"
+            className="text-green-700 border-green-500 bg-white hover:bg-green-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
           >
             + Add Code
+          </Button>
+          <Button
+            onClick={clearAll}
+            variant="outline"
+            size="sm"
+            className="text-red-700 border-red-500 bg-white hover:bg-red-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
+          >
+            Clear All
           </Button>
         </div>
       </header>
 
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
-        <aside
-          className={`w-64 bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out ${
-            sidebarOpen ? "translate-x-0" : "-translate-x-full"
-          }`}
-        >
-          <div className="flex justify-between items-center mb-4">
-            <h2 className="font-semibold text-green-800">Files</h2>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="hover:bg-green-200 text-green-700"
-            >
-              <Plus className="h-4 w-4" />
-            </Button>
-          </div>
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2 text-green-700 hover:bg-green-200 p-2 rounded-md transition-colors duration-200">
-              <Folder className="h-4 w-4" />
-              <span>Project</span>
+        {sidebarOpen && (
+          <aside className="w-64 bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="font-semibold text-green-800">Settings</h2>
             </div>
-            <div className="flex items-center space-x-2 text-green-700 hover:bg-green-200 p-2 rounded-md transition-colors duration-200 ml-4">
-              <FileText className="h-4 w-4" />
-              <span>notebook.ipynb</span>
+
+            <div className="space-y-4">
+              {/* Upload Notebook Button */}
+              <div className="flex items-center space-x-2">
+                <Button className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full">
+                  <input
+                    type="file"
+                    accept=".ipynb"
+                    id="uploadNotebook"
+                    className="hidden"
+                    onChange={handleFileUpload}
+                  />
+                  <label
+                    htmlFor="uploadNotebook"
+                    className="cursor-pointer bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full text-center"
+                  >
+                    Upload Notebook
+                  </label>
+                </Button>
+              </div>
+
+              {/* Download Notebook Button */}
+              <div className="flex items-center space-x-2">
+                <Button
+                  onClick={() => handleDownload(cells)}
+                  className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full"
+                >
+                  Download Notebook
+                </Button>
+              </div>
             </div>
-          </div>
-        </aside>
+          </aside>
+        )}
 
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-y-auto">
-          {cells.map((cell) =>
-            cell.type === 'markdown' ? (
-              <MarkdownCell key={cell.id} />
-            ) : (
-              <CodeCell key={cell.id} onDelete={() => removeCell(cell.id)} onAdd={addCodeCell} />
-            )
-          )}
+          {cells.map((cell) => (
+            <CodeCell
+              key={cell.id}
+              id={cell.id}
+              initialCode={cell.code}
+              onCodeChange={(newCode) => handleCodeChange(cell.id, newCode)}
+              onDelete={() => removeCodeCell(cell.id)}
+              onAdd={() => addCodeCell()}
+            />
+          ))}
         </main>
       </div>
     </div>

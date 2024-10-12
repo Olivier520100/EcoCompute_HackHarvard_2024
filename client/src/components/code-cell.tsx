@@ -3,14 +3,24 @@ import CodeMirror from "@uiw/react-codemirror";
 import { python } from "@codemirror/lang-python";
 import { Button } from "./ui/button";
 import { Play, Plus, Trash } from "lucide-react";
+import { on } from "events";
 
 interface CodeCellProps {
+  onCodeChange: (code: string) => void;
   onDelete: () => void;
   onAdd: () => void;
+  id: number;
+  initialCode: string;
 }
 
-export default function CodeCell({ onDelete, onAdd }: CodeCellProps) {
-  const [code, setCode] = useState("");
+export default function CodeCell({
+  onDelete,
+  onAdd,
+  id,
+  initialCode = "",
+  onCodeChange,
+}: CodeCellProps) {
+  const [code, setCode] = useState(initialCode);
 
   return (
     <div className="mb-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
@@ -25,7 +35,7 @@ export default function CodeCell({ onDelete, onAdd }: CodeCellProps) {
           >
             <Plus className="h-4 w-4 mr-1" />
           </Button>
-          <span className="text-green-800 font-mono text-sm">In [1]:</span>
+          <span className="text-green-800 font-mono text-sm">In [{id}]:</span>
         </div>
 
         {/* Run and Delete buttons */}
@@ -56,6 +66,7 @@ export default function CodeCell({ onDelete, onAdd }: CodeCellProps) {
           value={code}
           extensions={[python()]}
           onChange={(value) => {
+            onCodeChange(value); 
             setCode(value); // Update the code state on change
           }}
           theme="light"
