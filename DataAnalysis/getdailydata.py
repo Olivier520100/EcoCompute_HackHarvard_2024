@@ -3,6 +3,16 @@ import json
 
 # URL for the GraphQL endpoint
 url = "https://windeurope-installations.herokuapp.com/graphql?ref=daily-data"
+# https://windeurope-installations.herokuapp.com/graphql?ref=main-wind-farms
+# https://windeurope-installations.herokuapp.com/graphql?ref=transactions
+# https://windeurope-installations.herokuapp.com/graphql?ref=turbine-orders
+# https://windeurope-installations.herokuapp.com/graphql?ref=power-purchase-agreements
+# https://windeurope-installations.herokuapp.com/graphql?ref=country
+# https://windeurope-installations.herokuapp.com/graphql?ref=wip-app-settings
+# https://windeurope-installations.herokuapp.com/graphql?ref=manufacturer-groups
+# https://windeurope-installations.herokuapp.com/admin/wind_farms.json?page=1&per_page=500&q%5Bupdated_at_gt%5D=2024-08-19T17%3A13%3A01.000Z
+# https://windeurope-installations.herokuapp.com/graphql?ref=active-capacities
+# https://windeurope-installations.herokuapp.com/graphql?ref=yearly-capacities
 
 # Headers for the POST request
 headers = {

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { FileText, Folder, Plus, Menu, X, Trees } from "lucide-react";
+import { Menu, X, Trees } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
-import MarkdownCell from "./markdown-cell";
 import { handleDownload } from "@/lib/utils";
 
 export type Cell = {
@@ -48,7 +47,9 @@ export default function NoteBook() {
 
           if (notebookContent.cells) {
             const codeCells: Cell[] = notebookContent.cells
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               .filter((cell: any) => cell.cell_type === "code")
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               .map((cell: any) => {
                 const newCell: Cell = {
                   id: i++,
@@ -91,7 +92,7 @@ export default function NoteBook() {
             )}
           </Button>
           <Trees className="h-8 w-8" />
-          <h1 className="text-xl font-bold">Eco Compute</h1>
+          <h1 className="text-xl font-bold">EcoCompute</h1>
         </div>
         <div className="flex space-x-2">
           {/* <Button
@@ -124,7 +125,7 @@ export default function NoteBook() {
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
         {sidebarOpen && (
-          <aside className="w-64 bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out">
+          <aside className=" bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out sm:transition-none sm:duration-0 md:w-1/4">
             <div className="flex justify-between items-center mb-4">
               <h2 className="font-semibold text-green-800">Settings</h2>
             </div>
