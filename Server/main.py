@@ -85,8 +85,6 @@ async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
-
-
             response = await websocket.receive_text()
             print(response)
             
@@ -100,13 +98,36 @@ async def read_root():
     return {"message": "Hello, World!"}
 
 class CodeCellRequest(BaseModel):
-    code: str
+    code_lines: str
+
+import io
+import sys
+
+def run_python_code(code_string):
+    # Redirect stdout to capture print statements
+    old_stdout = sys.stdout
+    new_stdout = io.StringIO()
+    sys.stdout = new_stdout
+
+    try:
+        # Execute the code string
+        exec(code_string)
+    except Exception as e:
+        # In case of an error, return the exception message
+        return f"Error: {str(e)}"
+    finally:
+        # Restore stdout to the original state
+        sys.stdout = old_stdout
+
+    # Get the output from the code execution
+    output = new_stdout.getvalue()
+    return output
+
 
 @app.post("/run-code-cell")
 async def run_code_cell(request: CodeCellRequest):
     code_lines = request.code_lines
-    output = "\n".join([f"Output of line {i}: {line}" for i, line in enumerate(code_lines)])
-    return {"output": output}
+    return {"result": run_python_code(code_lines)}
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
