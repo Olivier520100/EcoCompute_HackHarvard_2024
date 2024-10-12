@@ -39,10 +39,10 @@ export default function CodeCell({
 
 		const handleMessage = (event: MessageEvent) => {
 			const data = JSON.parse(event.data);
-      console.log("🚀 ~ handleMessage ~ data:", data)
-      
+			console.log("🚀 ~ handleMessage ~ data:", data);
+
 			if (data.cellId === id) {
-				setOutput(data.output);
+				setOutput(data.code);
 			}
 		};
 

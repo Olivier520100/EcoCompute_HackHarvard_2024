@@ -25,12 +25,7 @@ app.add_middleware(
 )
 
 
-runjson = {
-    "operation": "RUN",
-    "container_id": "",
-    "code_lines": [
-    ]
-}
+runjson = {"operation": "RUN", "container_id": "", "code_lines": []}
 stopjson = {
     "operation": "STOP",
     "container_id": "",
@@ -68,6 +63,7 @@ class ConnectionManager:
         except Exception as e:
             return f"Error: {str(e)}"
 
+
 manager = ConnectionManager()
 
 
@@ -76,18 +72,31 @@ async def websocket_endpoint_management(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
-
             a = json.loads(input())
             await websocket.send_json(a)
             response = await websocket.receive_text()
             print(response)
-            
+
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         await manager.broadcast("A client disconnected")
 
+
 @app.websocket("/containerinfo/{client_id}")
 async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
+    await manager.connect(websocket)
+    try:
+        while True:
+            response = await websocket.receive_text()
+            print(response)
+
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+        await manager.broadcast("A client disconnected")
+
+
+@app.websocket("/notebookconnection/{client_id}")
+async def websocket_notebook_connection(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
@@ -98,14 +107,12 @@ async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
             response_data = json.loads(data)
 
             print("🚀 ~ response:", response)
-            await websocket.send(
-                json.dumps({"cellId": response_data.cellId, "data": response_data.code})
+            await websocket.send_text(
+                json.dumps(
+                    {"cellId": response_data["cellId"], "code": response_data["code"]}
+                )
             )
 
-
-            response = await websocket.receive_text()
-            print(response)
-            
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         print(f"Client {client_id} disconnected")
@@ -114,26 +121,17 @@ async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
     finally:
         await websocket.close()
 
-
         await manager.broadcast("A client disconnected")
-        
 
-@app.get("/")
-async def read_root():
-    return {"message": "Hello, World!"}
 
 class CodeCellRequest(BaseModel):
     code: str
 
+
 @app.post("/run-code-cell")
 async def run_code_cell(request: CodeCellRequest):
     code_lines = request.code_lines
-    output = "\n".join([f"Output of line {i}: {line}" for i, line in enumerate(code_lines)])
+    output = "\n".join(
+        [f"Output of line {i}: {line}" for i, line in enumerate(code_lines)]
+    )
     return {"output": output}
-
-@app.websocket("/ws")
-async def websocket_endpoint(websocket: WebSocket):
-    await websocket.accept()
-    while True:
-        data = await websocket.receive_text()
-        await websocket.send_text(f"Message text was: {data}")
