@@ -2,16 +2,42 @@ import websocket
 from websocket import WebSocketApp
 import time
 import threading
+from node import Node
+import json
 
+
+runjson = {
+    "operation": "RUN",
+    "container_id": "",
+    "code_lines": [
+    ]
+}
+stopjson = {
+    "operation": "STOP",
+    "container_id": "",
+}
+startjson = {
+    "operation": "START",
+    "container_id": "",
+}
+
+nodes = {}
 def send_periodic(ws):
     while True:
-        ws.send("RETARD")
+        ws.send("RETURN")
         time.sleep(1)  # Sleep for 1 second between messages
 
 def on_message(ws, message):
     print("Received message:", message)
-    if message.startswith("START"):
-        print("Hello")
+    payload = (json.loads(message))
+    if payload["operation"] == "CREATE":
+        nodes[payload["container_id"]] = Node(payload["container_id"])
+    elif payload["operation"] == "STOP":
+        nodes[payload["container_id"]].kill_node()
+    elif payload["operation"] == "RUN":
+        outputs = nodes[payload["container_id"]].run_cell(payload["code_lines"])
+        print(outputs)
+    
 
 def on_error(ws, error):
     print("Error:", error)

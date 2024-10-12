@@ -1,11 +1,7 @@
-import threading
 import docker
 import time
 import socket
 import random
-import websocket
-from websocket import WebSocketApp
-
 
 # Docker client setup
 client = docker.from_env()
@@ -75,7 +71,7 @@ class Node:
         try:
             self.run_cell(["EXIT"])
         except:
-            pass  
+            pass  # Ignore errors during exit
         self.container.stop()
         self.container.remove()
 
@@ -87,5 +83,6 @@ class Node:
                 s.sendall(line.encode())
                 output = s.recv(4096).decode()
                 outputs.append(output.strip())
+        
         return outputs
-    
+
