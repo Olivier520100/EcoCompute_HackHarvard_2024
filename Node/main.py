@@ -5,26 +5,27 @@ import threading
 from node import Node
 import json
 
+
 runjson = {
-    "operation": "run",
+    "operation": "RUN",
     "container_id": "",
-    "code_lines": []
+    "code_lines": [
+    ]
 }
 stopjson = {
     "operation": "STOP",
-    "container_id": ""
+    "container_id": "",
 }
 startjson = {
     "operation": "START",
-    "container_id": ""
+    "container_id": "",
 }
 
 nodes = {}
-
-
 def send_periodic(ws):
     while True:
         ws.send(json.dumps({"operation":"RETURN"}))
+        ws.send("RETURN")
         time.sleep(1)  # Sleep for 1 second between messages
 
 def on_message(ws, message):
@@ -49,7 +50,7 @@ def on_message(ws, message):
     except Exception as e:
         response["status"] = "error"
         response["message"] = str(e)+"retard"
-    ws.send(json.dumps(response))
+
 
 def on_error(ws, error):
     print("Error:", error)

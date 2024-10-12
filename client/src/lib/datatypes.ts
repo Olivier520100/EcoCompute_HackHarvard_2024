@@ -28,6 +28,7 @@ export interface CostData {
 	costDataThisWeek: DailyData[];
 	costDataThisMonth: WeeklyData[];
 	costDataThisYear: MonthlyData[];
+	oldData: oldData[];
 }
 
 // Type for the programs running section (it uses the same structures but with a number of programs)
@@ -36,6 +37,7 @@ export interface ProgramsRunningData {
 	programsRunningThisWeek: { name: string; value: number }[];
 	programsRunningThisMonth: { name: string; value: number }[];
 	programsRunningThisYear: { name: string; value: number }[];
+	oldData: oldData[];
 }
 
 // Type for power consumption data
@@ -44,8 +46,13 @@ export interface PowerConsumptionData {
 	powerConsumptionThisWeek: DailyData[];
 	powerConsumptionThisMonth: WeeklyData[];
 	powerConsumptionThisYear: MonthlyData[];
+	oldData: oldData[];
 }
 
+export interface oldData {
+	year: number;
+	value: { name: string; value: number }[];
+}
 
 // The main type for the entire JSON structure
 export interface AllData {

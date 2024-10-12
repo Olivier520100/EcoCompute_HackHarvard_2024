@@ -8,8 +8,8 @@ import docker
 import time
 import socket
 import random
-from pydantic import BaseModel
-
+import time
+import json
 
 app = FastAPI()
 
@@ -20,6 +20,23 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+runjson = {
+    "operation": "RUN",
+    "container_id": "",
+    "code_lines": [
+    ]
+}
+stopjson = {
+    "operation": "STOP",
+    "container_id": "",
+}
+startjson = {
+    "operation": "START",
+    "container_id": "",
+}
+
 
 class ConnectionManager:
     def __init__(self):
@@ -54,8 +71,8 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
 
             data = await websocket.receive_text()
             print(data)
-            a = input()
-            await websocket.send_text(a)
+            a = json.loads(input())
+            await websocket.send_json(a)
             
     except WebSocketDisconnect:
         manager.disconnect(websocket)
