@@ -1,0 +1,5575 @@
+{
+    "dailyPrices": [
+        {
+            "priceEuroPerMwh": 83.2108695652174,
+            "countryName": "Czech Republic",
+            "date": "2024-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 60.52875,
+            "countryName": "Czech Republic",
+            "date": "2024-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.49,
+            "countryName": "Czech Republic",
+            "date": "2024-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.38291666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 69.50750000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.04333333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.47541666666666,
+            "countryName": "Czech Republic",
+            "date": "2024-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 72.56,
+            "countryName": "Czech Republic",
+            "date": "2024-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 36.864583333333336,
+            "countryName": "Czech Republic",
+            "date": "2024-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 48.084583333333335,
+            "countryName": "Czech Republic",
+            "date": "2024-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.10625,
+            "countryName": "Czech Republic",
+            "date": "2024-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.58583333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.55333333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.86041666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.50208333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.50958333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 64.2675,
+            "countryName": "Czech Republic",
+            "date": "2024-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.61958333333332,
+            "countryName": "Czech Republic",
+            "date": "2024-03-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.48041666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.83833333333332,
+            "countryName": "Czech Republic",
+            "date": "2024-02-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.28833333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-02-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.63291666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.02333333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-02-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.785833333333336,
+            "countryName": "Czech Republic",
+            "date": "2024-02-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.67833333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-02-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.26499999999999,
+            "countryName": "Czech Republic",
+            "date": "2024-02-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 60.897083333333335,
+            "countryName": "Czech Republic",
+            "date": "2024-02-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.90416666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.60000000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-02-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 52.310833333333335,
+            "countryName": "Czech Republic",
+            "date": "2024-02-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.7025,
+            "countryName": "Czech Republic",
+            "date": "2024-02-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.39875,
+            "countryName": "Czech Republic",
+            "date": "2024-02-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 72.12416666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.43916666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.68041666666666,
+            "countryName": "Czech Republic",
+            "date": "2024-02-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.72958333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-02-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.286249999999995,
+            "countryName": "Czech Republic",
+            "date": "2024-02-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.75166666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.34458333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-02-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.80041666666666,
+            "countryName": "Czech Republic",
+            "date": "2024-02-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.23375,
+            "countryName": "Czech Republic",
+            "date": "2024-02-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.50958333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-02-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.86083333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-02-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.45708333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-02-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.38541666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-02-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.36958333333332,
+            "countryName": "Czech Republic",
+            "date": "2024-02-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.11083333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-02-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 86.47708333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-01-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.84833333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-01-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.15958333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-01-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 63.717083333333335,
+            "countryName": "Czech Republic",
+            "date": "2024-01-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 68.69625,
+            "countryName": "Czech Republic",
+            "date": "2024-01-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 76.66250000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-01-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.63333333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-01-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.5725,
+            "countryName": "Czech Republic",
+            "date": "2024-01-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.16625,
+            "countryName": "Czech Republic",
+            "date": "2024-01-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.69625,
+            "countryName": "Czech Republic",
+            "date": "2024-01-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.80041666666666,
+            "countryName": "Czech Republic",
+            "date": "2024-01-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.47166666666666,
+            "countryName": "Czech Republic",
+            "date": "2024-01-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.68666666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-01-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.23958333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-01-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 100.48833333333333,
+            "countryName": "Czech Republic",
+            "date": "2024-01-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.56875000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-01-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.87625000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-01-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.01333333333334,
+            "countryName": "Czech Republic",
+            "date": "2024-01-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 83.32291666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-01-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.68958333333335,
+            "countryName": "Czech Republic",
+            "date": "2024-01-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.305,
+            "countryName": "Czech Republic",
+            "date": "2024-01-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.14625000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-01-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.07,
+            "countryName": "Czech Republic",
+            "date": "2024-01-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.07666666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-01-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 86.26541666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-01-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.755,
+            "countryName": "Czech Republic",
+            "date": "2024-01-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.91250000000001,
+            "countryName": "Czech Republic",
+            "date": "2024-01-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.4425,
+            "countryName": "Czech Republic",
+            "date": "2024-01-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.00416666666666,
+            "countryName": "Czech Republic",
+            "date": "2024-01-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 55.23916666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-01-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 19.085416666666667,
+            "countryName": "Czech Republic",
+            "date": "2024-01-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 11.962083333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-12-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 35.71958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 11.5475,
+            "countryName": "Czech Republic",
+            "date": "2023-12-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 26.750833333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 58.28375,
+            "countryName": "Czech Republic",
+            "date": "2023-12-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 18.182083333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-12-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1.8170833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-12-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 0.4916666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-12-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 30.29125,
+            "countryName": "Czech Republic",
+            "date": "2023-12-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 26.594583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 68.84833333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.04375,
+            "countryName": "Czech Republic",
+            "date": "2023-12-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.98791666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-12-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.25916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-12-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 58.15708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.00458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.65458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 107.18916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-12-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.65291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-12-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.60458333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-12-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.92833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-12-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.41708333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-12-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.15875,
+            "countryName": "Czech Republic",
+            "date": "2023-12-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.885,
+            "countryName": "Czech Republic",
+            "date": "2023-12-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.71625,
+            "countryName": "Czech Republic",
+            "date": "2023-12-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 129.71708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.69458333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-12-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.42583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.33999999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-12-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.17,
+            "countryName": "Czech Republic",
+            "date": "2023-12-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.62583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-12-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 168.27666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-11-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.02708333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-11-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.23625,
+            "countryName": "Czech Republic",
+            "date": "2023-11-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 115.8725,
+            "countryName": "Czech Republic",
+            "date": "2023-11-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.0025,
+            "countryName": "Czech Republic",
+            "date": "2023-11-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.32833333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-11-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.76541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-11-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.79936170212767,
+            "countryName": "Czech Republic",
+            "date": "2023-11-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.33583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-11-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.06041666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-11-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.52291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-11-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 42.47291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-11-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.08666666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-11-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.09291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-11-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.01125,
+            "countryName": "Czech Republic",
+            "date": "2023-11-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.06458333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-11-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 76.26,
+            "countryName": "Czech Republic",
+            "date": "2023-11-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.62875000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-11-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.19833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-11-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.76708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-11-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.14541666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-11-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.8675,
+            "countryName": "Czech Republic",
+            "date": "2023-11-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.75416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-11-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 100.77083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-11-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.335,
+            "countryName": "Czech Republic",
+            "date": "2023-11-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 30.68375,
+            "countryName": "Czech Republic",
+            "date": "2023-11-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 25.032083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-11-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.45375000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-11-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 63.374583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-11-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.694583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-11-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.99166666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-10-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 98.11375,
+            "countryName": "Czech Republic",
+            "date": "2023-10-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 28.87125,
+            "countryName": "Czech Republic",
+            "date": "2023-10-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.39291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-10-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.83333333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.1975,
+            "countryName": "Czech Republic",
+            "date": "2023-10-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.63625,
+            "countryName": "Czech Republic",
+            "date": "2023-10-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 120.65541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-10-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.47458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.36666666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-10-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 55.83541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-10-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 91.6075,
+            "countryName": "Czech Republic",
+            "date": "2023-10-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.00124999999998,
+            "countryName": "Czech Republic",
+            "date": "2023-10-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.05125,
+            "countryName": "Czech Republic",
+            "date": "2023-10-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 132.29958333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-10-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 134.85958333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-10-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.67916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-10-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 47.61958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 86.48958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 126.12625000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-10-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.61458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.98666666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-10-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 120.185,
+            "countryName": "Czech Republic",
+            "date": "2023-10-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.375,
+            "countryName": "Czech Republic",
+            "date": "2023-10-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 55.22958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.72333333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-10-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.18541666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-10-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.27125,
+            "countryName": "Czech Republic",
+            "date": "2023-10-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 60.83375,
+            "countryName": "Czech Republic",
+            "date": "2023-10-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.35583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-10-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.56083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-10-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.02499999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-09-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.62916666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-09-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.73166666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 120.84855932203389,
+            "countryName": "Czech Republic",
+            "date": "2023-09-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 125.27416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-09-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.70166666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.81625,
+            "countryName": "Czech Republic",
+            "date": "2023-09-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.60916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.77541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.57916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.10375,
+            "countryName": "Czech Republic",
+            "date": "2023-09-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.1175,
+            "countryName": "Czech Republic",
+            "date": "2023-09-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.89875,
+            "countryName": "Czech Republic",
+            "date": "2023-09-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.28541666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-09-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.92541666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-09-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.38875,
+            "countryName": "Czech Republic",
+            "date": "2023-09-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 120.21208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-09-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.28916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 128.95083333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-09-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 146.90875,
+            "countryName": "Czech Republic",
+            "date": "2023-09-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.29166666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 91.06416666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-09-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.21208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-09-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.23375,
+            "countryName": "Czech Republic",
+            "date": "2023-09-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.91958333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-09-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.7175,
+            "countryName": "Czech Republic",
+            "date": "2023-09-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.86208333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-09-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.52375,
+            "countryName": "Czech Republic",
+            "date": "2023-09-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.54791666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-09-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.60249999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-09-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.70875,
+            "countryName": "Czech Republic",
+            "date": "2023-08-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 115.98083333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-08-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.84500000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-08-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 115.49708333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-08-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.89416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.88208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-08-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.30666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-08-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 143.83833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-08-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 150.94458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-08-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 125.37958333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-08-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.31666666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.74916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-08-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.68458333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-08-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.08041666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.61874999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-08-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.38916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-08-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.85625,
+            "countryName": "Czech Republic",
+            "date": "2023-08-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.36291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.68625,
+            "countryName": "Czech Republic",
+            "date": "2023-08-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 64.74125,
+            "countryName": "Czech Republic",
+            "date": "2023-08-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.95458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-08-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.67166666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-08-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.61708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-08-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 23.579166666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 22.842083333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-08-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 48.72291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.66541666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-08-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 98.58875,
+            "countryName": "Czech Republic",
+            "date": "2023-08-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 52.142500000000005,
+            "countryName": "Czech Republic",
+            "date": "2023-08-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.157916666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-08-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.235,
+            "countryName": "Czech Republic",
+            "date": "2023-08-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.93875,
+            "countryName": "Czech Republic",
+            "date": "2023-07-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 34.36625,
+            "countryName": "Czech Republic",
+            "date": "2023-07-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.97,
+            "countryName": "Czech Republic",
+            "date": "2023-07-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.88541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-07-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.80375,
+            "countryName": "Czech Republic",
+            "date": "2023-07-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.9575,
+            "countryName": "Czech Republic",
+            "date": "2023-07-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.61916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-07-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.58333333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 27.567083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.22791666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-07-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.83916666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-07-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.50416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-07-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.15666666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-07-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.32958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.84416666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-07-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 30.6925,
+            "countryName": "Czech Republic",
+            "date": "2023-07-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 29.853333333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-07-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.36416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-07-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.5825,
+            "countryName": "Czech Republic",
+            "date": "2023-07-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 126.27541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-07-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.2575,
+            "countryName": "Czech Republic",
+            "date": "2023-07-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.5,
+            "countryName": "Czech Republic",
+            "date": "2023-07-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.46666666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-07-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 83.19500000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-07-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 101.29541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-07-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.14333333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.92208333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.26125,
+            "countryName": "Czech Republic",
+            "date": "2023-07-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.16458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 37.95333333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-07-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.17875,
+            "countryName": "Czech Republic",
+            "date": "2023-07-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.45708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.76416666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-06-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 114.02875,
+            "countryName": "Czech Republic",
+            "date": "2023-06-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.94083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 107.49291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-06-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.68833333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.69666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-06-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.40583333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-06-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.89,
+            "countryName": "Czech Republic",
+            "date": "2023-06-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 124.86083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.31791666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-06-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.88041666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-06-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.65541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-06-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.25625000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-06-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.71166666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-06-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 120.7525,
+            "countryName": "Czech Republic",
+            "date": "2023-06-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.45791666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-06-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.75,
+            "countryName": "Czech Republic",
+            "date": "2023-06-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.69083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 44.80458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 54.970416666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-06-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 86.13416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-06-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.35666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-06-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.855,
+            "countryName": "Czech Republic",
+            "date": "2023-06-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.78416666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-06-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.56208333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-06-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 50.30916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-06-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.09125,
+            "countryName": "Czech Republic",
+            "date": "2023-06-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.36833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-06-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.83083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-06-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.90875,
+            "countryName": "Czech Republic",
+            "date": "2023-05-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.91083333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-05-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 42.64041666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-05-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 32.464999999999996,
+            "countryName": "Czech Republic",
+            "date": "2023-05-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.904583333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-05-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.0275,
+            "countryName": "Czech Republic",
+            "date": "2023-05-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.69916666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-05-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.26541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-05-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 91.04124999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-05-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.49125,
+            "countryName": "Czech Republic",
+            "date": "2023-05-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 32.6675,
+            "countryName": "Czech Republic",
+            "date": "2023-05-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 44.40208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-05-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 86.93374999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-05-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.36708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-05-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.79583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-05-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.52833333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-05-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.21916666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-05-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 72.35125000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-05-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.62666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-05-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.93,
+            "countryName": "Czech Republic",
+            "date": "2023-05-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 114.66833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-05-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.80125,
+            "countryName": "Czech Republic",
+            "date": "2023-05-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.08208333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-05-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.64041666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-05-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 69.21208333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-05-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.61125,
+            "countryName": "Czech Republic",
+            "date": "2023-05-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.73583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-05-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 101.26541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-05-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.43291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-05-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 107.50708333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-05-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.94,
+            "countryName": "Czech Republic",
+            "date": "2023-05-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 69.68875,
+            "countryName": "Czech Republic",
+            "date": "2023-04-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.24791666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-04-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 107.71333333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-04-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.36166666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-04-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.02166666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-04-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.27791666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-04-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.26541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-04-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.29541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-04-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.84708333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-04-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 107.32826086956523,
+            "countryName": "Czech Republic",
+            "date": "2023-04-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.70375,
+            "countryName": "Czech Republic",
+            "date": "2023-04-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.34249999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-04-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.68214285714286,
+            "countryName": "Czech Republic",
+            "date": "2023-04-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.29458333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-04-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.51458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-04-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.82208333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-04-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.64833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-04-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 126.26916666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-04-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 110.85333333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-04-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.65,
+            "countryName": "Czech Republic",
+            "date": "2023-04-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.1075,
+            "countryName": "Czech Republic",
+            "date": "2023-04-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.30625,
+            "countryName": "Czech Republic",
+            "date": "2023-04-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.84958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-04-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.02416666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-04-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.82333333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-04-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.17583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-04-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.55208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-04-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.87875000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-04-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.14291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-04-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 54.96083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-04-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.835,
+            "countryName": "Czech Republic",
+            "date": "2023-03-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.44208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-03-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.33625,
+            "countryName": "Czech Republic",
+            "date": "2023-03-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.43583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-03-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.34625,
+            "countryName": "Czech Republic",
+            "date": "2023-03-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.75583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-03-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 30.96291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-03-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.32958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-03-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.10666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-03-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.62625000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-03-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.5,
+            "countryName": "Czech Republic",
+            "date": "2023-03-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 125.41833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-03-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.45291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-03-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.45,
+            "countryName": "Czech Republic",
+            "date": "2023-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.41000000000001,
+            "countryName": "Czech Republic",
+            "date": "2023-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.75166666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.69541666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.07375,
+            "countryName": "Czech Republic",
+            "date": "2023-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.50958333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.71375,
+            "countryName": "Czech Republic",
+            "date": "2023-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.14375,
+            "countryName": "Czech Republic",
+            "date": "2023-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 114.5,
+            "countryName": "Czech Republic",
+            "date": "2023-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 128.43875,
+            "countryName": "Czech Republic",
+            "date": "2023-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 138.97375,
+            "countryName": "Czech Republic",
+            "date": "2023-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.50208333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 149.9825,
+            "countryName": "Czech Republic",
+            "date": "2023-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.66875,
+            "countryName": "Czech Republic",
+            "date": "2023-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.05874999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 139.27291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 151.17666666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.82625,
+            "countryName": "Czech Republic",
+            "date": "2023-03-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 148.28541666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-02-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 152.05958333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-02-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.52625,
+            "countryName": "Czech Republic",
+            "date": "2023-02-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 86.6025,
+            "countryName": "Czech Republic",
+            "date": "2023-02-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 132.28583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-02-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.51874999999998,
+            "countryName": "Czech Republic",
+            "date": "2023-02-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 149.215,
+            "countryName": "Czech Republic",
+            "date": "2023-02-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 123.35958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-02-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.04875,
+            "countryName": "Czech Republic",
+            "date": "2023-02-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.62458333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-02-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.63708333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-02-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 140.44708333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-02-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 148.48166666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-02-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 152.76833333333335,
+            "countryName": "Czech Republic",
+            "date": "2023-02-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.39458333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-02-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 163.28958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-02-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 139.5875,
+            "countryName": "Czech Republic",
+            "date": "2023-02-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 140.21875,
+            "countryName": "Czech Republic",
+            "date": "2023-02-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.49583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-02-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 138.66541666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-02-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.49958333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-02-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 175.63291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-02-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 172.775,
+            "countryName": "Czech Republic",
+            "date": "2023-02-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.11125,
+            "countryName": "Czech Republic",
+            "date": "2023-02-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 144.64375,
+            "countryName": "Czech Republic",
+            "date": "2023-02-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 128.04125,
+            "countryName": "Czech Republic",
+            "date": "2023-02-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 144.30208333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-02-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.48416666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-02-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 144.25291666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-01-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 137.63958333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-01-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.42291666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-01-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 146.49083333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-01-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 168.94958333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-01-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 167.95958333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-01-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.2279166666667,
+            "countryName": "Czech Republic",
+            "date": "2023-01-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 202.55041666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-01-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 203.63375,
+            "countryName": "Czech Republic",
+            "date": "2023-01-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.14583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-01-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 135.61083333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-01-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 173.80041666666668,
+            "countryName": "Czech Republic",
+            "date": "2023-01-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 148.32333333333332,
+            "countryName": "Czech Republic",
+            "date": "2023-01-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.03875,
+            "countryName": "Czech Republic",
+            "date": "2023-01-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 136.475,
+            "countryName": "Czech Republic",
+            "date": "2023-01-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 131.72916666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-01-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.09166666666665,
+            "countryName": "Czech Republic",
+            "date": "2023-01-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.76458333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-01-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 122.24666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-01-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 119.36874999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-01-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.29124999999999,
+            "countryName": "Czech Republic",
+            "date": "2023-01-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 131.52583333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-01-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 136.08666666666667,
+            "countryName": "Czech Republic",
+            "date": "2023-01-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.73125,
+            "countryName": "Czech Republic",
+            "date": "2023-01-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 104.7675,
+            "countryName": "Czech Republic",
+            "date": "2023-01-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.17,
+            "countryName": "Czech Republic",
+            "date": "2023-01-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 140.19083333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-01-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 119.59833333333334,
+            "countryName": "Czech Republic",
+            "date": "2023-01-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 144.97625,
+            "countryName": "Czech Republic",
+            "date": "2023-01-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.16041666666666,
+            "countryName": "Czech Republic",
+            "date": "2023-01-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 18.804583333333333,
+            "countryName": "Czech Republic",
+            "date": "2023-01-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": -1.8566666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-12-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 24.7325,
+            "countryName": "Czech Republic",
+            "date": "2022-12-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 33.836666666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.25375,
+            "countryName": "Czech Republic",
+            "date": "2022-12-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.735,
+            "countryName": "Czech Republic",
+            "date": "2022-12-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 40.992916666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 98.50291666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-12-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 113.91291666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.55666666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-12-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 197.68583333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-12-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 216.36708333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-12-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 206.04083333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-12-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 203.57291666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 184.6654166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-12-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 259.9558333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-12-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 410.08958333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-12-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 397.7004166666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 444.66041666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 440.7733333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-12-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 380.7366666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-12-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 296.85541666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-12-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 343.95416666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-12-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 399.75,
+            "countryName": "Czech Republic",
+            "date": "2022-12-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 388.28208333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-12-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 336.85791666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-12-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 367.58666666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-12-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 333.48541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-12-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 267.21708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-12-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 290.3925,
+            "countryName": "Czech Republic",
+            "date": "2022-12-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 353.73,
+            "countryName": "Czech Republic",
+            "date": "2022-12-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 395.05625000000003,
+            "countryName": "Czech Republic",
+            "date": "2022-12-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 394.0308333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-11-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 372.45875,
+            "countryName": "Czech Republic",
+            "date": "2022-11-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 302.49708333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-11-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 166.36916666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-11-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 236.515,
+            "countryName": "Czech Republic",
+            "date": "2022-11-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 266.93,
+            "countryName": "Czech Republic",
+            "date": "2022-11-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 248.47833333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-11-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 206.52083333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-11-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 212.3708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-11-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 251.86541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-11-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 206.56041666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-11-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 206.13708333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-11-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 199.84624999999997,
+            "countryName": "Czech Republic",
+            "date": "2022-11-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.15708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-11-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 174.93708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-11-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 206.64374999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-11-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 181.0975,
+            "countryName": "Czech Republic",
+            "date": "2022-11-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.07625,
+            "countryName": "Czech Republic",
+            "date": "2022-11-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 174.14541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-11-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 175.48041666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-11-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 217.10958333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-11-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.97416666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-11-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 148.36666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-11-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.34416666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-11-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 83.57166666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-11-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.75666666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-11-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 181.8083333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-11-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 132.67291666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-11-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.87041666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-11-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 115.66583333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-11-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 144.11166666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-10-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 118.27625,
+            "countryName": "Czech Republic",
+            "date": "2022-10-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.49624999999999,
+            "countryName": "Czech Republic",
+            "date": "2022-10-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.73708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-10-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 140.1175,
+            "countryName": "Czech Republic",
+            "date": "2022-10-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 136.50375,
+            "countryName": "Czech Republic",
+            "date": "2022-10-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 131.00541666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-10-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 134.32291666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-10-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.56791666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-10-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 143.1075,
+            "countryName": "Czech Republic",
+            "date": "2022-10-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 178.13666666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-10-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 165.61041666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-10-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 169.80666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-10-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 190.91416666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-10-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 169.07541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-10-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 103.92916666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-10-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 153.345,
+            "countryName": "Czech Republic",
+            "date": "2022-10-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 253.64208333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-10-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 255.99833333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-10-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 282.535,
+            "countryName": "Czech Republic",
+            "date": "2022-10-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 264.6020833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-10-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 186.70624999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-10-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.50333333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-10-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 168.3525,
+            "countryName": "Czech Republic",
+            "date": "2022-10-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 172.0575,
+            "countryName": "Czech Republic",
+            "date": "2022-10-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 172.61833333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-10-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 175.4679166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-10-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 239.85916666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-10-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 235.42583333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-10-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.99166666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-10-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 135.01333333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-10-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 336.00916666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-09-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 420.1758333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-09-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 391.48,
+            "countryName": "Czech Republic",
+            "date": "2022-09-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 326.4683333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-09-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 297.05833333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-09-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 274.0991666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 339.76125,
+            "countryName": "Czech Republic",
+            "date": "2022-09-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 371.9920833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-09-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 393.0416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 385.83708333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-09-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 369.0916666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 282.2320833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-09-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 100.30624999999999,
+            "countryName": "Czech Republic",
+            "date": "2022-09-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 151.18916666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 256.74875000000003,
+            "countryName": "Czech Republic",
+            "date": "2022-09-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 366.79541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-09-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 458.3066666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 429.18083333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-09-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 422.87416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 386.8016666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 406.25874999999996,
+            "countryName": "Czech Republic",
+            "date": "2022-09-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 372.0829166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 445.98625,
+            "countryName": "Czech Republic",
+            "date": "2022-09-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 475.88625,
+            "countryName": "Czech Republic",
+            "date": "2022-09-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 476.4845833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-09-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 401.5441666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-09-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 271.15749999999997,
+            "countryName": "Czech Republic",
+            "date": "2022-09-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 298.2191666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-09-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 433.915,
+            "countryName": "Czech Republic",
+            "date": "2022-09-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 592.5070833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-09-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 630.5820833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 681.6804166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-08-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 672.02125,
+            "countryName": "Czech Republic",
+            "date": "2022-08-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 465.71166666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-08-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 613.63875,
+            "countryName": "Czech Republic",
+            "date": "2022-08-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 709.1795833333334,
+            "countryName": "Czech Republic",
+            "date": "2022-08-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 620.8645833333334,
+            "countryName": "Czech Republic",
+            "date": "2022-08-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 627.5979166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-08-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 615.7658333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 566.7483333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 394.4183333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 456.7383333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 518.31875,
+            "countryName": "Czech Republic",
+            "date": "2022-08-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 563.1283333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 552.8654166666666,
+            "countryName": "Czech Republic",
+            "date": "2022-08-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 467.1170833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 424.4279166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-08-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 346.41333333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-08-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 393.81958333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-08-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 450.92,
+            "countryName": "Czech Republic",
+            "date": "2022-08-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 388.4820833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-08-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 340.89,
+            "countryName": "Czech Republic",
+            "date": "2022-08-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 350.96791666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-08-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 372.2404166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-08-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 218.74041666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-08-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 293.45,
+            "countryName": "Czech Republic",
+            "date": "2022-08-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 381.25291666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-08-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 409.52,
+            "countryName": "Czech Republic",
+            "date": "2022-08-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 406.37416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-08-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 413.09083333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-08-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 431.57916666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-08-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 317.09,
+            "countryName": "Czech Republic",
+            "date": "2022-07-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 389.58125,
+            "countryName": "Czech Republic",
+            "date": "2022-07-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 454.74458333333337,
+            "countryName": "Czech Republic",
+            "date": "2022-07-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 482.10999999999996,
+            "countryName": "Czech Republic",
+            "date": "2022-07-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 427.39625,
+            "countryName": "Czech Republic",
+            "date": "2022-07-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 387.77666666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-07-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 363.25333333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 279.4458333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 344.6245833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 399.35249999999996,
+            "countryName": "Czech Republic",
+            "date": "2022-07-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 408.7108333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 323.3804166666667,
+            "countryName": "Czech Republic",
+            "date": "2022-07-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 378.11625000000004,
+            "countryName": "Czech Republic",
+            "date": "2022-07-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 392.26416666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-07-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 211.50041666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-07-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 149.26958333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-07-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 341.0570833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 377.80875,
+            "countryName": "Czech Republic",
+            "date": "2022-07-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 340.73,
+            "countryName": "Czech Republic",
+            "date": "2022-07-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 377.80125,
+            "countryName": "Czech Republic",
+            "date": "2022-07-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 376.53791666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-07-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 115.00333333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 91.88958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 278.84083333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-07-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 211.785,
+            "countryName": "Czech Republic",
+            "date": "2022-07-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 289.0370833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-07-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 326.61375000000004,
+            "countryName": "Czech Republic",
+            "date": "2022-07-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 311.77791666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-07-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 208.39291666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-07-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 225.62666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-07-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 327.365,
+            "countryName": "Czech Republic",
+            "date": "2022-07-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 335.61291666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-06-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 322.23083333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-06-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 341.58708333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-06-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 322.10083333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-06-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 218.42041666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-06-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 249.515,
+            "countryName": "Czech Republic",
+            "date": "2022-06-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 274.3475,
+            "countryName": "Czech Republic",
+            "date": "2022-06-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 294.16291666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-06-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 325.3620833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-06-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 287.60375,
+            "countryName": "Czech Republic",
+            "date": "2022-06-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 276.00166666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-06-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.915,
+            "countryName": "Czech Republic",
+            "date": "2022-06-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 186.76666666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-06-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 250.22583333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-06-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 211.09208333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-06-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 215.5775,
+            "countryName": "Czech Republic",
+            "date": "2022-06-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 199.71875,
+            "countryName": "Czech Republic",
+            "date": "2022-06-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 173.50625,
+            "countryName": "Czech Republic",
+            "date": "2022-06-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 113.51416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-06-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 136.74291666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-06-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 187.73333333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-06-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 194.385,
+            "countryName": "Czech Republic",
+            "date": "2022-06-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 197.22041666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-06-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 205.37583333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-06-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 166.61041666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-06-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 140.0091666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-06-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 171.71708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-06-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 186.23541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-06-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 193.09375,
+            "countryName": "Czech Republic",
+            "date": "2022-06-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 215.55375,
+            "countryName": "Czech Republic",
+            "date": "2022-06-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 212.0533333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 225.38,
+            "countryName": "Czech Republic",
+            "date": "2022-05-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 160.30291666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-05-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.56625000000001,
+            "countryName": "Czech Republic",
+            "date": "2022-05-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 173.98333333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-05-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.53958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 185.73416666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-05-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 178.26958333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-05-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.81166666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-05-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 164.96875,
+            "countryName": "Czech Republic",
+            "date": "2022-05-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.40458333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 203.08333333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-05-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 211.85541666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-05-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 206.44916666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-05-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 225.91583333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-05-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 216.78583333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 146.44083333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 166.15583333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 191.15416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-05-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 180.17416666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-05-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.9675,
+            "countryName": "Czech Republic",
+            "date": "2022-05-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 195.46416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-05-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 217.38250000000002,
+            "countryName": "Czech Republic",
+            "date": "2022-05-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 172.10458333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-05-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 199.73416666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-05-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 225.67708333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-05-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 235.2145833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-05-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 233.02874999999997,
+            "countryName": "Czech Republic",
+            "date": "2022-05-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 219.89291666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-05-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 217.36666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-05-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 194.7675,
+            "countryName": "Czech Republic",
+            "date": "2022-05-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 201.7675,
+            "countryName": "Czech Republic",
+            "date": "2022-04-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 227.38625000000002,
+            "countryName": "Czech Republic",
+            "date": "2022-04-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 229.845,
+            "countryName": "Czech Republic",
+            "date": "2022-04-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 222.72916666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-04-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 239.51541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-04-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 225.49833333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-04-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.49708333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-04-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 119.46541666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-04-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 198.53083333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-04-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 201.7875,
+            "countryName": "Czech Republic",
+            "date": "2022-04-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 207.07208333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-04-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 221.03374999999997,
+            "countryName": "Czech Republic",
+            "date": "2022-04-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 129.44291666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-04-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 99.84875,
+            "countryName": "Czech Republic",
+            "date": "2022-04-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 146.49041666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-04-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 191.34666666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-04-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 226.59541666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-04-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 227.21,
+            "countryName": "Czech Republic",
+            "date": "2022-04-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 183.13833333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-04-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 224.21124999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-04-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.61791666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-04-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.35000000000001,
+            "countryName": "Czech Republic",
+            "date": "2022-04-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 132.66083333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-04-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.21458333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-04-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.40791666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-04-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 196.38625000000002,
+            "countryName": "Czech Republic",
+            "date": "2022-04-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 176.27374999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-04-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.37958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-04-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 167.75958333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-04-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 166.18708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-04-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 202.04458333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-03-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 268.65291666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-03-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 251.92958333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-03-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 222.90291666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-03-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 198.61249999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-03-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 189.51250000000002,
+            "countryName": "Czech Republic",
+            "date": "2022-03-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 243.27374999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-03-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 240.05958333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-03-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 236.43458333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-03-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 235.9375,
+            "countryName": "Czech Republic",
+            "date": "2022-03-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 210.28875000000002,
+            "countryName": "Czech Republic",
+            "date": "2022-03-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 79.86125,
+            "countryName": "Czech Republic",
+            "date": "2022-03-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 138.66541666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-03-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 228.635,
+            "countryName": "Czech Republic",
+            "date": "2022-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 239.01833333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 250.95166666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 300.7245833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 283.2325,
+            "countryName": "Czech Republic",
+            "date": "2022-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 136.85541666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 154.50791666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 184.47916666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 286.4170833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 443.5420833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 486.3670833333333,
+            "countryName": "Czech Republic",
+            "date": "2022-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 419.97333333333336,
+            "countryName": "Czech Republic",
+            "date": "2022-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 340.25416666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 345.51666666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 367.4175,
+            "countryName": "Czech Republic",
+            "date": "2022-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 339.02916666666664,
+            "countryName": "Czech Republic",
+            "date": "2022-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 282.05583333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 247.28958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-03-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 225.33249999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-02-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 181.6475,
+            "countryName": "Czech Republic",
+            "date": "2022-02-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 227.33249999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-02-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 142.67083333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-02-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.32,
+            "countryName": "Czech Republic",
+            "date": "2022-02-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 137.34666666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-02-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.27416666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-02-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 108.2325,
+            "countryName": "Czech Republic",
+            "date": "2022-02-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.74083333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-02-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 100.86666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-02-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 119.32083333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-02-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.31416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-02-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 152.45541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-02-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 180.02333333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-02-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 173.36083333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-02-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 98.20083333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-02-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.46166666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-02-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 188.15875000000003,
+            "countryName": "Czech Republic",
+            "date": "2022-02-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 191.9675,
+            "countryName": "Czech Republic",
+            "date": "2022-02-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 183.90666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-02-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 155.86625,
+            "countryName": "Czech Republic",
+            "date": "2022-02-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.23541666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-02-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.65958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-02-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.15416666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-02-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 182.62666666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-02-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 192.89333333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-02-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 192.84375,
+            "countryName": "Czech Republic",
+            "date": "2022-02-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 203.5533333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-02-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 202.2458333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-01-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.71625,
+            "countryName": "Czech Republic",
+            "date": "2022-01-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 137.875,
+            "countryName": "Czech Republic",
+            "date": "2022-01-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 196.23125000000002,
+            "countryName": "Czech Republic",
+            "date": "2022-01-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 188.82041666666666,
+            "countryName": "Czech Republic",
+            "date": "2022-01-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 237.56291666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-01-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 296.83708333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-01-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 247.29791666666665,
+            "countryName": "Czech Republic",
+            "date": "2022-01-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 194.17999999999998,
+            "countryName": "Czech Republic",
+            "date": "2022-01-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 177.76083333333335,
+            "countryName": "Czech Republic",
+            "date": "2022-01-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 160.24416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-01-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 160.795,
+            "countryName": "Czech Republic",
+            "date": "2022-01-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 188.95541666666668,
+            "countryName": "Czech Republic",
+            "date": "2022-01-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 235.03958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-01-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 177.90416666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-01-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.68083333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-01-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 214.36333333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-01-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 180.77833333333334,
+            "countryName": "Czech Republic",
+            "date": "2022-01-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 177.94375,
+            "countryName": "Czech Republic",
+            "date": "2022-01-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 230.77958333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-01-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 253.84124999999997,
+            "countryName": "Czech Republic",
+            "date": "2022-01-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 261.995,
+            "countryName": "Czech Republic",
+            "date": "2022-01-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 151.66833333333332,
+            "countryName": "Czech Republic",
+            "date": "2022-01-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 167.99541666666667,
+            "countryName": "Czech Republic",
+            "date": "2022-01-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 170.00708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-01-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 195.30875,
+            "countryName": "Czech Republic",
+            "date": "2022-01-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 121.84125,
+            "countryName": "Czech Republic",
+            "date": "2022-01-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 153.98375000000001,
+            "countryName": "Czech Republic",
+            "date": "2022-01-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.6875,
+            "countryName": "Czech Republic",
+            "date": "2022-01-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 55.19708333333333,
+            "countryName": "Czech Republic",
+            "date": "2022-01-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.87125,
+            "countryName": "Czech Republic",
+            "date": "2022-01-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 83.36041666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-12-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.65750000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-12-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 153.97916666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-12-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 120.66375,
+            "countryName": "Czech Republic",
+            "date": "2021-12-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 148.8925,
+            "countryName": "Czech Republic",
+            "date": "2021-12-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 160.41208333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 180.72333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 185.30499999999998,
+            "countryName": "Czech Republic",
+            "date": "2021-12-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 286.98875000000004,
+            "countryName": "Czech Republic",
+            "date": "2021-12-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 408.82625,
+            "countryName": "Czech Republic",
+            "date": "2021-12-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 422.84791666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-12-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 321.4420833333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 115.98625,
+            "countryName": "Czech Republic",
+            "date": "2021-12-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 230.07458333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-12-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 335.48041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-12-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 346.30583333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-12-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 297.73791666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-12-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 301.78000000000003,
+            "countryName": "Czech Republic",
+            "date": "2021-12-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 264.7320833333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 184.69333333333336,
+            "countryName": "Czech Republic",
+            "date": "2021-12-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 230.59666666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-12-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 240.74458333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-12-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 278.2291666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-12-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 220.72333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 230.60041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-12-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 263.75083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 161.31333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-12-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 194.69791666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-12-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 192.36958333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-12-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 204.07875,
+            "countryName": "Czech Republic",
+            "date": "2021-12-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 202.23708333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-12-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 189.43416666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-11-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 264.23291666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-11-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 199.55916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-11-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 205.5583333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-11-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 203.32875,
+            "countryName": "Czech Republic",
+            "date": "2021-11-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 248.03916666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-11-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 274.30041666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-11-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 241.38125,
+            "countryName": "Czech Republic",
+            "date": "2021-11-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 238.44000000000003,
+            "countryName": "Czech Republic",
+            "date": "2021-11-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 150.54625000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-11-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 132.69333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-11-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 134.7775,
+            "countryName": "Czech Republic",
+            "date": "2021-11-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 139.18416666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-11-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 173.40625,
+            "countryName": "Czech Republic",
+            "date": "2021-11-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 232.05999999999997,
+            "countryName": "Czech Republic",
+            "date": "2021-11-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 228.65,
+            "countryName": "Czech Republic",
+            "date": "2021-11-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 166.18708333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-11-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 157.08,
+            "countryName": "Czech Republic",
+            "date": "2021-11-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 164.03291666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-11-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 190.41375000000002,
+            "countryName": "Czech Republic",
+            "date": "2021-11-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 178.41416666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-11-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 159.42041666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-11-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 181.48083333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-11-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 44.00125,
+            "countryName": "Czech Republic",
+            "date": "2021-11-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.11541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-11-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 157.1825,
+            "countryName": "Czech Republic",
+            "date": "2021-11-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 169.37708333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-11-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 193.9175,
+            "countryName": "Czech Republic",
+            "date": "2021-11-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 204.17875,
+            "countryName": "Czech Republic",
+            "date": "2021-11-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 113.80291666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-11-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.54208333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.8925,
+            "countryName": "Czech Republic",
+            "date": "2021-10-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.65249999999999,
+            "countryName": "Czech Republic",
+            "date": "2021-10-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.1675,
+            "countryName": "Czech Republic",
+            "date": "2021-10-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.35625000000002,
+            "countryName": "Czech Republic",
+            "date": "2021-10-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 172.20749999999998,
+            "countryName": "Czech Republic",
+            "date": "2021-10-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 171.24875,
+            "countryName": "Czech Republic",
+            "date": "2021-10-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.03750000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-10-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 143.61291666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-10-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.09791666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-10-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.02041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-10-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.22500000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-10-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 150.04333333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-10-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 189.19500000000002,
+            "countryName": "Czech Republic",
+            "date": "2021-10-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 142.89875,
+            "countryName": "Czech Republic",
+            "date": "2021-10-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 154.83541666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-10-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.39583333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 169.80166666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-10-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 185.98833333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 174.30708333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 163.73708333333335,
+            "countryName": "Czech Republic",
+            "date": "2021-10-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 143.84333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-10-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 138.24333333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 199.525,
+            "countryName": "Czech Republic",
+            "date": "2021-10-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 267.90208333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 195.0475,
+            "countryName": "Czech Republic",
+            "date": "2021-10-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.47541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-10-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 161.8175,
+            "countryName": "Czech Republic",
+            "date": "2021-10-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 48.462916666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-10-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.64958333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-10-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.12791666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-10-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.61375,
+            "countryName": "Czech Republic",
+            "date": "2021-09-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.43583333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-09-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 156.18041666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-09-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 141.54416666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-09-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 124.67875,
+            "countryName": "Czech Republic",
+            "date": "2021-09-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.37791666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-09-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 112.40083333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-09-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 117.60875,
+            "countryName": "Czech Republic",
+            "date": "2021-09-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 145.38541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-09-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 147.60916666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-09-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 153.21125,
+            "countryName": "Czech Republic",
+            "date": "2021-09-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.60625,
+            "countryName": "Czech Republic",
+            "date": "2021-09-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 128.03375,
+            "countryName": "Czech Republic",
+            "date": "2021-09-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 157.41041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-09-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 158.73375000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-09-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 167.89374999999998,
+            "countryName": "Czech Republic",
+            "date": "2021-09-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 144.26583333333335,
+            "countryName": "Czech Republic",
+            "date": "2021-09-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 142.26125,
+            "countryName": "Czech Republic",
+            "date": "2021-09-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.76791666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-09-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 126.18083333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-09-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 139.80666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-09-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 130.98291666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-09-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 124.26708333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-09-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 128.0375,
+            "countryName": "Czech Republic",
+            "date": "2021-09-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 127.0075,
+            "countryName": "Czech Republic",
+            "date": "2021-09-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.88375,
+            "countryName": "Czech Republic",
+            "date": "2021-09-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 105.09291666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-09-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.77208333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-09-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 116.20958333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-09-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 111.05916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-09-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.74416666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 107.69041666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-08-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.01291666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.53625,
+            "countryName": "Czech Republic",
+            "date": "2021-08-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.06958333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-08-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.82166666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-08-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.72000000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-08-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.32041666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.18666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.705,
+            "countryName": "Czech Republic",
+            "date": "2021-08-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.05041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-08-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 102.86708333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-08-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 93.74541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-08-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 79.26166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.89833333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-08-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 83.04,
+            "countryName": "Czech Republic",
+            "date": "2021-08-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.37041666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.07333333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-08-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 95.41583333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-08-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 106.20375,
+            "countryName": "Czech Republic",
+            "date": "2021-08-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 101.29958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-08-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.12208333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-08-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.14625,
+            "countryName": "Czech Republic",
+            "date": "2021-08-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 28.177083333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-08-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.08708333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-08-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.69083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-08-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.81041666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-08-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 98.04166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-08-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.60000000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-08-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.91375000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-08-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.17958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-08-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.92166666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-07-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.95541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-07-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.30333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.04166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-07-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.33291666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-07-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.58125,
+            "countryName": "Czech Republic",
+            "date": "2021-07-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.29333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.59208333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.90416666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-07-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 88.59541666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-07-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.3575,
+            "countryName": "Czech Republic",
+            "date": "2021-07-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 91.97833333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-07-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.34625,
+            "countryName": "Czech Republic",
+            "date": "2021-07-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 54.763749999999995,
+            "countryName": "Czech Republic",
+            "date": "2021-07-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 64.75625000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-07-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 84.69,
+            "countryName": "Czech Republic",
+            "date": "2021-07-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.70541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-07-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.02333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 98.20166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-07-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.01791666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-07-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.44625,
+            "countryName": "Czech Republic",
+            "date": "2021-07-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.33291666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-07-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 91.40458333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 109.5775,
+            "countryName": "Czech Republic",
+            "date": "2021-07-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 101.35833333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 87.09333333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-07-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.09958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-07-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.74125,
+            "countryName": "Czech Republic",
+            "date": "2021-07-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.69125000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-07-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 101.63499999999999,
+            "countryName": "Czech Republic",
+            "date": "2021-07-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 90.21916666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-07-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.27749999999999,
+            "countryName": "Czech Republic",
+            "date": "2021-06-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 92.98875,
+            "countryName": "Czech Republic",
+            "date": "2021-06-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 89.46833333333332,
+            "countryName": "Czech Republic",
+            "date": "2021-06-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.69,
+            "countryName": "Czech Republic",
+            "date": "2021-06-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 79.17125,
+            "countryName": "Czech Republic",
+            "date": "2021-06-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 97.44875,
+            "countryName": "Czech Republic",
+            "date": "2021-06-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 96.26125,
+            "countryName": "Czech Republic",
+            "date": "2021-06-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 94.47250000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-06-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.47166666666668,
+            "countryName": "Czech Republic",
+            "date": "2021-06-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.76791666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-06-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.855,
+            "countryName": "Czech Republic",
+            "date": "2021-06-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.545,
+            "countryName": "Czech Republic",
+            "date": "2021-06-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.5675,
+            "countryName": "Czech Republic",
+            "date": "2021-06-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 83.53416666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-06-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 82.0675,
+            "countryName": "Czech Republic",
+            "date": "2021-06-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 81.29958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-06-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.16666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-06-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 26.895,
+            "countryName": "Czech Republic",
+            "date": "2021-06-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 48.91916666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-06-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.21166666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-06-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.33,
+            "countryName": "Czech Republic",
+            "date": "2021-06-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.66916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-06-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 78.4075,
+            "countryName": "Czech Republic",
+            "date": "2021-06-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 79.93791666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-06-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.04291666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-06-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.852916666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-06-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.54375,
+            "countryName": "Czech Republic",
+            "date": "2021-06-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 60.76125,
+            "countryName": "Czech Republic",
+            "date": "2021-06-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.20541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-06-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.41916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-06-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 68.66666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 42.70083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-05-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.83916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.81875000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-05-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 72.86375,
+            "countryName": "Czech Republic",
+            "date": "2021-05-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.0525,
+            "countryName": "Czech Republic",
+            "date": "2021-05-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.325,
+            "countryName": "Czech Republic",
+            "date": "2021-05-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.689166666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-05-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 22.760833333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-05-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 52.03333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-05-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.49625,
+            "countryName": "Czech Republic",
+            "date": "2021-05-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.36749999999999,
+            "countryName": "Czech Republic",
+            "date": "2021-05-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 77.32916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 74.96041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-05-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 73.26125,
+            "countryName": "Czech Republic",
+            "date": "2021-05-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 46.46208333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-05-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 63.18083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-05-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.57625,
+            "countryName": "Czech Republic",
+            "date": "2021-05-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.72666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 69.13250000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-05-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.94416666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 60.93958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-05-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 15.561666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 50.221666666666664,
+            "countryName": "Czech Republic",
+            "date": "2021-05-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.89874999999999,
+            "countryName": "Czech Republic",
+            "date": "2021-05-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.59166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.28541666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-05-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 48.10666666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-05-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.49541666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-05-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 44.177083333333336,
+            "countryName": "Czech Republic",
+            "date": "2021-05-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 58.37625,
+            "countryName": "Czech Republic",
+            "date": "2021-05-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 69.32125,
+            "countryName": "Czech Republic",
+            "date": "2021-04-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.42291666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-04-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.13333333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-04-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 66.985,
+            "countryName": "Czech Republic",
+            "date": "2021-04-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 64.51208333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-04-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 43.47875,
+            "countryName": "Czech Republic",
+            "date": "2021-04-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.432916666666664,
+            "countryName": "Czech Republic",
+            "date": "2021-04-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 65.29166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-04-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 69.00625000000001,
+            "countryName": "Czech Republic",
+            "date": "2021-04-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.77083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 80.21416666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-04-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 79.93416666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-04-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 64.07333333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-04-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.850833333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-04-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 71.50083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.38583333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-04-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 75.35958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 70.28583333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 67.13958333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 47.45041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-04-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 56.98041666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-04-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.559583333333336,
+            "countryName": "Czech Republic",
+            "date": "2021-04-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 64.48875,
+            "countryName": "Czech Republic",
+            "date": "2021-04-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.66833333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 52.717083333333335,
+            "countryName": "Czech Republic",
+            "date": "2021-04-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": -4.289583333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-04-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 33.8025,
+            "countryName": "Czech Republic",
+            "date": "2021-04-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 47.3375,
+            "countryName": "Czech Republic",
+            "date": "2021-04-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 44.212916666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-04-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.28333333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-04-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.90208333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-03-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 55.611250000000005,
+            "countryName": "Czech Republic",
+            "date": "2021-03-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 54.583333333333336,
+            "countryName": "Czech Republic",
+            "date": "2021-03-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 42.38916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-03-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 46.74375,
+            "countryName": "Czech Republic",
+            "date": "2021-03-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.0025,
+            "countryName": "Czech Republic",
+            "date": "2021-03-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.42666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-03-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.01083333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-03-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.26916666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-03-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.797083333333326,
+            "countryName": "Czech Republic",
+            "date": "2021-03-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 43.09166666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-03-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 50.890833333333326,
+            "countryName": "Czech Republic",
+            "date": "2021-03-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 60.67583333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-03-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 63.423750000000005,
+            "countryName": "Czech Republic",
+            "date": "2021-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 59.26208333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 57.20458333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 49.78125,
+            "countryName": "Czech Republic",
+            "date": "2021-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 42.74208333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 45.23458333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 50.12708333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 52.305,
+            "countryName": "Czech Republic",
+            "date": "2021-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.96458333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 62.1275,
+            "countryName": "Czech Republic",
+            "date": "2021-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 61.35958333333334,
+            "countryName": "Czech Republic",
+            "date": "2021-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 43.00791666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 45.209583333333335,
+            "countryName": "Czech Republic",
+            "date": "2021-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.44166666666666,
+            "countryName": "Czech Republic",
+            "date": "2021-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 51.634166666666665,
+            "countryName": "Czech Republic",
+            "date": "2021-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 51.85458333333333,
+            "countryName": "Czech Republic",
+            "date": "2021-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 53.22625,
+            "countryName": "Czech Republic",
+            "date": "2021-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 52.52666666666667,
+            "countryName": "Czech Republic",
+            "date": "2021-03-01T00:00:00Z"
+        }
+    ],
+    "dailyGenerations": []
+}
