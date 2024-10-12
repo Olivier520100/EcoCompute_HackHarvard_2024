@@ -3,12 +3,12 @@ import CodeMirror from "@uiw/react-codemirror";
 import { python } from "@codemirror/lang-python";
 import { Button } from "./ui/button";
 import { Play, Plus, Trash } from "lucide-react";
+import OutputCell from "./output-cell";
 
 interface CodeCellProps {
   onCodeChange: (code: string) => void;
   onDelete: () => void;
   onAdd: () => void;
-  onRun: () => void;
   id: number;
   initialCode: string;
 }
@@ -19,9 +19,33 @@ export default function CodeCell({
   id,
   initialCode = "",
   onCodeChange,
-  onRun,
 }: CodeCellProps) {
   const [code, setCode] = useState(initialCode);
+  const [output, setOutput] = useState<string>("");
+
+  const runCodeCell = async () => {
+    try {
+      const response = await fetch(`http://localhost:8000/run-code-cell`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          code,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log("Response:", data);
+      setOutput(data.result);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
 
   return (
     <div className="mb-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
@@ -42,7 +66,7 @@ export default function CodeCell({
         {/* Run and Delete buttons */}
         <div className="flex space-x-2 items-center">
           <Button
-            onClick={onRun}
+            onClick={runCodeCell}
             size="sm"
             variant="ghost"
             className="hover:bg-green-200 text-green-700 transition-colors duration-200"
@@ -83,6 +107,8 @@ export default function CodeCell({
           }}
         />
       </div>
+
+          {output && <OutputCell id={id} output={output} />}
     </div>
   );
 }
