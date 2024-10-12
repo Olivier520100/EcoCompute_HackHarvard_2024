@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+// NoteBook.tsx
+
+import React, { useEffect, useState } from "react";
 import { Menu, X, Trees } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
@@ -13,6 +15,47 @@ export default function NoteBook() {
   const [cellCount, setCellCount] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [cells, setCells] = useState<Cell[]>([]);
+
+  const [websocket, setWebsocket] = useState<WebSocket | null>(null);
+  const [clientId, setClientId] = useState(
+    Math.floor(new Date().getTime() / 1000)
+  );
+
+  useEffect(() => {
+    const url = "ws://localhost:8000/ws/" + clientId;
+    const ws = new WebSocket(url);
+
+    ws.onerror = (error) => {
+      console.error("WebSocket error:", error);
+    };
+
+    ws.onclose = (event) => {
+      console.log("WebSocket connection closed:", event);
+    };
+
+    ws.onopen = () => {
+      console.log("WebSocket connection opened");
+      ws.send("Connect");
+    };
+
+    ws.onmessage = (e) => {
+      try {
+        const message = e.data; // Assuming server sends plain text
+        console.log("Message from server:", message);
+      } catch (err) {
+        console.error("Error processing message from server:", err);
+        console.log("Raw message:", e.data);
+      }
+    };
+
+    setWebsocket(ws);
+
+    return () => {
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.close();
+      }
+    };
+  }, [clientId]);
 
   const addCodeCell = (code: string = "") => {
     setCells([...cells, { id: cellCount, code }]);
@@ -95,14 +138,6 @@ export default function NoteBook() {
           <h1 className="text-xl font-bold">EcoCompute</h1>
         </div>
         <div className="flex space-x-2">
-          {/* <Button
-            onClick={addMarkdownCell}
-            variant="outline"
-            size="sm"
-            className="text-white border-white hover:bg-green-500 transition-colors duration-200"
-          >
-            + Add Markdown
-          </Button> */}
           <Button
             onClick={() => addCodeCell()}
             variant="outline"
@@ -125,7 +160,7 @@ export default function NoteBook() {
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
         {sidebarOpen && (
-          <aside className=" bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out sm:transition-none sm:duration-0 md:w-1/4">
+          <aside className="bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out sm:transition-none sm:duration-0 md:w-1/4">
             <div className="flex justify-between items-center mb-4">
               <h2 className="font-semibold text-green-800">Settings</h2>
             </div>
@@ -173,6 +208,7 @@ export default function NoteBook() {
               onCodeChange={(newCode) => handleCodeChange(cell.id, newCode)}
               onDelete={() => removeCodeCell(cell.id)}
               onAdd={() => addCodeCell()}
+              websocket={websocket} // Pass the websocket to CodeCell
             />
           ))}
         </main>
