@@ -1,4 +1,5 @@
 # FastAPI Server (server.py)
+import asyncio
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Dict
@@ -42,7 +43,6 @@ class ConnectionManager:
     def __init__(self):
         self.active_connections: List[WebSocket] = []
 
-
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
         self.active_connections.append(websocket)
@@ -64,21 +64,22 @@ class ConnectionManager:
 
 manager = ConnectionManager()
 
-@app.websocket("/{client_id}/ws")
-async def websocket_endpoint(websocket: WebSocket, client_id: str):
+
+@app.websocket("/containermanagement/{client_id}")
+async def websocket_endpoint_management(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
 
-            data = await websocket.receive_text()
-            print(data)
             a = json.loads(input())
             await websocket.send_json(a)
+            response = await websocket.receive_text()
+            print(response)
             
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         await manager.broadcast("A client disconnected")
-
+        
 @app.get("/")
 async def read_root():
     return {"message": "Hello, World!"}

@@ -4,6 +4,10 @@ import time
 import threading
 from node import Node
 import json
+import uuid
+
+
+id = uuid.uuid4()
 
 
 runjson = {
@@ -24,7 +28,6 @@ startjson = {
 nodes = {}
 def send_periodic(ws):
     while True:
-        ws.send("RETURN")
         time.sleep(1)  # Sleep for 1 second between messages
 
 def on_message(ws, message):
@@ -68,11 +71,9 @@ def on_open(ws):
     # Start a separate thread to send messages periodically
     threading.Thread(target=send_periodic, args=(ws,)).start()
 
-
-
 if __name__ == "__main__":
 
-    
-    ws = websocket.WebSocketApp("ws://127.0.0.1:8000/abcdefg/ws",on_open=on_open,on_message=on_message,on_error=on_error,on_close=on_close)
-    ws.run_forever()
+    ws_manager = websocket.WebSocketApp(f"ws://127.0.0.1:8000/containermanagement/{id}",on_open=on_open,on_message=on_message,on_error=on_error,on_close=on_close)
+
+    ws_manager.run_forever()
         
