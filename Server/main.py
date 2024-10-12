@@ -81,3 +81,10 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
 @app.get("/")
 async def read_root():
     return {"message": "Hello, World!"}
+
+class CodeCellRequest(BaseModel):
+    code: str
+
+@app.post("/run-code-cell")
+async def run_code_cell(request: CodeCellRequest):
+    return {"result": "Not implemented yet. Output of " + request.code + "will be shown here."}
