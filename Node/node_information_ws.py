@@ -1,41 +1,22 @@
-import websocket
-from websocket import WebSocketApp
+import docker
+import random
+import json
 import time
 import threading
-from node import Node
-import json
-import uuid
+import websocket
+from websocket import WebSocketApp
+import docker
 import random
 
-
-id = uuid.uuid4()
-
-
-runjson = {
-    "operation": "RUN",
-    "container_id": "",
-    "code_lines": [
-    ]
-}
-stopjson = {
-    "operation": "STOP",
-    "container_id": "",
-}
-startjson = {
-    "operation": "START",
-    "container_id": "",
-}
-
-import docker
-
-# Generate a unique identifier for the client session
-client_id = str(uuid.uuid4())
-
-# Docker client instance to interact with Docker containers
+# Initialize Docker client to interact with the Docker engine
 docker_client = docker.from_env()
-# Constants
-CPU_POWER_CONSTANT = 0.1  # Power consumption multiplier for CPU usage (Watts per CPU usage unit)
-RANDOM_VARIANCE = 5  # Add or subtract up to 5W of random variation
+
+
+def get_running_containers():
+    """
+    Fetch a list of currently running containers using the Docker client.
+    """
+    return docker_client.containers.list()
 
 def mock_cpu_usage():
     """
@@ -49,33 +30,77 @@ def mock_memory_usage():
     """
     return random.randint(500, 4000) * 1024 * 1024  # Random memory usage between 500MB to 4GB
 
-def mock_container_stats():
+
+
+# Constants
+CPU_POWER_CONSTANT = 20  # Example constant for power consumption per CPU usage
+RANDOM_VARIANCE = 0.5  # A random variance factor for power consumption
+
+def get_running_containers():
+    """Fetch real running containers from Docker."""
+    client = docker.from_env()
+    return client.containers.list()  # List of running containers
+
+def get_container_stats():
     """
-    Create a list of mocked container stats, including CPU and memory usage.
+    Fetch stats for each running container and calculate total power consumption, 
+    total CPU usage percentage, and total memory usage.
+    Returns a dictionary containing total stats.
     """
-    container_stats = []
-    
-    # Mock stats for 5 containers
-    for i in range(5):
-        cpu_usage = mock_cpu_usage()
-        memory_usage = mock_memory_usage()
+    total_stats = {
+        "total_cpu_usage_percent": 0,
+        "total_memory_usage_mb": 0,
+        "total_power_consumption_watts": 0
+    }
+
+    containers = get_running_containers()  # Fetch running containers
+
+    for container in containers:
+        # Fetch real-time stats from Docker
+        stats = container.stats(stream=False)  # Get stats without streaming
+
+        # Extract CPU and memory usage
+        cpu_usage = stats["cpu_stats"]["cpu_usage"]["total_usage"]
+        memory_usage = stats["memory_stats"]["usage"]
+
+        # Convert CPU usage to percentage (if you need it as a percentage)
+        cpu_percentage = (cpu_usage / stats["cpu_stats"]["system_cpu_usage"]) * 100.0 if stats["cpu_stats"]["system_cpu_usage"] > 0 else 0
         
-        container_stats.append({
-            "id": f"container_{i}",
-            "cpu_usage": cpu_usage,
-            "memory_usage": memory_usage
-        })
-    
-    return container_stats
+        # Calculate estimated power consumption
+        estimated_power = (cpu_percentage * CPU_POWER_CONSTANT) + random.uniform(-RANDOM_VARIANCE, RANDOM_VARIANCE)
+
+        # Update total stats
+        total_stats["total_cpu_usage_percent"] += cpu_percentage
+        total_stats["total_memory_usage_mb"] += memory_usage / (1024 * 1024)  # Convert bytes to MB
+        total_stats["total_power_consumption_watts"] += estimated_power
+
+    # If you want to get average values, you can divide by the number of containers
+    container_count = len(containers)
+    if container_count > 0:
+        total_stats["average_cpu_usage_percent"] = total_stats["total_cpu_usage_percent"] / container_count
+        total_stats["average_memory_usage_mb"] = total_stats["total_memory_usage_mb"] / container_count
+        total_stats["average_power_consumption_watts"] = total_stats["total_power_consumption_watts"] / container_count
+    else:
+        total_stats["average_cpu_usage_percent"] = 0
+        total_stats["average_memory_usage_mb"] = 0
+        total_stats["average_power_consumption_watts"] = 0
+
+    return total_stats
+
 
 def send_periodic(ws):
     """
-    Periodically collect Docker container information and send it over WebSocket.
+    Periodically send mocked container stats over WebSocket.
     """
     while True:
-        container_info = get_container_info()
-        ws.send(json.dumps(container_info))  # Send container info as JSON
-        time.sleep(5)  # Send updates every 5 seconds
+        # Get stats for all running containers
+        container_stats = get_container_stats()
+
+        # Convert to JSON and send over WebSocket
+        ws.send(json.dumps(container_stats))
+        print(f"Sent container stats: {json.dumps(container_stats, indent=2)}")
+        
+        time.sleep(1)  # Send updates every 5 seconds
 
 
 def on_error(ws, error):
@@ -86,12 +111,17 @@ def on_close(ws, close_status_code, close_msg):
 
 def on_open(ws):
     print("Connection opened")
-    # Start a separate thread to send messages periodically
+    # Start sending container stats periodically
     threading.Thread(target=send_periodic, args=(ws,)).start()
 
 if __name__ == "__main__":
+    # Initialize WebSocket connection to the server
+    ws_information = websocket.WebSocketApp(
+        "ws://127.0.0.1:8000/containerinfo/fake_client_id",
+        on_open=on_open,
+        on_error=on_error,
+        on_close=on_close
+    )
 
-    ws_information = websocket.WebSocketApp(f"ws://127.0.0.1:8000/containerinfo/{id}",on_open=on_open,on_error=on_error,on_close=on_close)
-
+    # Run the WebSocket connection
     ws_information.run_forever()
-        
