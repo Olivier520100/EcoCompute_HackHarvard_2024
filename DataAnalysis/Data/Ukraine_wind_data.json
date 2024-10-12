@@ -1,0 +1,6466 @@
+{
+    "dailyPrices": [
+        {
+            "priceEuroPerMwh": 1344.9798090909092,
+            "countryName": "Ukraine",
+            "date": "2024-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 677.7504166666666,
+            "countryName": "Ukraine",
+            "date": "2024-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 896.675,
+            "countryName": "Ukraine",
+            "date": "2024-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 884.6808416666665,
+            "countryName": "Ukraine",
+            "date": "2024-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 984.2241666666666,
+            "countryName": "Ukraine",
+            "date": "2024-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1062.4721708333334,
+            "countryName": "Ukraine",
+            "date": "2024-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 952.9658333333334,
+            "countryName": "Ukraine",
+            "date": "2024-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 818.8934166666667,
+            "countryName": "Ukraine",
+            "date": "2024-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 628.4991666666667,
+            "countryName": "Ukraine",
+            "date": "2024-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 726.3429166666666,
+            "countryName": "Ukraine",
+            "date": "2024-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 827.0154166666666,
+            "countryName": "Ukraine",
+            "date": "2024-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 833.16375,
+            "countryName": "Ukraine",
+            "date": "2024-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 790.6291666666666,
+            "countryName": "Ukraine",
+            "date": "2024-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 715.3120833333334,
+            "countryName": "Ukraine",
+            "date": "2024-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 671.3825,
+            "countryName": "Ukraine",
+            "date": "2024-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 704.0760041666667,
+            "countryName": "Ukraine",
+            "date": "2024-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 632.4129166666667,
+            "countryName": "Ukraine",
+            "date": "2024-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 433.9741666666667,
+            "countryName": "Ukraine",
+            "date": "2024-03-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 752.8866666666667,
+            "countryName": "Ukraine",
+            "date": "2024-02-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 856.6333333333333,
+            "countryName": "Ukraine",
+            "date": "2024-02-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 961.9097208333333,
+            "countryName": "Ukraine",
+            "date": "2024-02-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 943.5366666666666,
+            "countryName": "Ukraine",
+            "date": "2024-02-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 803.7783333333334,
+            "countryName": "Ukraine",
+            "date": "2024-02-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 875.8502333333333,
+            "countryName": "Ukraine",
+            "date": "2024-02-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 809.4616666666666,
+            "countryName": "Ukraine",
+            "date": "2024-02-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 866.76,
+            "countryName": "Ukraine",
+            "date": "2024-02-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 934.2479041666667,
+            "countryName": "Ukraine",
+            "date": "2024-02-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1031.818725,
+            "countryName": "Ukraine",
+            "date": "2024-02-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 999.7813874999999,
+            "countryName": "Ukraine",
+            "date": "2024-02-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 910.1240916666667,
+            "countryName": "Ukraine",
+            "date": "2024-02-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 905.8975,
+            "countryName": "Ukraine",
+            "date": "2024-02-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 997.1035041666668,
+            "countryName": "Ukraine",
+            "date": "2024-02-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 933.255,
+            "countryName": "Ukraine",
+            "date": "2024-02-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 981.4729166666666,
+            "countryName": "Ukraine",
+            "date": "2024-02-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1149.0576250000001,
+            "countryName": "Ukraine",
+            "date": "2024-02-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 988.9904166666666,
+            "countryName": "Ukraine",
+            "date": "2024-02-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 894.1947416666666,
+            "countryName": "Ukraine",
+            "date": "2024-02-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1074.265475,
+            "countryName": "Ukraine",
+            "date": "2024-02-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1181.2609416666667,
+            "countryName": "Ukraine",
+            "date": "2024-02-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1346.4509,
+            "countryName": "Ukraine",
+            "date": "2024-02-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1066.610025,
+            "countryName": "Ukraine",
+            "date": "2024-02-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1029.6602208333334,
+            "countryName": "Ukraine",
+            "date": "2024-02-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 910.5123666666667,
+            "countryName": "Ukraine",
+            "date": "2024-02-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 706.6191666666666,
+            "countryName": "Ukraine",
+            "date": "2024-02-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 992.0684583333333,
+            "countryName": "Ukraine",
+            "date": "2024-02-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1012.3695833333334,
+            "countryName": "Ukraine",
+            "date": "2024-02-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 908.88125,
+            "countryName": "Ukraine",
+            "date": "2024-02-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1045.0147791666666,
+            "countryName": "Ukraine",
+            "date": "2024-01-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1216.3625,
+            "countryName": "Ukraine",
+            "date": "2024-01-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1171.8161458333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 930.5166666666667,
+            "countryName": "Ukraine",
+            "date": "2024-01-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1215.3475083333333,
+            "countryName": "Ukraine",
+            "date": "2024-01-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1167.0526083333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1143.1867416666666,
+            "countryName": "Ukraine",
+            "date": "2024-01-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1120.5387875000001,
+            "countryName": "Ukraine",
+            "date": "2024-01-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1212.6419833333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1034.91485,
+            "countryName": "Ukraine",
+            "date": "2024-01-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 908.88125,
+            "countryName": "Ukraine",
+            "date": "2024-01-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1025.6722000000002,
+            "countryName": "Ukraine",
+            "date": "2024-01-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1294.3077374999998,
+            "countryName": "Ukraine",
+            "date": "2024-01-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1144.8833458333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1412.0614958333333,
+            "countryName": "Ukraine",
+            "date": "2024-01-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1411.437620833333,
+            "countryName": "Ukraine",
+            "date": "2024-01-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1214.6292125,
+            "countryName": "Ukraine",
+            "date": "2024-01-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1084.9656416666667,
+            "countryName": "Ukraine",
+            "date": "2024-01-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1234.4632708333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1444.8290124999999,
+            "countryName": "Ukraine",
+            "date": "2024-01-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1531.8236666666667,
+            "countryName": "Ukraine",
+            "date": "2024-01-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1402.52215,
+            "countryName": "Ukraine",
+            "date": "2024-01-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1218.5711208333335,
+            "countryName": "Ukraine",
+            "date": "2024-01-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1265.354125,
+            "countryName": "Ukraine",
+            "date": "2024-01-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 666.2545833333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 424.5966666666667,
+            "countryName": "Ukraine",
+            "date": "2024-01-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 594.0375,
+            "countryName": "Ukraine",
+            "date": "2024-01-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 565.2204166666667,
+            "countryName": "Ukraine",
+            "date": "2024-01-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 742.0710250000001,
+            "countryName": "Ukraine",
+            "date": "2024-01-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 519.8184625,
+            "countryName": "Ukraine",
+            "date": "2024-01-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 85.89002083333334,
+            "countryName": "Ukraine",
+            "date": "2024-01-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 464.34125,
+            "countryName": "Ukraine",
+            "date": "2023-12-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 711.6566666666666,
+            "countryName": "Ukraine",
+            "date": "2023-12-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 873.9545833333334,
+            "countryName": "Ukraine",
+            "date": "2023-12-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 998.8458333333334,
+            "countryName": "Ukraine",
+            "date": "2023-12-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 991.6715291666667,
+            "countryName": "Ukraine",
+            "date": "2023-12-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 793.315575,
+            "countryName": "Ukraine",
+            "date": "2023-12-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 960.0364166666666,
+            "countryName": "Ukraine",
+            "date": "2023-12-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 970.5164833333333,
+            "countryName": "Ukraine",
+            "date": "2023-12-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1052.9643416666668,
+            "countryName": "Ukraine",
+            "date": "2023-12-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1346.7052291666666,
+            "countryName": "Ukraine",
+            "date": "2023-12-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1254.89085,
+            "countryName": "Ukraine",
+            "date": "2023-12-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1083.7385583333332,
+            "countryName": "Ukraine",
+            "date": "2023-12-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1093.1245833333335,
+            "countryName": "Ukraine",
+            "date": "2023-12-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1251.5135291666666,
+            "countryName": "Ukraine",
+            "date": "2023-12-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1042.1941666666667,
+            "countryName": "Ukraine",
+            "date": "2023-12-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1108.8972541666667,
+            "countryName": "Ukraine",
+            "date": "2023-12-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1237.3501458333335,
+            "countryName": "Ukraine",
+            "date": "2023-12-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1411.1174166666667,
+            "countryName": "Ukraine",
+            "date": "2023-12-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1313.4027041666666,
+            "countryName": "Ukraine",
+            "date": "2023-12-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1314.3742958333332,
+            "countryName": "Ukraine",
+            "date": "2023-12-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1428.0330833333333,
+            "countryName": "Ukraine",
+            "date": "2023-12-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1163.3183999999999,
+            "countryName": "Ukraine",
+            "date": "2023-12-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1387.3302125,
+            "countryName": "Ukraine",
+            "date": "2023-12-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1370.7175708333334,
+            "countryName": "Ukraine",
+            "date": "2023-12-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1493.5785791666667,
+            "countryName": "Ukraine",
+            "date": "2023-12-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1427.4138583333336,
+            "countryName": "Ukraine",
+            "date": "2023-12-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1295.2696416666665,
+            "countryName": "Ukraine",
+            "date": "2023-12-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1136.119,
+            "countryName": "Ukraine",
+            "date": "2023-12-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 881.3170833333334,
+            "countryName": "Ukraine",
+            "date": "2023-12-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1069.3191666666667,
+            "countryName": "Ukraine",
+            "date": "2023-12-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1135.7250416666668,
+            "countryName": "Ukraine",
+            "date": "2023-12-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1148.9542916666667,
+            "countryName": "Ukraine",
+            "date": "2023-11-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1397.35445,
+            "countryName": "Ukraine",
+            "date": "2023-11-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1359.2188958333331,
+            "countryName": "Ukraine",
+            "date": "2023-11-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1240.3934416666668,
+            "countryName": "Ukraine",
+            "date": "2023-11-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1023.8271833333332,
+            "countryName": "Ukraine",
+            "date": "2023-11-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1211.8253916666667,
+            "countryName": "Ukraine",
+            "date": "2023-11-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1222.5637916666667,
+            "countryName": "Ukraine",
+            "date": "2023-11-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1345.3613173913043,
+            "countryName": "Ukraine",
+            "date": "2023-11-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1393.5666375,
+            "countryName": "Ukraine",
+            "date": "2023-11-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1268.1043416666666,
+            "countryName": "Ukraine",
+            "date": "2023-11-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1197.3316,
+            "countryName": "Ukraine",
+            "date": "2023-11-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1008.7530458333333,
+            "countryName": "Ukraine",
+            "date": "2023-11-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1246.9924375,
+            "countryName": "Ukraine",
+            "date": "2023-11-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1404.1474541666666,
+            "countryName": "Ukraine",
+            "date": "2023-11-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1474.1021833333332,
+            "countryName": "Ukraine",
+            "date": "2023-11-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1414.926025,
+            "countryName": "Ukraine",
+            "date": "2023-11-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1314.7121958333332,
+            "countryName": "Ukraine",
+            "date": "2023-11-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1344.4329291666668,
+            "countryName": "Ukraine",
+            "date": "2023-11-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1177.28235,
+            "countryName": "Ukraine",
+            "date": "2023-11-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1312.5095166666667,
+            "countryName": "Ukraine",
+            "date": "2023-11-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1326.6918875,
+            "countryName": "Ukraine",
+            "date": "2023-11-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1262.1125583333333,
+            "countryName": "Ukraine",
+            "date": "2023-11-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1488.7327624999998,
+            "countryName": "Ukraine",
+            "date": "2023-11-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1302.0507624999998,
+            "countryName": "Ukraine",
+            "date": "2023-11-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1114.4239083333332,
+            "countryName": "Ukraine",
+            "date": "2023-11-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 822.31375,
+            "countryName": "Ukraine",
+            "date": "2023-11-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 912.9142208333333,
+            "countryName": "Ukraine",
+            "date": "2023-11-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1252.9397875000002,
+            "countryName": "Ukraine",
+            "date": "2023-11-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1210.5454791666666,
+            "countryName": "Ukraine",
+            "date": "2023-11-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1415.1534875000002,
+            "countryName": "Ukraine",
+            "date": "2023-11-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 901.8591041666668,
+            "countryName": "Ukraine",
+            "date": "2023-10-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 853.4305166666667,
+            "countryName": "Ukraine",
+            "date": "2023-10-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 764.0944583333333,
+            "countryName": "Ukraine",
+            "date": "2023-10-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 866.33375,
+            "countryName": "Ukraine",
+            "date": "2023-10-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1228.8881791666665,
+            "countryName": "Ukraine",
+            "date": "2023-10-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1376.6385708333335,
+            "countryName": "Ukraine",
+            "date": "2023-10-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1421.5291541666666,
+            "countryName": "Ukraine",
+            "date": "2023-10-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1424.7656833333333,
+            "countryName": "Ukraine",
+            "date": "2023-10-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1152.7406833333334,
+            "countryName": "Ukraine",
+            "date": "2023-10-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 961.0565750000001,
+            "countryName": "Ukraine",
+            "date": "2023-10-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1110.8063375,
+            "countryName": "Ukraine",
+            "date": "2023-10-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1292.8119875,
+            "countryName": "Ukraine",
+            "date": "2023-10-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1195.3915166666668,
+            "countryName": "Ukraine",
+            "date": "2023-10-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1300.4335958333334,
+            "countryName": "Ukraine",
+            "date": "2023-10-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1203.936925,
+            "countryName": "Ukraine",
+            "date": "2023-10-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1076.4294041666667,
+            "countryName": "Ukraine",
+            "date": "2023-10-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 866.1269541666667,
+            "countryName": "Ukraine",
+            "date": "2023-10-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 927.0419541666666,
+            "countryName": "Ukraine",
+            "date": "2023-10-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1499.6742124999998,
+            "countryName": "Ukraine",
+            "date": "2023-10-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1151.2869125,
+            "countryName": "Ukraine",
+            "date": "2023-10-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1279.6741875,
+            "countryName": "Ukraine",
+            "date": "2023-10-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1369.2873083333332,
+            "countryName": "Ukraine",
+            "date": "2023-10-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1387.5846708333333,
+            "countryName": "Ukraine",
+            "date": "2023-10-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1302.7154541666666,
+            "countryName": "Ukraine",
+            "date": "2023-10-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 938.1603625,
+            "countryName": "Ukraine",
+            "date": "2023-10-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1238.3982041666666,
+            "countryName": "Ukraine",
+            "date": "2023-10-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1305.0777833333334,
+            "countryName": "Ukraine",
+            "date": "2023-10-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1156.3866708333333,
+            "countryName": "Ukraine",
+            "date": "2023-10-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1192.7943624999998,
+            "countryName": "Ukraine",
+            "date": "2023-10-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1211.1327999999999,
+            "countryName": "Ukraine",
+            "date": "2023-10-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1146.4669291666667,
+            "countryName": "Ukraine",
+            "date": "2023-10-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1356.1759875000002,
+            "countryName": "Ukraine",
+            "date": "2023-09-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1305.7852291666668,
+            "countryName": "Ukraine",
+            "date": "2023-09-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1214.7578625,
+            "countryName": "Ukraine",
+            "date": "2023-09-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1004.7380589743591,
+            "countryName": "Ukraine",
+            "date": "2023-09-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1055.7516291666666,
+            "countryName": "Ukraine",
+            "date": "2023-09-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1135.3490375000001,
+            "countryName": "Ukraine",
+            "date": "2023-09-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1216.626775,
+            "countryName": "Ukraine",
+            "date": "2023-09-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1269.9683458333334,
+            "countryName": "Ukraine",
+            "date": "2023-09-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1306.1838375,
+            "countryName": "Ukraine",
+            "date": "2023-09-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1305.2553875,
+            "countryName": "Ukraine",
+            "date": "2023-09-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1333.9870916666666,
+            "countryName": "Ukraine",
+            "date": "2023-09-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1305.2768291666666,
+            "countryName": "Ukraine",
+            "date": "2023-09-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1158.115825,
+            "countryName": "Ukraine",
+            "date": "2023-09-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 653.0148708333332,
+            "countryName": "Ukraine",
+            "date": "2023-09-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 828.289,
+            "countryName": "Ukraine",
+            "date": "2023-09-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1154.1934208333332,
+            "countryName": "Ukraine",
+            "date": "2023-09-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1129.6693208333331,
+            "countryName": "Ukraine",
+            "date": "2023-09-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1191.2184,
+            "countryName": "Ukraine",
+            "date": "2023-09-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1269.9259791666666,
+            "countryName": "Ukraine",
+            "date": "2023-09-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1238.5578541666666,
+            "countryName": "Ukraine",
+            "date": "2023-09-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 942.6030499999999,
+            "countryName": "Ukraine",
+            "date": "2023-09-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1089.2692166666666,
+            "countryName": "Ukraine",
+            "date": "2023-09-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1273.2006125,
+            "countryName": "Ukraine",
+            "date": "2023-09-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1292.347375,
+            "countryName": "Ukraine",
+            "date": "2023-09-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1267.1411458333334,
+            "countryName": "Ukraine",
+            "date": "2023-09-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1204.0133916666668,
+            "countryName": "Ukraine",
+            "date": "2023-09-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1051.8265125,
+            "countryName": "Ukraine",
+            "date": "2023-09-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 980.8211416666667,
+            "countryName": "Ukraine",
+            "date": "2023-09-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 974.3591916666667,
+            "countryName": "Ukraine",
+            "date": "2023-09-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1052.464725,
+            "countryName": "Ukraine",
+            "date": "2023-09-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 995.9953833333335,
+            "countryName": "Ukraine",
+            "date": "2023-08-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1292.3456958333334,
+            "countryName": "Ukraine",
+            "date": "2023-08-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1411.8008375,
+            "countryName": "Ukraine",
+            "date": "2023-08-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1406.118925,
+            "countryName": "Ukraine",
+            "date": "2023-08-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1245.4567749999999,
+            "countryName": "Ukraine",
+            "date": "2023-08-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1245.7891208333333,
+            "countryName": "Ukraine",
+            "date": "2023-08-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1309.1609999999998,
+            "countryName": "Ukraine",
+            "date": "2023-08-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1324.3980166666668,
+            "countryName": "Ukraine",
+            "date": "2023-08-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1374.9061875000002,
+            "countryName": "Ukraine",
+            "date": "2023-08-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1356.6995,
+            "countryName": "Ukraine",
+            "date": "2023-08-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1350.859875,
+            "countryName": "Ukraine",
+            "date": "2023-08-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1164.4094708333334,
+            "countryName": "Ukraine",
+            "date": "2023-08-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1163.0848666666666,
+            "countryName": "Ukraine",
+            "date": "2023-08-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1271.8742,
+            "countryName": "Ukraine",
+            "date": "2023-08-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1264.3998416666668,
+            "countryName": "Ukraine",
+            "date": "2023-08-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1248.0792458333335,
+            "countryName": "Ukraine",
+            "date": "2023-08-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1209.3389333333334,
+            "countryName": "Ukraine",
+            "date": "2023-08-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1147.3641208333333,
+            "countryName": "Ukraine",
+            "date": "2023-08-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1155.7206875,
+            "countryName": "Ukraine",
+            "date": "2023-08-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1035.2960208333334,
+            "countryName": "Ukraine",
+            "date": "2023-08-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1356.7374750000001,
+            "countryName": "Ukraine",
+            "date": "2023-08-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1317.3422875,
+            "countryName": "Ukraine",
+            "date": "2023-08-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1128.6356,
+            "countryName": "Ukraine",
+            "date": "2023-08-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1233.9636541666666,
+            "countryName": "Ukraine",
+            "date": "2023-08-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1242.6870541666667,
+            "countryName": "Ukraine",
+            "date": "2023-08-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1112.4619958333333,
+            "countryName": "Ukraine",
+            "date": "2023-08-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1074.46,
+            "countryName": "Ukraine",
+            "date": "2023-08-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1260.7905375,
+            "countryName": "Ukraine",
+            "date": "2023-08-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1222.5696041666667,
+            "countryName": "Ukraine",
+            "date": "2023-08-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1328.9182041666668,
+            "countryName": "Ukraine",
+            "date": "2023-08-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1195.8950083333334,
+            "countryName": "Ukraine",
+            "date": "2023-08-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1158.4688375,
+            "countryName": "Ukraine",
+            "date": "2023-07-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 803.2326041666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1245.0868416666667,
+            "countryName": "Ukraine",
+            "date": "2023-07-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1234.8031083333335,
+            "countryName": "Ukraine",
+            "date": "2023-07-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1323.5440958333331,
+            "countryName": "Ukraine",
+            "date": "2023-07-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1233.3693583333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1181.8037,
+            "countryName": "Ukraine",
+            "date": "2023-07-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1193.0050333333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 877.9291708333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 917.9199458333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1086.8806666666667,
+            "countryName": "Ukraine",
+            "date": "2023-07-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1284.6393541666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1076.0902125000002,
+            "countryName": "Ukraine",
+            "date": "2023-07-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1012.5297499999999,
+            "countryName": "Ukraine",
+            "date": "2023-07-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1131.3877541666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 665.3477041666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 978.2269583333333,
+            "countryName": "Ukraine",
+            "date": "2023-07-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1203.3747916666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1194.5901666666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1130.3220000000001,
+            "countryName": "Ukraine",
+            "date": "2023-07-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1091.0282083333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1191.2925416666667,
+            "countryName": "Ukraine",
+            "date": "2023-07-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1019.8121666666667,
+            "countryName": "Ukraine",
+            "date": "2023-07-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 701.3601458333333,
+            "countryName": "Ukraine",
+            "date": "2023-07-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 814.3866625,
+            "countryName": "Ukraine",
+            "date": "2023-07-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1044.0887833333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1241.1056666666668,
+            "countryName": "Ukraine",
+            "date": "2023-07-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1257.2825,
+            "countryName": "Ukraine",
+            "date": "2023-07-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1168.8892291666666,
+            "countryName": "Ukraine",
+            "date": "2023-07-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 913.1017708333334,
+            "countryName": "Ukraine",
+            "date": "2023-07-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 910.1625833333333,
+            "countryName": "Ukraine",
+            "date": "2023-07-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 890.5851791666666,
+            "countryName": "Ukraine",
+            "date": "2023-06-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 857.6075083333334,
+            "countryName": "Ukraine",
+            "date": "2023-06-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 927.299125,
+            "countryName": "Ukraine",
+            "date": "2023-06-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 906.3098,
+            "countryName": "Ukraine",
+            "date": "2023-06-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 875.1039083333333,
+            "countryName": "Ukraine",
+            "date": "2023-06-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 886.3000749999999,
+            "countryName": "Ukraine",
+            "date": "2023-06-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 840.7366625,
+            "countryName": "Ukraine",
+            "date": "2023-06-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 904.9748625000001,
+            "countryName": "Ukraine",
+            "date": "2023-06-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 903.71975,
+            "countryName": "Ukraine",
+            "date": "2023-06-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 892.2448416666667,
+            "countryName": "Ukraine",
+            "date": "2023-06-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 878.7714666666666,
+            "countryName": "Ukraine",
+            "date": "2023-06-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 858.190825,
+            "countryName": "Ukraine",
+            "date": "2023-06-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 858.1540125,
+            "countryName": "Ukraine",
+            "date": "2023-06-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 858.1816541666667,
+            "countryName": "Ukraine",
+            "date": "2023-06-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 806.1587458333333,
+            "countryName": "Ukraine",
+            "date": "2023-06-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 831.2811458333334,
+            "countryName": "Ukraine",
+            "date": "2023-06-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 844.8674125,
+            "countryName": "Ukraine",
+            "date": "2023-06-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1033.3333333333335,
+            "countryName": "Ukraine",
+            "date": "2023-06-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1015.5898375,
+            "countryName": "Ukraine",
+            "date": "2023-06-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 922.0109125,
+            "countryName": "Ukraine",
+            "date": "2023-06-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 895.1021375,
+            "countryName": "Ukraine",
+            "date": "2023-06-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 931.6411916666666,
+            "countryName": "Ukraine",
+            "date": "2023-06-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 945.7035666666666,
+            "countryName": "Ukraine",
+            "date": "2023-06-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 928.2780791666668,
+            "countryName": "Ukraine",
+            "date": "2023-06-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 918.2032083333332,
+            "countryName": "Ukraine",
+            "date": "2023-06-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 928.24075,
+            "countryName": "Ukraine",
+            "date": "2023-06-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 865.5953041666667,
+            "countryName": "Ukraine",
+            "date": "2023-06-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 907.8355166666666,
+            "countryName": "Ukraine",
+            "date": "2023-06-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 886.5721,
+            "countryName": "Ukraine",
+            "date": "2023-06-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 909.6780791666667,
+            "countryName": "Ukraine",
+            "date": "2023-06-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 915.2212666666666,
+            "countryName": "Ukraine",
+            "date": "2023-05-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 920.7527,
+            "countryName": "Ukraine",
+            "date": "2023-05-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 899.1562916666668,
+            "countryName": "Ukraine",
+            "date": "2023-05-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 867.8546875,
+            "countryName": "Ukraine",
+            "date": "2023-05-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 909.9687041666667,
+            "countryName": "Ukraine",
+            "date": "2023-05-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 927.9015583333332,
+            "countryName": "Ukraine",
+            "date": "2023-05-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 903.1076291666666,
+            "countryName": "Ukraine",
+            "date": "2023-05-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 914.0355166666666,
+            "countryName": "Ukraine",
+            "date": "2023-05-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 927.7699375,
+            "countryName": "Ukraine",
+            "date": "2023-05-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 909.5402583333333,
+            "countryName": "Ukraine",
+            "date": "2023-05-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 851.6424625,
+            "countryName": "Ukraine",
+            "date": "2023-05-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 863.1428166666667,
+            "countryName": "Ukraine",
+            "date": "2023-05-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 899.1742458333334,
+            "countryName": "Ukraine",
+            "date": "2023-05-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 898.0079999999999,
+            "countryName": "Ukraine",
+            "date": "2023-05-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 924.5323749999999,
+            "countryName": "Ukraine",
+            "date": "2023-05-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 928.0224583333332,
+            "countryName": "Ukraine",
+            "date": "2023-05-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 861.2377375000001,
+            "countryName": "Ukraine",
+            "date": "2023-05-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 837.2231999999999,
+            "countryName": "Ukraine",
+            "date": "2023-05-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 837.7330208333334,
+            "countryName": "Ukraine",
+            "date": "2023-05-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 870.7060416666666,
+            "countryName": "Ukraine",
+            "date": "2023-05-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 878.0707375,
+            "countryName": "Ukraine",
+            "date": "2023-05-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 882.3270375,
+            "countryName": "Ukraine",
+            "date": "2023-05-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 901.1094208333333,
+            "countryName": "Ukraine",
+            "date": "2023-05-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 900.2968333333332,
+            "countryName": "Ukraine",
+            "date": "2023-05-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 843.3525458333332,
+            "countryName": "Ukraine",
+            "date": "2023-05-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 818.4889958333333,
+            "countryName": "Ukraine",
+            "date": "2023-05-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 861.6886583333334,
+            "countryName": "Ukraine",
+            "date": "2023-05-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 899.8544375,
+            "countryName": "Ukraine",
+            "date": "2023-05-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 841.6669208333333,
+            "countryName": "Ukraine",
+            "date": "2023-05-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 843.4098958333334,
+            "countryName": "Ukraine",
+            "date": "2023-05-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 819.1830083333334,
+            "countryName": "Ukraine",
+            "date": "2023-05-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 788.0845833333334,
+            "countryName": "Ukraine",
+            "date": "2023-04-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 792.47935,
+            "countryName": "Ukraine",
+            "date": "2023-04-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 778.4880166666667,
+            "countryName": "Ukraine",
+            "date": "2023-04-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 768.1169666666666,
+            "countryName": "Ukraine",
+            "date": "2023-04-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 707.1016041666667,
+            "countryName": "Ukraine",
+            "date": "2023-04-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 749.239775,
+            "countryName": "Ukraine",
+            "date": "2023-04-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 783.6864583333333,
+            "countryName": "Ukraine",
+            "date": "2023-04-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 739.2108875,
+            "countryName": "Ukraine",
+            "date": "2023-04-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 735.0875,
+            "countryName": "Ukraine",
+            "date": "2023-04-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 848.9622800000001,
+            "countryName": "Ukraine",
+            "date": "2023-04-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 940.6643875000001,
+            "countryName": "Ukraine",
+            "date": "2023-04-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 940.7292291666666,
+            "countryName": "Ukraine",
+            "date": "2023-04-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 835.7660652173914,
+            "countryName": "Ukraine",
+            "date": "2023-04-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 753.6864666666668,
+            "countryName": "Ukraine",
+            "date": "2023-04-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 693.6488958333333,
+            "countryName": "Ukraine",
+            "date": "2023-04-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 751.9102958333334,
+            "countryName": "Ukraine",
+            "date": "2023-04-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 814.2472916666666,
+            "countryName": "Ukraine",
+            "date": "2023-04-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 805.7352083333334,
+            "countryName": "Ukraine",
+            "date": "2023-04-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 877.1965375000001,
+            "countryName": "Ukraine",
+            "date": "2023-04-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 897.4757041666667,
+            "countryName": "Ukraine",
+            "date": "2023-04-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 892.3448166666667,
+            "countryName": "Ukraine",
+            "date": "2023-04-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 815.0008499999999,
+            "countryName": "Ukraine",
+            "date": "2023-04-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 878.1616708333333,
+            "countryName": "Ukraine",
+            "date": "2023-04-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 926.1340416666667,
+            "countryName": "Ukraine",
+            "date": "2023-04-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 980.2977583333334,
+            "countryName": "Ukraine",
+            "date": "2023-04-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 940.7854166666666,
+            "countryName": "Ukraine",
+            "date": "2023-04-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 945.4741666666666,
+            "countryName": "Ukraine",
+            "date": "2023-04-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 981.8345833333334,
+            "countryName": "Ukraine",
+            "date": "2023-04-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 954.7944458333333,
+            "countryName": "Ukraine",
+            "date": "2023-04-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 990.3252249999999,
+            "countryName": "Ukraine",
+            "date": "2023-04-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 978.0636916666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 958.01625,
+            "countryName": "Ukraine",
+            "date": "2023-03-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 964.5332249999999,
+            "countryName": "Ukraine",
+            "date": "2023-03-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 940.0963125,
+            "countryName": "Ukraine",
+            "date": "2023-03-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 950.8308375000001,
+            "countryName": "Ukraine",
+            "date": "2023-03-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 876.4380708333334,
+            "countryName": "Ukraine",
+            "date": "2023-03-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 926.7451291666665,
+            "countryName": "Ukraine",
+            "date": "2023-03-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 908.7004166666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 928.0625,
+            "countryName": "Ukraine",
+            "date": "2023-03-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 970.0545833333334,
+            "countryName": "Ukraine",
+            "date": "2023-03-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 969.9003583333332,
+            "countryName": "Ukraine",
+            "date": "2023-03-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 967.8716666666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 931.3433333333334,
+            "countryName": "Ukraine",
+            "date": "2023-03-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 917.2641666666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 924.575,
+            "countryName": "Ukraine",
+            "date": "2023-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 928.1270833333334,
+            "countryName": "Ukraine",
+            "date": "2023-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 918.5558333333333,
+            "countryName": "Ukraine",
+            "date": "2023-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 982.0283333333334,
+            "countryName": "Ukraine",
+            "date": "2023-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1000.1116666666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 920.1804916666667,
+            "countryName": "Ukraine",
+            "date": "2023-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1004.5001041666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1004.1456708333333,
+            "countryName": "Ukraine",
+            "date": "2023-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 971.0845583333335,
+            "countryName": "Ukraine",
+            "date": "2023-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 928.1009916666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1015.1271625,
+            "countryName": "Ukraine",
+            "date": "2023-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1020.0185749999999,
+            "countryName": "Ukraine",
+            "date": "2023-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 967.1354166666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1018.2864500000001,
+            "countryName": "Ukraine",
+            "date": "2023-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1023.9429166666666,
+            "countryName": "Ukraine",
+            "date": "2023-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1022.6092708333334,
+            "countryName": "Ukraine",
+            "date": "2023-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1009.8766666666667,
+            "countryName": "Ukraine",
+            "date": "2023-03-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 894.4485541666667,
+            "countryName": "Ukraine",
+            "date": "2023-02-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 797.3330458333334,
+            "countryName": "Ukraine",
+            "date": "2023-02-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 689.3852333333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 689.3852333333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 711.3338791666666,
+            "countryName": "Ukraine",
+            "date": "2023-02-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 781.1161708333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 832.1919,
+            "countryName": "Ukraine",
+            "date": "2023-02-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 877.1677333333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 889.5935666666666,
+            "countryName": "Ukraine",
+            "date": "2023-02-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 837.4909625,
+            "countryName": "Ukraine",
+            "date": "2023-02-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 903.3502041666666,
+            "countryName": "Ukraine",
+            "date": "2023-02-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 993.8463083333334,
+            "countryName": "Ukraine",
+            "date": "2023-02-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1007.6562916666668,
+            "countryName": "Ukraine",
+            "date": "2023-02-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 971.2179875,
+            "countryName": "Ukraine",
+            "date": "2023-02-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 997.2441666666666,
+            "countryName": "Ukraine",
+            "date": "2023-02-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1004.7707083333332,
+            "countryName": "Ukraine",
+            "date": "2023-02-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1002.9597916666667,
+            "countryName": "Ukraine",
+            "date": "2023-02-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1022.438125,
+            "countryName": "Ukraine",
+            "date": "2023-02-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1028.8641666666665,
+            "countryName": "Ukraine",
+            "date": "2023-02-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1022.80625,
+            "countryName": "Ukraine",
+            "date": "2023-02-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1007.1344583333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 932.6595416666665,
+            "countryName": "Ukraine",
+            "date": "2023-02-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 880.5601666666665,
+            "countryName": "Ukraine",
+            "date": "2023-02-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 860.4921875,
+            "countryName": "Ukraine",
+            "date": "2023-02-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 982.0128333333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 990.3789583333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1009.3935833333334,
+            "countryName": "Ukraine",
+            "date": "2023-02-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1010.0445833333333,
+            "countryName": "Ukraine",
+            "date": "2023-02-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1018.2988499999999,
+            "countryName": "Ukraine",
+            "date": "2023-01-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1017.5388333333333,
+            "countryName": "Ukraine",
+            "date": "2023-01-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1014.0616666666666,
+            "countryName": "Ukraine",
+            "date": "2023-01-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1011.4779458333333,
+            "countryName": "Ukraine",
+            "date": "2023-01-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 613.645,
+            "countryName": "Ukraine",
+            "date": "2023-01-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1070.6554545454544,
+            "countryName": "Ukraine",
+            "date": "2023-01-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 620.0,
+            "countryName": "Ukraine",
+            "date": "2023-01-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 1063.0604545454544,
+            "countryName": "Ukraine",
+            "date": "2023-01-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 619.6899999999999,
+            "countryName": "Ukraine",
+            "date": "2023-01-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2023-01-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-12-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-11-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-10-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-09-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-08-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-07-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-06-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-05-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-04-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-03-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-02-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-02-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": null,
+            "countryName": "Ukraine",
+            "date": "2022-02-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 380.03724318181816,
+            "countryName": "Ukraine",
+            "date": "2022-02-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 334.01227708333334,
+            "countryName": "Ukraine",
+            "date": "2022-02-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 729.0205416666666,
+            "countryName": "Ukraine",
+            "date": "2022-02-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 711.6838562500001,
+            "countryName": "Ukraine",
+            "date": "2022-02-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 703.1267583333334,
+            "countryName": "Ukraine",
+            "date": "2022-02-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 703.58626875,
+            "countryName": "Ukraine",
+            "date": "2022-02-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 694.1627854166667,
+            "countryName": "Ukraine",
+            "date": "2022-02-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 712.1428500000001,
+            "countryName": "Ukraine",
+            "date": "2022-02-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 703.8926520833334,
+            "countryName": "Ukraine",
+            "date": "2022-02-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 705.52338125,
+            "countryName": "Ukraine",
+            "date": "2022-02-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 705.8464916666667,
+            "countryName": "Ukraine",
+            "date": "2022-02-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 698.8842145833333,
+            "countryName": "Ukraine",
+            "date": "2022-02-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 712.8258833333334,
+            "countryName": "Ukraine",
+            "date": "2022-02-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 715.4414437500001,
+            "countryName": "Ukraine",
+            "date": "2022-02-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 663.1317208333334,
+            "countryName": "Ukraine",
+            "date": "2022-02-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 728.4420687500001,
+            "countryName": "Ukraine",
+            "date": "2022-02-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 684.3988833333334,
+            "countryName": "Ukraine",
+            "date": "2022-02-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 708.44435625,
+            "countryName": "Ukraine",
+            "date": "2022-02-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 642.2346854166666,
+            "countryName": "Ukraine",
+            "date": "2022-02-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 635.3267229166668,
+            "countryName": "Ukraine",
+            "date": "2022-02-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 629.75860625,
+            "countryName": "Ukraine",
+            "date": "2022-02-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 681.1701041666668,
+            "countryName": "Ukraine",
+            "date": "2022-02-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 715.3591,
+            "countryName": "Ukraine",
+            "date": "2022-02-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 758.984625,
+            "countryName": "Ukraine",
+            "date": "2022-02-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 784.39745625,
+            "countryName": "Ukraine",
+            "date": "2022-02-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 734.24255625,
+            "countryName": "Ukraine",
+            "date": "2022-01-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 696.7007166666666,
+            "countryName": "Ukraine",
+            "date": "2022-01-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 714.1314354166667,
+            "countryName": "Ukraine",
+            "date": "2022-01-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 725.2723187500001,
+            "countryName": "Ukraine",
+            "date": "2022-01-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 742.4833895833334,
+            "countryName": "Ukraine",
+            "date": "2022-01-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 824.11039375,
+            "countryName": "Ukraine",
+            "date": "2022-01-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 735.5822729166666,
+            "countryName": "Ukraine",
+            "date": "2022-01-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 776.3023875,
+            "countryName": "Ukraine",
+            "date": "2022-01-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 781.95233125,
+            "countryName": "Ukraine",
+            "date": "2022-01-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 815.7232791666667,
+            "countryName": "Ukraine",
+            "date": "2022-01-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 830.1570083333335,
+            "countryName": "Ukraine",
+            "date": "2022-01-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 803.5278791666666,
+            "countryName": "Ukraine",
+            "date": "2022-01-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 796.9531020833334,
+            "countryName": "Ukraine",
+            "date": "2022-01-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 806.01026875,
+            "countryName": "Ukraine",
+            "date": "2022-01-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 842.8986541666667,
+            "countryName": "Ukraine",
+            "date": "2022-01-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 782.8008916666668,
+            "countryName": "Ukraine",
+            "date": "2022-01-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 753.5613687499999,
+            "countryName": "Ukraine",
+            "date": "2022-01-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 833.5717229166668,
+            "countryName": "Ukraine",
+            "date": "2022-01-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 866.7448875,
+            "countryName": "Ukraine",
+            "date": "2022-01-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 825.9549583333334,
+            "countryName": "Ukraine",
+            "date": "2022-01-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 799.6547520833334,
+            "countryName": "Ukraine",
+            "date": "2022-01-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 850.0457041666667,
+            "countryName": "Ukraine",
+            "date": "2022-01-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 825.7838125000001,
+            "countryName": "Ukraine",
+            "date": "2022-01-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 834.7980958333333,
+            "countryName": "Ukraine",
+            "date": "2022-01-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 805.1394270833334,
+            "countryName": "Ukraine",
+            "date": "2022-01-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 847.5276645833334,
+            "countryName": "Ukraine",
+            "date": "2022-01-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 789.3331729166666,
+            "countryName": "Ukraine",
+            "date": "2022-01-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 817.0179812499999,
+            "countryName": "Ukraine",
+            "date": "2022-01-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 773.2328708333333,
+            "countryName": "Ukraine",
+            "date": "2022-01-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 768.6134833333334,
+            "countryName": "Ukraine",
+            "date": "2022-01-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 737.4174083333334,
+            "countryName": "Ukraine",
+            "date": "2022-01-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 782.7031770833333,
+            "countryName": "Ukraine",
+            "date": "2021-12-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 789.4777104166666,
+            "countryName": "Ukraine",
+            "date": "2021-12-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 792.931175,
+            "countryName": "Ukraine",
+            "date": "2021-12-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 774.0541770833333,
+            "countryName": "Ukraine",
+            "date": "2021-12-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 758.68489375,
+            "countryName": "Ukraine",
+            "date": "2021-12-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 758.1183041666667,
+            "countryName": "Ukraine",
+            "date": "2021-12-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 744.7055729166667,
+            "countryName": "Ukraine",
+            "date": "2021-12-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 779.65,
+            "countryName": "Ukraine",
+            "date": "2021-12-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 784.4065625,
+            "countryName": "Ukraine",
+            "date": "2021-12-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 780.3416874999999,
+            "countryName": "Ukraine",
+            "date": "2021-12-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 780.1088645833333,
+            "countryName": "Ukraine",
+            "date": "2021-12-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 791.1854875000001,
+            "countryName": "Ukraine",
+            "date": "2021-12-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 726.623725,
+            "countryName": "Ukraine",
+            "date": "2021-12-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 755.40160625,
+            "countryName": "Ukraine",
+            "date": "2021-12-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 757.1995416666667,
+            "countryName": "Ukraine",
+            "date": "2021-12-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 826.7717437499999,
+            "countryName": "Ukraine",
+            "date": "2021-12-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 823.6138125000001,
+            "countryName": "Ukraine",
+            "date": "2021-12-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 824.7670770833334,
+            "countryName": "Ukraine",
+            "date": "2021-12-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 811.0314937500001,
+            "countryName": "Ukraine",
+            "date": "2021-12-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 777.9729645833334,
+            "countryName": "Ukraine",
+            "date": "2021-12-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 719.3963979166667,
+            "countryName": "Ukraine",
+            "date": "2021-12-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 789.6345833333334,
+            "countryName": "Ukraine",
+            "date": "2021-12-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 781.3260666666666,
+            "countryName": "Ukraine",
+            "date": "2021-12-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 783.74916875,
+            "countryName": "Ukraine",
+            "date": "2021-12-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 763.34303125,
+            "countryName": "Ukraine",
+            "date": "2021-12-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 786.7445437499999,
+            "countryName": "Ukraine",
+            "date": "2021-12-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 758.5162020833334,
+            "countryName": "Ukraine",
+            "date": "2021-12-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 663.9842854166666,
+            "countryName": "Ukraine",
+            "date": "2021-12-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 737.3261520833333,
+            "countryName": "Ukraine",
+            "date": "2021-12-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 733.3462041666666,
+            "countryName": "Ukraine",
+            "date": "2021-12-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 754.5396124999999,
+            "countryName": "Ukraine",
+            "date": "2021-12-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 729.6096062500001,
+            "countryName": "Ukraine",
+            "date": "2021-11-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 735.1312229166667,
+            "countryName": "Ukraine",
+            "date": "2021-11-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 656.6895333333333,
+            "countryName": "Ukraine",
+            "date": "2021-11-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 674.06186875,
+            "countryName": "Ukraine",
+            "date": "2021-11-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 750.8147687499999,
+            "countryName": "Ukraine",
+            "date": "2021-11-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 768.4507979166667,
+            "countryName": "Ukraine",
+            "date": "2021-11-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 783.2646,
+            "countryName": "Ukraine",
+            "date": "2021-11-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 784.5762229166667,
+            "countryName": "Ukraine",
+            "date": "2021-11-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 776.9128291666667,
+            "countryName": "Ukraine",
+            "date": "2021-11-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 759.0823395833334,
+            "countryName": "Ukraine",
+            "date": "2021-11-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 788.6922479166667,
+            "countryName": "Ukraine",
+            "date": "2021-11-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 821.2867458333333,
+            "countryName": "Ukraine",
+            "date": "2021-11-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 819.443925,
+            "countryName": "Ukraine",
+            "date": "2021-11-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 797.9974791666667,
+            "countryName": "Ukraine",
+            "date": "2021-11-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 789.9078354166666,
+            "countryName": "Ukraine",
+            "date": "2021-11-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 789.9509770833334,
+            "countryName": "Ukraine",
+            "date": "2021-11-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 771.7784541666667,
+            "countryName": "Ukraine",
+            "date": "2021-11-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 820.5437145833334,
+            "countryName": "Ukraine",
+            "date": "2021-11-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 799.4426604166666,
+            "countryName": "Ukraine",
+            "date": "2021-11-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 807.0959791666667,
+            "countryName": "Ukraine",
+            "date": "2021-11-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 815.6063187499999,
+            "countryName": "Ukraine",
+            "date": "2021-11-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 828.0156833333334,
+            "countryName": "Ukraine",
+            "date": "2021-11-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 817.6897770833334,
+            "countryName": "Ukraine",
+            "date": "2021-11-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 768.7169458333333,
+            "countryName": "Ukraine",
+            "date": "2021-11-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 824.7838687500001,
+            "countryName": "Ukraine",
+            "date": "2021-11-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 801.6154375000001,
+            "countryName": "Ukraine",
+            "date": "2021-11-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 800.1265979166667,
+            "countryName": "Ukraine",
+            "date": "2021-11-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 813.1372979166667,
+            "countryName": "Ukraine",
+            "date": "2021-11-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 832.3040812500001,
+            "countryName": "Ukraine",
+            "date": "2021-11-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 831.2611895833332,
+            "countryName": "Ukraine",
+            "date": "2021-11-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 729.1001729166667,
+            "countryName": "Ukraine",
+            "date": "2021-10-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 771.15541875,
+            "countryName": "Ukraine",
+            "date": "2021-10-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 783.7642166666666,
+            "countryName": "Ukraine",
+            "date": "2021-10-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 785.2788895833332,
+            "countryName": "Ukraine",
+            "date": "2021-10-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 782.4017666666667,
+            "countryName": "Ukraine",
+            "date": "2021-10-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 762.0100958333333,
+            "countryName": "Ukraine",
+            "date": "2021-10-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 774.72351875,
+            "countryName": "Ukraine",
+            "date": "2021-10-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 739.1021937500001,
+            "countryName": "Ukraine",
+            "date": "2021-10-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 732.6076291666667,
+            "countryName": "Ukraine",
+            "date": "2021-10-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 703.0123812500001,
+            "countryName": "Ukraine",
+            "date": "2021-10-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 702.93681875,
+            "countryName": "Ukraine",
+            "date": "2021-10-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 770.3573625000001,
+            "countryName": "Ukraine",
+            "date": "2021-10-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 741.6310833333334,
+            "countryName": "Ukraine",
+            "date": "2021-10-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 755.35936875,
+            "countryName": "Ukraine",
+            "date": "2021-10-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 703.3310354166667,
+            "countryName": "Ukraine",
+            "date": "2021-10-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 721.5445041666667,
+            "countryName": "Ukraine",
+            "date": "2021-10-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 716.6167312499999,
+            "countryName": "Ukraine",
+            "date": "2021-10-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 440.01865,
+            "countryName": "Ukraine",
+            "date": "2021-10-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 793.7016357142858,
+            "countryName": "Ukraine",
+            "date": "2021-10-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 810.302025,
+            "countryName": "Ukraine",
+            "date": "2021-10-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 714.3712979166667,
+            "countryName": "Ukraine",
+            "date": "2021-10-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 683.8494729166666,
+            "countryName": "Ukraine",
+            "date": "2021-10-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 691.1874958333334,
+            "countryName": "Ukraine",
+            "date": "2021-10-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 621.8360395833333,
+            "countryName": "Ukraine",
+            "date": "2021-10-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 625.5118645833334,
+            "countryName": "Ukraine",
+            "date": "2021-10-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 619.6336187500001,
+            "countryName": "Ukraine",
+            "date": "2021-10-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 612.1698520833334,
+            "countryName": "Ukraine",
+            "date": "2021-10-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 630.8148020833333,
+            "countryName": "Ukraine",
+            "date": "2021-10-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 596.18870625,
+            "countryName": "Ukraine",
+            "date": "2021-10-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 568.31234375,
+            "countryName": "Ukraine",
+            "date": "2021-10-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 548.3281291666667,
+            "countryName": "Ukraine",
+            "date": "2021-10-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 588.3584291666667,
+            "countryName": "Ukraine",
+            "date": "2021-09-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 591.5485229166667,
+            "countryName": "Ukraine",
+            "date": "2021-09-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 599.5269541666667,
+            "countryName": "Ukraine",
+            "date": "2021-09-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 594.9761541666668,
+            "countryName": "Ukraine",
+            "date": "2021-09-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 551.23250625,
+            "countryName": "Ukraine",
+            "date": "2021-09-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 546.87739375,
+            "countryName": "Ukraine",
+            "date": "2021-09-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 557.9900541666667,
+            "countryName": "Ukraine",
+            "date": "2021-09-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 670.0162395833332,
+            "countryName": "Ukraine",
+            "date": "2021-09-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 633.4347541666667,
+            "countryName": "Ukraine",
+            "date": "2021-09-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 594.38450625,
+            "countryName": "Ukraine",
+            "date": "2021-09-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 591.7134687500001,
+            "countryName": "Ukraine",
+            "date": "2021-09-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 571.2362895833334,
+            "countryName": "Ukraine",
+            "date": "2021-09-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 597.1860020833334,
+            "countryName": "Ukraine",
+            "date": "2021-09-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 606.7508583333333,
+            "countryName": "Ukraine",
+            "date": "2021-09-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 590.0754416666667,
+            "countryName": "Ukraine",
+            "date": "2021-09-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 591.2293520833333,
+            "countryName": "Ukraine",
+            "date": "2021-09-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 638.6997166666666,
+            "countryName": "Ukraine",
+            "date": "2021-09-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 608.8080958333334,
+            "countryName": "Ukraine",
+            "date": "2021-09-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 536.4330416666667,
+            "countryName": "Ukraine",
+            "date": "2021-09-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 500.8593145833334,
+            "countryName": "Ukraine",
+            "date": "2021-09-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 533.0334395833333,
+            "countryName": "Ukraine",
+            "date": "2021-09-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 596.5300291666666,
+            "countryName": "Ukraine",
+            "date": "2021-09-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 592.8213312500001,
+            "countryName": "Ukraine",
+            "date": "2021-09-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 595.8684375,
+            "countryName": "Ukraine",
+            "date": "2021-09-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 582.2496208333334,
+            "countryName": "Ukraine",
+            "date": "2021-09-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 549.51626875,
+            "countryName": "Ukraine",
+            "date": "2021-09-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 564.3626208333334,
+            "countryName": "Ukraine",
+            "date": "2021-09-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 572.9419999999999,
+            "countryName": "Ukraine",
+            "date": "2021-09-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 555.8953583333333,
+            "countryName": "Ukraine",
+            "date": "2021-09-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 592.5444625,
+            "countryName": "Ukraine",
+            "date": "2021-09-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 574.4068791666666,
+            "countryName": "Ukraine",
+            "date": "2021-08-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 556.6231479166667,
+            "countryName": "Ukraine",
+            "date": "2021-08-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 499.0167520833333,
+            "countryName": "Ukraine",
+            "date": "2021-08-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 556.8522895833333,
+            "countryName": "Ukraine",
+            "date": "2021-08-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 570.65400625,
+            "countryName": "Ukraine",
+            "date": "2021-08-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 568.0094479166667,
+            "countryName": "Ukraine",
+            "date": "2021-08-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 575.0008520833334,
+            "countryName": "Ukraine",
+            "date": "2021-08-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 543.7403229166666,
+            "countryName": "Ukraine",
+            "date": "2021-08-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 520.1506791666667,
+            "countryName": "Ukraine",
+            "date": "2021-08-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 498.02668958333334,
+            "countryName": "Ukraine",
+            "date": "2021-08-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 514.4163895833334,
+            "countryName": "Ukraine",
+            "date": "2021-08-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 551.5780916666668,
+            "countryName": "Ukraine",
+            "date": "2021-08-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 560.5047354166667,
+            "countryName": "Ukraine",
+            "date": "2021-08-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 568.9870458333334,
+            "countryName": "Ukraine",
+            "date": "2021-08-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 595.2380395833334,
+            "countryName": "Ukraine",
+            "date": "2021-08-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 581.2199687499999,
+            "countryName": "Ukraine",
+            "date": "2021-08-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 547.2169083333333,
+            "countryName": "Ukraine",
+            "date": "2021-08-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 550.3099333333334,
+            "countryName": "Ukraine",
+            "date": "2021-08-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 557.0876958333333,
+            "countryName": "Ukraine",
+            "date": "2021-08-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 534.1274166666667,
+            "countryName": "Ukraine",
+            "date": "2021-08-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 571.4257770833334,
+            "countryName": "Ukraine",
+            "date": "2021-08-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 621.5342416666667,
+            "countryName": "Ukraine",
+            "date": "2021-08-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 600.5305791666666,
+            "countryName": "Ukraine",
+            "date": "2021-08-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 515.5740458333332,
+            "countryName": "Ukraine",
+            "date": "2021-08-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 496.94588749999997,
+            "countryName": "Ukraine",
+            "date": "2021-08-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 557.3835520833334,
+            "countryName": "Ukraine",
+            "date": "2021-08-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 554.8305083333335,
+            "countryName": "Ukraine",
+            "date": "2021-08-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 573.0072291666667,
+            "countryName": "Ukraine",
+            "date": "2021-08-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 619.2919729166666,
+            "countryName": "Ukraine",
+            "date": "2021-08-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 653.6614791666667,
+            "countryName": "Ukraine",
+            "date": "2021-08-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 580.2656854166668,
+            "countryName": "Ukraine",
+            "date": "2021-08-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 504.13756458333336,
+            "countryName": "Ukraine",
+            "date": "2021-07-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 520.1103791666667,
+            "countryName": "Ukraine",
+            "date": "2021-07-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 514.9159416666666,
+            "countryName": "Ukraine",
+            "date": "2021-07-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 505.7235375,
+            "countryName": "Ukraine",
+            "date": "2021-07-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 507.83386249999995,
+            "countryName": "Ukraine",
+            "date": "2021-07-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 499.5228270833333,
+            "countryName": "Ukraine",
+            "date": "2021-07-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 444.3051104166666,
+            "countryName": "Ukraine",
+            "date": "2021-07-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 454.69902291666665,
+            "countryName": "Ukraine",
+            "date": "2021-07-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 478.67823333333337,
+            "countryName": "Ukraine",
+            "date": "2021-07-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 494.6246979166667,
+            "countryName": "Ukraine",
+            "date": "2021-07-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 503.3419625,
+            "countryName": "Ukraine",
+            "date": "2021-07-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 497.77313541666666,
+            "countryName": "Ukraine",
+            "date": "2021-07-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 493.81624375,
+            "countryName": "Ukraine",
+            "date": "2021-07-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 467.88132083333335,
+            "countryName": "Ukraine",
+            "date": "2021-07-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 475.6551520833334,
+            "countryName": "Ukraine",
+            "date": "2021-07-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 504.32207916666664,
+            "countryName": "Ukraine",
+            "date": "2021-07-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 484.60685416666666,
+            "countryName": "Ukraine",
+            "date": "2021-07-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 436.80853541666664,
+            "countryName": "Ukraine",
+            "date": "2021-07-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 455.28040208333334,
+            "countryName": "Ukraine",
+            "date": "2021-07-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 464.6034583333333,
+            "countryName": "Ukraine",
+            "date": "2021-07-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 444.46973333333335,
+            "countryName": "Ukraine",
+            "date": "2021-07-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 452.52727916666663,
+            "countryName": "Ukraine",
+            "date": "2021-07-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 456.25522291666664,
+            "countryName": "Ukraine",
+            "date": "2021-07-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 435.85864375,
+            "countryName": "Ukraine",
+            "date": "2021-07-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 371.36546875,
+            "countryName": "Ukraine",
+            "date": "2021-07-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 387.7608520833333,
+            "countryName": "Ukraine",
+            "date": "2021-07-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 338.65078125,
+            "countryName": "Ukraine",
+            "date": "2021-07-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 312.73923749999994,
+            "countryName": "Ukraine",
+            "date": "2021-07-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 353.1991458333333,
+            "countryName": "Ukraine",
+            "date": "2021-07-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 401.27226666666667,
+            "countryName": "Ukraine",
+            "date": "2021-07-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 463.0831020833333,
+            "countryName": "Ukraine",
+            "date": "2021-07-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 477.58509583333336,
+            "countryName": "Ukraine",
+            "date": "2021-06-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 504.69685625000005,
+            "countryName": "Ukraine",
+            "date": "2021-06-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 496.3131000000001,
+            "countryName": "Ukraine",
+            "date": "2021-06-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 503.7196458333333,
+            "countryName": "Ukraine",
+            "date": "2021-06-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 498.8681458333333,
+            "countryName": "Ukraine",
+            "date": "2021-06-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 502.70975625,
+            "countryName": "Ukraine",
+            "date": "2021-06-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 484.11673125,
+            "countryName": "Ukraine",
+            "date": "2021-06-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 450.95131666666674,
+            "countryName": "Ukraine",
+            "date": "2021-06-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 461.43235208333334,
+            "countryName": "Ukraine",
+            "date": "2021-06-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 500.89050833333334,
+            "countryName": "Ukraine",
+            "date": "2021-06-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 472.00606458333334,
+            "countryName": "Ukraine",
+            "date": "2021-06-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 481.94472916666666,
+            "countryName": "Ukraine",
+            "date": "2021-06-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 479.56928958333333,
+            "countryName": "Ukraine",
+            "date": "2021-06-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 478.1974104166666,
+            "countryName": "Ukraine",
+            "date": "2021-06-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 478.93282083333327,
+            "countryName": "Ukraine",
+            "date": "2021-06-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 483.2781166666666,
+            "countryName": "Ukraine",
+            "date": "2021-06-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 455.67487708333334,
+            "countryName": "Ukraine",
+            "date": "2021-06-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 445.0702291666667,
+            "countryName": "Ukraine",
+            "date": "2021-06-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 441.1495041666667,
+            "countryName": "Ukraine",
+            "date": "2021-06-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 463.6108770833333,
+            "countryName": "Ukraine",
+            "date": "2021-06-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 446.2276270833333,
+            "countryName": "Ukraine",
+            "date": "2021-06-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 468.30078958333337,
+            "countryName": "Ukraine",
+            "date": "2021-06-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 460.6676854166667,
+            "countryName": "Ukraine",
+            "date": "2021-06-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 470.84098125,
+            "countryName": "Ukraine",
+            "date": "2021-06-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 395.224425,
+            "countryName": "Ukraine",
+            "date": "2021-06-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 466.1596583333333,
+            "countryName": "Ukraine",
+            "date": "2021-06-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 466.6296958333333,
+            "countryName": "Ukraine",
+            "date": "2021-06-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 440.9713833333333,
+            "countryName": "Ukraine",
+            "date": "2021-06-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 415.4492125,
+            "countryName": "Ukraine",
+            "date": "2021-06-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 418.05185625000007,
+            "countryName": "Ukraine",
+            "date": "2021-06-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 356.4748125,
+            "countryName": "Ukraine",
+            "date": "2021-05-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 273.3950708333333,
+            "countryName": "Ukraine",
+            "date": "2021-05-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 329.32533541666663,
+            "countryName": "Ukraine",
+            "date": "2021-05-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 369.69728125,
+            "countryName": "Ukraine",
+            "date": "2021-05-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 356.480625,
+            "countryName": "Ukraine",
+            "date": "2021-05-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 460.3321104166667,
+            "countryName": "Ukraine",
+            "date": "2021-05-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 459.37136874999993,
+            "countryName": "Ukraine",
+            "date": "2021-05-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 361.42945208333333,
+            "countryName": "Ukraine",
+            "date": "2021-05-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 322.12577916666663,
+            "countryName": "Ukraine",
+            "date": "2021-05-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 347.61107291666667,
+            "countryName": "Ukraine",
+            "date": "2021-05-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 463.6086166666667,
+            "countryName": "Ukraine",
+            "date": "2021-05-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 447.5169041666667,
+            "countryName": "Ukraine",
+            "date": "2021-05-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 450.32033750000005,
+            "countryName": "Ukraine",
+            "date": "2021-05-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 426.63930833333336,
+            "countryName": "Ukraine",
+            "date": "2021-05-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 449.12160625,
+            "countryName": "Ukraine",
+            "date": "2021-05-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 344.84535625,
+            "countryName": "Ukraine",
+            "date": "2021-05-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 445.78897708333335,
+            "countryName": "Ukraine",
+            "date": "2021-05-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 476.0184333333334,
+            "countryName": "Ukraine",
+            "date": "2021-05-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 475.39023124999994,
+            "countryName": "Ukraine",
+            "date": "2021-05-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 441.25587291666665,
+            "countryName": "Ukraine",
+            "date": "2021-05-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 390.562025,
+            "countryName": "Ukraine",
+            "date": "2021-05-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 346.6882416666667,
+            "countryName": "Ukraine",
+            "date": "2021-05-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 161.35745416666668,
+            "countryName": "Ukraine",
+            "date": "2021-05-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 348.8750979166666,
+            "countryName": "Ukraine",
+            "date": "2021-05-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 399.2184520833333,
+            "countryName": "Ukraine",
+            "date": "2021-05-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 437.5356791666667,
+            "countryName": "Ukraine",
+            "date": "2021-05-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 410.9232770833334,
+            "countryName": "Ukraine",
+            "date": "2021-05-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 365.4825083333333,
+            "countryName": "Ukraine",
+            "date": "2021-05-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 375.1598041666667,
+            "countryName": "Ukraine",
+            "date": "2021-05-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 342.5448333333333,
+            "countryName": "Ukraine",
+            "date": "2021-05-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 452.36310833333334,
+            "countryName": "Ukraine",
+            "date": "2021-05-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 472.52867291666666,
+            "countryName": "Ukraine",
+            "date": "2021-04-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 484.15703125,
+            "countryName": "Ukraine",
+            "date": "2021-04-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 495.7236479166666,
+            "countryName": "Ukraine",
+            "date": "2021-04-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 505.10192291666664,
+            "countryName": "Ukraine",
+            "date": "2021-04-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 495.90835624999994,
+            "countryName": "Ukraine",
+            "date": "2021-04-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 452.06957708333323,
+            "countryName": "Ukraine",
+            "date": "2021-04-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 470.76302916666657,
+            "countryName": "Ukraine",
+            "date": "2021-04-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 491.3443166666667,
+            "countryName": "Ukraine",
+            "date": "2021-04-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 490.88015624999997,
+            "countryName": "Ukraine",
+            "date": "2021-04-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 483.52540625,
+            "countryName": "Ukraine",
+            "date": "2021-04-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 490.02791458333337,
+            "countryName": "Ukraine",
+            "date": "2021-04-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 517.8271,
+            "countryName": "Ukraine",
+            "date": "2021-04-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 442.70015,
+            "countryName": "Ukraine",
+            "date": "2021-04-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 456.33304583333336,
+            "countryName": "Ukraine",
+            "date": "2021-04-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 483.55969999999996,
+            "countryName": "Ukraine",
+            "date": "2021-04-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 492.16342708333343,
+            "countryName": "Ukraine",
+            "date": "2021-04-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 502.7214458333333,
+            "countryName": "Ukraine",
+            "date": "2021-04-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 500.84142499999996,
+            "countryName": "Ukraine",
+            "date": "2021-04-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 499.73323958333333,
+            "countryName": "Ukraine",
+            "date": "2021-04-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 404.34559375000003,
+            "countryName": "Ukraine",
+            "date": "2021-04-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 436.95694791666665,
+            "countryName": "Ukraine",
+            "date": "2021-04-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 489.03849791666664,
+            "countryName": "Ukraine",
+            "date": "2021-04-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 485.07727916666664,
+            "countryName": "Ukraine",
+            "date": "2021-04-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 453.2906541666667,
+            "countryName": "Ukraine",
+            "date": "2021-04-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 424.56004791666663,
+            "countryName": "Ukraine",
+            "date": "2021-04-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 411.0684604166667,
+            "countryName": "Ukraine",
+            "date": "2021-04-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 383.2189,
+            "countryName": "Ukraine",
+            "date": "2021-04-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 422.0900583333334,
+            "countryName": "Ukraine",
+            "date": "2021-04-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 400.13928124999995,
+            "countryName": "Ukraine",
+            "date": "2021-04-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 474.8749208333333,
+            "countryName": "Ukraine",
+            "date": "2021-04-01T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 436.5413541666667,
+            "countryName": "Ukraine",
+            "date": "2021-03-31T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 431.7398416666666,
+            "countryName": "Ukraine",
+            "date": "2021-03-30T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 457.53868750000004,
+            "countryName": "Ukraine",
+            "date": "2021-03-29T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 397.65438695652176,
+            "countryName": "Ukraine",
+            "date": "2021-03-28T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 439.37675625,
+            "countryName": "Ukraine",
+            "date": "2021-03-27T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 475.1500458333333,
+            "countryName": "Ukraine",
+            "date": "2021-03-26T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 500.16233124999997,
+            "countryName": "Ukraine",
+            "date": "2021-03-25T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 450.6691520833333,
+            "countryName": "Ukraine",
+            "date": "2021-03-24T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 468.63565416666665,
+            "countryName": "Ukraine",
+            "date": "2021-03-23T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 497.75608541666674,
+            "countryName": "Ukraine",
+            "date": "2021-03-22T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 351.7757291666667,
+            "countryName": "Ukraine",
+            "date": "2021-03-21T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 459.6870520833333,
+            "countryName": "Ukraine",
+            "date": "2021-03-20T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 498.26836041666667,
+            "countryName": "Ukraine",
+            "date": "2021-03-19T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 499.4696104166667,
+            "countryName": "Ukraine",
+            "date": "2021-03-18T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 463.58110416666665,
+            "countryName": "Ukraine",
+            "date": "2021-03-17T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 441.3109624999999,
+            "countryName": "Ukraine",
+            "date": "2021-03-16T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 459.9924020833334,
+            "countryName": "Ukraine",
+            "date": "2021-03-15T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 451.8578729166666,
+            "countryName": "Ukraine",
+            "date": "2021-03-14T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 447.49081250000006,
+            "countryName": "Ukraine",
+            "date": "2021-03-13T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 464.2975916666667,
+            "countryName": "Ukraine",
+            "date": "2021-03-12T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 466.99452708333337,
+            "countryName": "Ukraine",
+            "date": "2021-03-11T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 449.5528291666667,
+            "countryName": "Ukraine",
+            "date": "2021-03-10T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 475.3442479166667,
+            "countryName": "Ukraine",
+            "date": "2021-03-09T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 462.5498375,
+            "countryName": "Ukraine",
+            "date": "2021-03-08T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 382.09999375,
+            "countryName": "Ukraine",
+            "date": "2021-03-07T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 431.8843791666667,
+            "countryName": "Ukraine",
+            "date": "2021-03-06T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 418.6436333333333,
+            "countryName": "Ukraine",
+            "date": "2021-03-05T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 461.22885,
+            "countryName": "Ukraine",
+            "date": "2021-03-04T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 457.88401458333334,
+            "countryName": "Ukraine",
+            "date": "2021-03-03T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 458.44705208333335,
+            "countryName": "Ukraine",
+            "date": "2021-03-02T00:00:00Z"
+        },
+        {
+            "priceEuroPerMwh": 515.8689979166667,
+            "countryName": "Ukraine",
+            "date": "2021-03-01T00:00:00Z"
+        }
+    ],
+    "dailyGenerations": [
+        {
+            "generation": 616000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-25T00:00:00Z"
+        },
+        {
+            "generation": 2418000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-24T00:00:00Z"
+        },
+        {
+            "generation": 5361000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-23T00:00:00Z"
+        },
+        {
+            "generation": 6654000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-22T00:00:00Z"
+        },
+        {
+            "generation": 12484000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-21T00:00:00Z"
+        },
+        {
+            "generation": 7119000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-20T00:00:00Z"
+        },
+        {
+            "generation": 20936000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-19T00:00:00Z"
+        },
+        {
+            "generation": 18823000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-18T00:00:00Z"
+        },
+        {
+            "generation": 24904000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-17T00:00:00Z"
+        },
+        {
+            "generation": 12137000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-16T00:00:00Z"
+        },
+        {
+            "generation": 10082000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-15T00:00:00Z"
+        },
+        {
+            "generation": 19569000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-14T00:00:00Z"
+        },
+        {
+            "generation": 6585000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-13T00:00:00Z"
+        },
+        {
+            "generation": 20627000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-12T00:00:00Z"
+        },
+        {
+            "generation": 16772000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-11T00:00:00Z"
+        },
+        {
+            "generation": 16376000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-10T00:00:00Z"
+        },
+        {
+            "generation": 16109000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-09T00:00:00Z"
+        },
+        {
+            "generation": 17061000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-08T00:00:00Z"
+        },
+        {
+            "generation": 26923000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-07T00:00:00Z"
+        },
+        {
+            "generation": 19491000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-06T00:00:00Z"
+        },
+        {
+            "generation": 6686000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-05T00:00:00Z"
+        },
+        {
+            "generation": 15061000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-04T00:00:00Z"
+        },
+        {
+            "generation": 8569000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-03T00:00:00Z"
+        },
+        {
+            "generation": 5550000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-02T00:00:00Z"
+        },
+        {
+            "generation": 14381000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-02-01T00:00:00Z"
+        },
+        {
+            "generation": 18989000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-31T00:00:00Z"
+        },
+        {
+            "generation": 23368000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-30T00:00:00Z"
+        },
+        {
+            "generation": 24360000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-29T00:00:00Z"
+        },
+        {
+            "generation": 18793000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-28T00:00:00Z"
+        },
+        {
+            "generation": 3099000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-27T00:00:00Z"
+        },
+        {
+            "generation": 1038000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-26T00:00:00Z"
+        },
+        {
+            "generation": 3094000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-25T00:00:00Z"
+        },
+        {
+            "generation": 17728000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-24T00:00:00Z"
+        },
+        {
+            "generation": 14448000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-23T00:00:00Z"
+        },
+        {
+            "generation": 5487000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-22T00:00:00Z"
+        },
+        {
+            "generation": 15442000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-21T00:00:00Z"
+        },
+        {
+            "generation": 13771000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-20T00:00:00Z"
+        },
+        {
+            "generation": 15411000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-19T00:00:00Z"
+        },
+        {
+            "generation": 22428000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-18T00:00:00Z"
+        },
+        {
+            "generation": 23309000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-17T00:00:00Z"
+        },
+        {
+            "generation": 16487000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-16T00:00:00Z"
+        },
+        {
+            "generation": 27987000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-15T00:00:00Z"
+        },
+        {
+            "generation": 25993000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-14T00:00:00Z"
+        },
+        {
+            "generation": 13744000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-13T00:00:00Z"
+        },
+        {
+            "generation": 22779000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-12T00:00:00Z"
+        },
+        {
+            "generation": 24548000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-11T00:00:00Z"
+        },
+        {
+            "generation": 11276000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-10T00:00:00Z"
+        },
+        {
+            "generation": 18351000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-09T00:00:00Z"
+        },
+        {
+            "generation": 21648000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-08T00:00:00Z"
+        },
+        {
+            "generation": 10310000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-07T00:00:00Z"
+        },
+        {
+            "generation": 19023000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-06T00:00:00Z"
+        },
+        {
+            "generation": 25202000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-05T00:00:00Z"
+        },
+        {
+            "generation": 16145000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-04T00:00:00Z"
+        },
+        {
+            "generation": 23976000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-03T00:00:00Z"
+        },
+        {
+            "generation": 7386000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-02T00:00:00Z"
+        },
+        {
+            "generation": 15923000000.0,
+            "countryName": "Ukraine",
+            "date": "2022-01-01T00:00:00Z"
+        },
+        {
+            "generation": 4333000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-31T00:00:00Z"
+        },
+        {
+            "generation": 1989000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-30T00:00:00Z"
+        },
+        {
+            "generation": 2168000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-29T00:00:00Z"
+        },
+        {
+            "generation": 16534000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-28T00:00:00Z"
+        },
+        {
+            "generation": 17729000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-27T00:00:00Z"
+        },
+        {
+            "generation": 8432000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-26T00:00:00Z"
+        },
+        {
+            "generation": 15196000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-25T00:00:00Z"
+        },
+        {
+            "generation": 21342000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-24T00:00:00Z"
+        },
+        {
+            "generation": 3872000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-23T00:00:00Z"
+        },
+        {
+            "generation": 12521000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-22T00:00:00Z"
+        },
+        {
+            "generation": 18574000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-21T00:00:00Z"
+        },
+        {
+            "generation": 12028000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-20T00:00:00Z"
+        },
+        {
+            "generation": 21810000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-19T00:00:00Z"
+        },
+        {
+            "generation": 10447000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-18T00:00:00Z"
+        },
+        {
+            "generation": 8723000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-17T00:00:00Z"
+        },
+        {
+            "generation": 6512000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-16T00:00:00Z"
+        },
+        {
+            "generation": 15388000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-15T00:00:00Z"
+        },
+        {
+            "generation": 10695000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-14T00:00:00Z"
+        },
+        {
+            "generation": 19797000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-13T00:00:00Z"
+        },
+        {
+            "generation": 26092000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-12T00:00:00Z"
+        },
+        {
+            "generation": 23220000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-11T00:00:00Z"
+        },
+        {
+            "generation": 20685000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-10T00:00:00Z"
+        },
+        {
+            "generation": 8824000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-09T00:00:00Z"
+        },
+        {
+            "generation": 17275000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-08T00:00:00Z"
+        },
+        {
+            "generation": 18309000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-07T00:00:00Z"
+        },
+        {
+            "generation": 15977000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-06T00:00:00Z"
+        },
+        {
+            "generation": 4717000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-05T00:00:00Z"
+        },
+        {
+            "generation": 15725000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-04T00:00:00Z"
+        },
+        {
+            "generation": 22901000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-03T00:00:00Z"
+        },
+        {
+            "generation": 19279000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-02T00:00:00Z"
+        },
+        {
+            "generation": 17485000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-12-01T00:00:00Z"
+        },
+        {
+            "generation": 14653000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-30T00:00:00Z"
+        },
+        {
+            "generation": 23920000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-29T00:00:00Z"
+        },
+        {
+            "generation": 11363000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-28T00:00:00Z"
+        },
+        {
+            "generation": 25880000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-27T00:00:00Z"
+        },
+        {
+            "generation": 18154000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-26T00:00:00Z"
+        },
+        {
+            "generation": 6982000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-25T00:00:00Z"
+        },
+        {
+            "generation": 3785000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-24T00:00:00Z"
+        },
+        {
+            "generation": 9885000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-23T00:00:00Z"
+        },
+        {
+            "generation": 8516000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-22T00:00:00Z"
+        },
+        {
+            "generation": 15853000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-21T00:00:00Z"
+        },
+        {
+            "generation": 25181000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-20T00:00:00Z"
+        },
+        {
+            "generation": 7357000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-19T00:00:00Z"
+        },
+        {
+            "generation": 4031000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-18T00:00:00Z"
+        },
+        {
+            "generation": 17237000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-17T00:00:00Z"
+        },
+        {
+            "generation": 19268000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-16T00:00:00Z"
+        },
+        {
+            "generation": 19152000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-15T00:00:00Z"
+        },
+        {
+            "generation": 17304000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-14T00:00:00Z"
+        },
+        {
+            "generation": 6929000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-13T00:00:00Z"
+        },
+        {
+            "generation": 10841000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-12T00:00:00Z"
+        },
+        {
+            "generation": 6486000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-11T00:00:00Z"
+        },
+        {
+            "generation": 7154000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-10T00:00:00Z"
+        },
+        {
+            "generation": 5344000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-09T00:00:00Z"
+        },
+        {
+            "generation": 8727000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-08T00:00:00Z"
+        },
+        {
+            "generation": 5179000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-07T00:00:00Z"
+        },
+        {
+            "generation": 8220000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-06T00:00:00Z"
+        },
+        {
+            "generation": 13022000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-05T00:00:00Z"
+        },
+        {
+            "generation": 7604000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-04T00:00:00Z"
+        },
+        {
+            "generation": 6436000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-03T00:00:00Z"
+        },
+        {
+            "generation": 8592000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-02T00:00:00Z"
+        },
+        {
+            "generation": 15961000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-11-01T00:00:00Z"
+        },
+        {
+            "generation": 18322000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-31T00:00:00Z"
+        },
+        {
+            "generation": 21215000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-30T00:00:00Z"
+        },
+        {
+            "generation": 5909000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-29T00:00:00Z"
+        },
+        {
+            "generation": 5412000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-28T00:00:00Z"
+        },
+        {
+            "generation": 4344000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-27T00:00:00Z"
+        },
+        {
+            "generation": 9126000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-26T00:00:00Z"
+        },
+        {
+            "generation": 6911000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-25T00:00:00Z"
+        },
+        {
+            "generation": 13429000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-24T00:00:00Z"
+        },
+        {
+            "generation": 8316000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-23T00:00:00Z"
+        },
+        {
+            "generation": 16883000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-22T00:00:00Z"
+        },
+        {
+            "generation": 24607000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-21T00:00:00Z"
+        },
+        {
+            "generation": 10749000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-20T00:00:00Z"
+        },
+        {
+            "generation": 12680000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-19T00:00:00Z"
+        },
+        {
+            "generation": 10904000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-18T00:00:00Z"
+        },
+        {
+            "generation": 11113000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-17T00:00:00Z"
+        },
+        {
+            "generation": 11403000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-16T00:00:00Z"
+        },
+        {
+            "generation": 11292000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-15T00:00:00Z"
+        },
+        {
+            "generation": 10100000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-14T00:00:00Z"
+        },
+        {
+            "generation": 18546000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-13T00:00:00Z"
+        },
+        {
+            "generation": 9239000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-12T00:00:00Z"
+        },
+        {
+            "generation": 7166000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-11T00:00:00Z"
+        },
+        {
+            "generation": 20014000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-10T00:00:00Z"
+        },
+        {
+            "generation": 25117000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-09T00:00:00Z"
+        },
+        {
+            "generation": 26855000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-08T00:00:00Z"
+        },
+        {
+            "generation": 26798000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-07T00:00:00Z"
+        },
+        {
+            "generation": 26502000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-06T00:00:00Z"
+        },
+        {
+            "generation": 25132000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-05T00:00:00Z"
+        },
+        {
+            "generation": 18038000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-04T00:00:00Z"
+        },
+        {
+            "generation": 20812000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-03T00:00:00Z"
+        },
+        {
+            "generation": 23287000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-02T00:00:00Z"
+        },
+        {
+            "generation": 22922000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-10-01T00:00:00Z"
+        },
+        {
+            "generation": 24497000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-30T00:00:00Z"
+        },
+        {
+            "generation": 21230000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-29T00:00:00Z"
+        },
+        {
+            "generation": 6671000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-28T00:00:00Z"
+        },
+        {
+            "generation": 10632000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-27T00:00:00Z"
+        },
+        {
+            "generation": 17286000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-26T00:00:00Z"
+        },
+        {
+            "generation": 16976000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-25T00:00:00Z"
+        },
+        {
+            "generation": 13433000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-24T00:00:00Z"
+        },
+        {
+            "generation": 4163000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-23T00:00:00Z"
+        },
+        {
+            "generation": 4527000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-22T00:00:00Z"
+        },
+        {
+            "generation": 11756000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-21T00:00:00Z"
+        },
+        {
+            "generation": 7527000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-20T00:00:00Z"
+        },
+        {
+            "generation": 9066000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-19T00:00:00Z"
+        },
+        {
+            "generation": 13450000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-18T00:00:00Z"
+        },
+        {
+            "generation": 5570000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-17T00:00:00Z"
+        },
+        {
+            "generation": 5980000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-16T00:00:00Z"
+        },
+        {
+            "generation": 12870000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-15T00:00:00Z"
+        },
+        {
+            "generation": 5793000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-14T00:00:00Z"
+        },
+        {
+            "generation": 2821000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-13T00:00:00Z"
+        },
+        {
+            "generation": 7589000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-12T00:00:00Z"
+        },
+        {
+            "generation": 7239000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-11T00:00:00Z"
+        },
+        {
+            "generation": 4688000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-10T00:00:00Z"
+        },
+        {
+            "generation": 6738000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-09T00:00:00Z"
+        },
+        {
+            "generation": 8706000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-08T00:00:00Z"
+        },
+        {
+            "generation": 10760000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-07T00:00:00Z"
+        },
+        {
+            "generation": 12223000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-06T00:00:00Z"
+        },
+        {
+            "generation": 12121000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-05T00:00:00Z"
+        },
+        {
+            "generation": 13207000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-04T00:00:00Z"
+        },
+        {
+            "generation": 16594000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-03T00:00:00Z"
+        },
+        {
+            "generation": 19938000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-02T00:00:00Z"
+        },
+        {
+            "generation": 6429000000.0,
+            "countryName": "Ukraine",
+            "date": "2021-09-01T00:00:00Z"
+        }
+    ]
+}

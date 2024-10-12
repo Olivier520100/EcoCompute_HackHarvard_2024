@@ -3,6 +3,7 @@ from websocket import WebSocketApp
 import time
 import threading
 
+
 def send_periodic(ws):
     while True:
         ws.send("RETARD")
