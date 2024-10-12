@@ -3,15 +3,23 @@ import CodeMirror from "@uiw/react-codemirror";
 import { python } from "@codemirror/lang-python";
 import { Button } from "./ui/button";
 import { Play, Plus, Trash } from "lucide-react";
+import { on } from "events";
 
 interface CodeCellProps {
+  onCodeChange: (code: string) => void;
   onDelete: () => void;
   onAdd: () => void;
   id: number;
   initialCode: string;
 }
 
-export default function CodeCell({ onDelete, onAdd, id, initialCode = "" }: CodeCellProps) {
+export default function CodeCell({
+  onDelete,
+  onAdd,
+  id,
+  initialCode = "",
+  onCodeChange,
+}: CodeCellProps) {
   const [code, setCode] = useState(initialCode);
 
   return (
@@ -58,6 +66,7 @@ export default function CodeCell({ onDelete, onAdd, id, initialCode = "" }: Code
           value={code}
           extensions={[python()]}
           onChange={(value) => {
+            onCodeChange(value); 
             setCode(value); // Update the code state on change
           }}
           theme="light"

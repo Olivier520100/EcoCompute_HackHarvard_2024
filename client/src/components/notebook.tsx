@@ -7,7 +7,7 @@ import { handleDownload } from "@/lib/utils";
 
 export type Cell = {
   id: number;
-  initialCode: string;
+  code: string;
 };
 
 export default function NoteBook() {
@@ -15,8 +15,8 @@ export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [cells, setCells] = useState<Cell[]>([]);
 
-  const addCodeCell = (initialCode: string = "") => {
-    setCells([...cells, { id: cellCount, initialCode }]);
+  const addCodeCell = (code: string = "") => {
+    setCells([...cells, { id: cellCount, code }]);
     setCellCount((prev) => prev + 1);
   };
 
@@ -27,6 +27,14 @@ export default function NoteBook() {
   const clearAll = () => {
     setCells([]);
     setCellCount(0);
+  };
+
+  const handleCodeChange = (id: number, newCode: string) => {
+    setCells((prevCells) =>
+      prevCells.map((cell) =>
+        cell.id === id ? { ...cell, code: newCode } : cell
+      )
+    );
   };
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -44,7 +52,7 @@ export default function NoteBook() {
               .map((cell: any) => {
                 const newCell: Cell = {
                   id: i++,
-                  initialCode: cell.source.join(""),
+                  code: cell.source.join(""),
                 };
                 return newCell;
               });
@@ -162,9 +170,10 @@ export default function NoteBook() {
             <CodeCell
               key={cell.id}
               id={cell.id}
-              initialCode={cell.initialCode}
+              initialCode={cell.code}
+              onCodeChange={(newCode) => handleCodeChange(cell.id, newCode)}
               onDelete={() => removeCodeCell(cell.id)}
-              onAdd={addCodeCell}
+              onAdd={() => addCodeCell()}
             />
           ))}
         </main>

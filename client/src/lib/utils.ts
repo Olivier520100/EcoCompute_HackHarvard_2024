@@ -14,7 +14,7 @@ export const handleDownload = (cells: Cell[]) => {
       execution_count: null,
       metadata: {},
       outputs: [],
-      source: cell.initialCode.split("\n").map((line) => line + "\n"), // Split code into lines
+      source: cell.code.split("\n").map((line) => line + "\n"), // Split code into lines
     })),
     metadata: {
       kernelspec: {
