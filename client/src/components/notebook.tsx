@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ChevronDown, FileText, Folder, Play, Plus, Menu, X } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import CodeCell from './code-cell'
 
 export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true)
@@ -69,25 +70,7 @@ export default function NoteBook() {
                 Run
               </Button>
             </div>
-            <div className="p-4 bg-gray-50">
-              <pre className="font-mono text-sm text-gray-800">
-                <code>
-                  {`import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load data
-data = pd.read_csv('data.csv')
-
-# Create a plot
-plt.figure(figsize=(10, 6))
-plt.plot(data['x'], data['y'])
-plt.title('Sample Plot')
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.show()`}
-                </code>
-              </pre>
-            </div>
+            <CodeCell />
           </div>
 
           {/* Output cell */}
