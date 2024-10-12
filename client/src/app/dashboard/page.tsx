@@ -270,18 +270,31 @@ function ChartCard({
 							<ChartTooltip content={<ChartTooltipContent />} />
 
 							{/* Render selected old years' data */}
-							{selectedYears.map((yearData) => (
-								<Area
-									key={yearData.year}
-									type="monotone"
-									dataKey={`value_${yearData.year}`}
-									strokeWidth={2}
-									dot={false}
-									fillOpacity={0.4}
-									fill={yearToColorMap[yearData.year]}
-									stroke={yearToColorMap[yearData.year]}
-								/>
-							))}
+							{selectedYears.map((yearData) =>
+								yearData.year === 2024 ? (
+									<Area
+										key={yearData.year}
+										type="monotone"
+										dataKey={`value_${yearData.year}`}
+										strokeWidth={2}
+										dot={false}
+										fillOpacity={0.4}
+										fill={colors[6]}
+										stroke={colors[6]}
+									/>
+								) : (
+									<Area
+										key={yearData.year}
+										type="monotone"
+										dataKey={`value_${yearData.year}`}
+										strokeWidth={2}
+										dot={false}
+										fillOpacity={0.4}
+										fill={yearToColorMap[yearData.year]}
+										stroke={yearToColorMap[yearData.year]}
+									/>
+								),
+							)}
 						</AreaChart>
 					</ResponsiveContainer>
 				</ChartContainer>
@@ -292,7 +305,7 @@ function ChartCard({
 						<Label
 							htmlFor="year-current"
 							className="ml-2 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-							style={{ color: colors[colorLenght + 1] }}
+							style={{ color: colors[6] }}
 						>
 							{currentYear}
 						</Label>
