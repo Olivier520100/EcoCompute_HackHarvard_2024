@@ -3,8 +3,9 @@ import { FileText, Folder, Plus, Menu, X, Trees } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
 import MarkdownCell from "./markdown-cell";
+import { handleDownload } from "@/lib/utils";
 
-type Cell = {
+export type Cell = {
   id: number;
   initialCode: string;
 };
@@ -19,7 +20,7 @@ export default function NoteBook() {
     setCellCount((prev) => prev + 1);
   };
 
-  const removeCell = (id: number) => {
+  const removeCodeCell = (id: number) => {
     setCells(cells.filter((cell) => cell.id !== id));
   };
 
@@ -42,15 +43,13 @@ export default function NoteBook() {
               .filter((cell: any) => cell.cell_type === "code")
               .map((cell: any) => {
                 const newCell: Cell = {
-                  id: i++, 
-                  initialCode: cell.source.join(""), 
+                  id: i++,
+                  initialCode: cell.source.join(""),
                 };
                 return newCell;
               });
 
             setCellCount(i);
-
-
             setCells([...codeCells]);
           } else {
             console.error("Invalid .ipynb file format");
@@ -128,28 +127,27 @@ export default function NoteBook() {
           <div className="space-y-4">
             {/* Upload Notebook Button */}
             <div className="flex items-center space-x-2">
-              <input
-                type="file"
-                accept=".ipynb" // Forces the file system to only allow .ipynb files
-                id="uploadNotebook"
-                className="hidden"
-                onChange={handleFileUpload}
-              />
-              <label
-                htmlFor="uploadNotebook"
-                className="cursor-pointer bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full text-center"
-              >
-                Upload Notebook
-              </label>
+              <Button className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full">
+                <input
+                  type="file"
+                  accept=".ipynb" // Forces the file system to only allow .ipynb files
+                  id="uploadNotebook"
+                  className="hidden"
+                  onChange={handleFileUpload}
+                />
+                <label
+                  htmlFor="uploadNotebook"
+                  className="cursor-pointer bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full text-center"
+                >
+                  Upload Notebook
+                </label>
+              </Button>
             </div>
 
             {/* Download Notebook Button */}
             <div className="flex items-center space-x-2">
               <Button
-                onClick={() => {
-                  // Add download logic here
-                  console.log("Download notebook");
-                }}
+                onClick={() => handleDownload(cells)}
                 className="bg-green-200 p-2 rounded-md text-green-700 hover:bg-green-300 transition-colors duration-200 w-full"
               >
                 Download Notebook
@@ -165,7 +163,7 @@ export default function NoteBook() {
               key={cell.id}
               id={cell.id}
               initialCode={cell.initialCode}
-              onDelete={() => removeCell(cell.id)}
+              onDelete={() => removeCodeCell(cell.id)}
               onAdd={addCodeCell}
             />
           ))}
