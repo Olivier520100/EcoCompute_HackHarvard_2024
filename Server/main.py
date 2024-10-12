@@ -11,6 +11,8 @@ import random
 import time
 import json
 
+from pydantic import BaseModel
+
 app = FastAPI()
 
 app.add_middleware(
