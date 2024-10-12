@@ -7,9 +7,10 @@ import { Play, Plus, Trash } from "lucide-react";
 interface CodeCellProps {
   onDelete: () => void;
   onAdd: () => void;
+  id: number;
 }
 
-export default function CodeCell({ onDelete, onAdd }: CodeCellProps) {
+export default function CodeCell({ onDelete, onAdd, id }: CodeCellProps) {
   const [code, setCode] = useState("");
 
   return (
@@ -25,7 +26,7 @@ export default function CodeCell({ onDelete, onAdd }: CodeCellProps) {
           >
             <Plus className="h-4 w-4 mr-1" />
           </Button>
-          <span className="text-green-800 font-mono text-sm">In [1]:</span>
+          <span className="text-green-800 font-mono text-sm">In [{id}]:</span>
         </div>
 
         {/* Run and Delete buttons */}

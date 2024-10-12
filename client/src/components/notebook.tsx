@@ -26,6 +26,11 @@ export default function NoteBook() {
     setCells(cells.filter((cell) => cell.id !== id));
   };
 
+  const clearAll = () => {
+    setCells([]);
+    setCellCount(0);
+  };
+
   return (
     <div className="flex flex-col h-screen bg-green-50">
       {/* Header */}
@@ -61,6 +66,14 @@ export default function NoteBook() {
             className="text-white border-white hover:bg-green-500 transition-colors duration-200"
           >
             + Add Code
+          </Button>
+          <Button
+            onClick={clearAll}
+            variant="outline"
+            size="sm"
+            className="text-white border-white hover:bg-green-500 transition-colors duration-200"
+          >
+            Clear All
           </Button>
         </div>
       </header>
@@ -100,7 +113,7 @@ export default function NoteBook() {
             cell.type === 'markdown' ? (
               <MarkdownCell key={cell.id} />
             ) : (
-              <CodeCell key={cell.id} onDelete={() => removeCell(cell.id)} onAdd={addCodeCell} />
+              <CodeCell key={cell.id} id={cell.id} onDelete={() => removeCell(cell.id)} onAdd={addCodeCell} />
             )
           )}
         </main>
