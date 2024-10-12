@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button";
+"use client";
+
+import NoteBook from "@/components/notebook";
 
 export default function Home() {
   return (
     <div >
-     <Button> button </Button>
+     <NoteBook />
     </div>
   );
 }
