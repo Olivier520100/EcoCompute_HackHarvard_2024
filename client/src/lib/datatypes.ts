@@ -46,18 +46,10 @@ export interface PowerConsumptionData {
 	powerConsumptionThisYear: MonthlyData[];
 }
 
-// Type for bandwidth usage data
-export interface BandwidthUsageData {
-	bandwidthUsageToday: HourlyData[];
-	bandwidthUsageThisWeek: DailyData[];
-	bandwidthUsageThisMonth: WeeklyData[];
-	bandwidthUsageThisYear: MonthlyData[];
-}
 
 // The main type for the entire JSON structure
 export interface AllData {
 	costData: CostData;
 	programsRunning: ProgramsRunningData;
 	powerConsumption: PowerConsumptionData;
-	bandwidthUsage: BandwidthUsageData;
 }

@@ -13,16 +13,9 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { ChevronDown, DollarSign, Server, Wifi, Zap } from "lucide-react";
+import { ChevronDown, DollarSign, Server, Zap } from "lucide-react";
 import { useEffect, useState } from "react";
-import {
-	Area,
-	Line,
-	LineChart,
-	ResponsiveContainer,
-	XAxis,
-	YAxis,
-} from "recharts";
+import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 import type * as dataTypes from "@/lib/datatypes"; // Adjust the path based on your project structure
 
@@ -78,7 +71,6 @@ export default function Dashboard() {
 				</DropdownMenu>
 			</div>
 			<div className="grid gap-4 md:grid-cols-2">
-                
 				<ChartConsumption
 					data={data.powerConsumption}
 					timePeriod={timePeriod}
@@ -91,7 +83,6 @@ export default function Dashboard() {
 					timePeriod={timePeriod}
 				/>
 
-				<ChartBandWidth data={data.bandwidthUsage} timePeriod={timePeriod} />
 			</div>
 		</div>
 	);
@@ -113,11 +104,11 @@ function ChartConsumption({
 				<div className="text-2xl font-bold">AMOUNT</div>
 				<p className="text-xs text-muted-foreground">POURCENTAGE</p>
 				<ChartContainer
-					config={{ value: { label: "kWh", color: "hsl(var(--chart-1))" } }}
+					config={{ value: { label: "kWh", color: "" } }}
 					className="h-[200px]"
 				>
 					<ResponsiveContainer width="100%" height="100%">
-						<LineChart
+						<AreaChart
 							data={
 								timePeriod === "today"
 									? data?.powerConsumptionToday
@@ -133,14 +124,16 @@ function ChartConsumption({
 							<XAxis dataKey="name" />
 							<YAxis />
 							<ChartTooltip content={<ChartTooltipContent />} />
-							<Line
+							<Area
 								type="monotone"
 								dataKey="value"
-								stroke="var(--color-value)"
 								strokeWidth={2}
 								dot={false}
+								fillOpacity={0.4}
+                                fill={colors[6]}
+								stroke={colors[6]}
 							/>
-						</LineChart>
+						</AreaChart>
 					</ResponsiveContainer>
 				</ChartContainer>
 			</CardContent>
@@ -168,7 +161,7 @@ function ChartCost({
 					className="h-[200px]"
 				>
 					<ResponsiveContainer width="100%" height="100%">
-						<LineChart
+						<AreaChart
 							data={
 								timePeriod === "today"
 									? data?.costDataToday
@@ -184,14 +177,16 @@ function ChartCost({
 							<XAxis dataKey="name" />
 							<YAxis />
 							<ChartTooltip content={<ChartTooltipContent />} />
-							<Line
+							<Area
 								type="monotone"
 								dataKey="value"
-								stroke="var(--color-value)"
 								strokeWidth={2}
 								dot={false}
+								fillOpacity={0.4}
+                                fill={colors[6]}
+								stroke={colors[6]}
 							/>
-						</LineChart>
+						</AreaChart>
 					</ResponsiveContainer>
 				</ChartContainer>
 			</CardContent>
@@ -221,7 +216,7 @@ function ChartProgramsRunning({
 					className="h-[200px]"
 				>
 					<ResponsiveContainer width="100%" height="100%">
-						<LineChart
+						<AreaChart
 							data={
 								timePeriod === "today"
 									? data?.programsRunningToday
@@ -237,14 +232,16 @@ function ChartProgramsRunning({
 							<XAxis dataKey="name" />
 							<YAxis />
 							<ChartTooltip content={<ChartTooltipContent />} />
-							<Line
+							<Area
 								type="monotone"
 								dataKey="value"
-								stroke="var(--color-value)"
 								strokeWidth={2}
 								dot={false}
+								fillOpacity={0.4}
+                                fill={colors[6]}
+								stroke={colors[6]}
 							/>
-						</LineChart>
+						</AreaChart>
 					</ResponsiveContainer>
 				</ChartContainer>
 			</CardContent>
@@ -252,58 +249,14 @@ function ChartProgramsRunning({
 	);
 }
 
-function ChartBandWidth({
-	data,
-	timePeriod,
-}: { data: dataTypes.BandwidthUsageData; timePeriod: string }) {
-	return (
-		<Card>
-			<CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-				<CardTitle className="text-sm font-medium">Network Bandwidth</CardTitle>
-				<Wifi className="h-4 w-4 text-muted-foreground" />
-			</CardHeader>
-			<CardContent>
-				<div className="text-2xl font-bold">AMOUNT</div>
-				<p className="text-xs text-muted-foreground">POURCENTAGE</p>
-				<ChartContainer
-					config={{ value: { label: "TB", color: "hsl(var(--chart-4))" } }}
-					className="h-[200px]"
-				>
-					<ResponsiveContainer width="100%" height="100%">
-						<LineChart
-							data={
-								timePeriod === "today"
-									? data?.bandwidthUsageToday
-									: timePeriod === "week"
-										? data?.bandwidthUsageThisWeek
-										: timePeriod === "month"
-											? data?.bandwidthUsageThisMonth
-											: timePeriod === "year"
-												? data?.bandwidthUsageThisYear
-												: [0]
-							}
-						>
-							<XAxis dataKey="name" />
-							<YAxis />
-							<ChartTooltip content={<ChartTooltipContent />} />
-							<Line
-								type="monotone"
-								dataKey="value"
-								stroke="var(--color-value)"
-								strokeWidth={2}
-								dot={false}
-							/>
-							<Area
-								type="monotone"
-								dataKey="value"
-								stroke="none"
-								fill="var(--color-value)"
-								fillOpacity={0.4}
-							/>
-						</LineChart>
-					</ResponsiveContainer>
-				</ChartContainer>
-			</CardContent>
-		</Card>
-	);
-}
+
+
+const colors: string[] = [
+	"#FF5733", // Red
+	"#33FF57", // Green
+	"#3357FF", // Blue
+	"#F1C40F", // Yellow
+	"#9B59B6", // Purple
+	"#E67E22", // Orange
+	"#2ECC71", // Teal
+];
