@@ -1,3 +1,4 @@
+// biome-ignore lint/style/useImportType: <explanation>
 import { Cell } from "@/components/notebook";
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
@@ -14,6 +15,7 @@ export const handleDownload = (cells: Cell[]) => {
       execution_count: null,
       metadata: {},
       outputs: [],
+      // biome-ignore lint/style/useTemplate: <explanation>
       source: cell.code.split("\n").map((line) => line + "\n"), // Split code into lines
     })),
     metadata: {

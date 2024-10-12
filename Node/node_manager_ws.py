@@ -21,7 +21,7 @@ stopjson = {
     "container_id": "",
 }
 startjson = {
-    "operation": "START",
+    "operation": "CREATE",
     "container_id": "",
 }
 

@@ -33,7 +33,7 @@ import { Label } from "@/components/ui/label";
 import fakedata from "@/lib/fakedata.json";
 
 export default function Dashboard() {
-	const [data, setData] = useState<dataTypes.AllData>(fakedata);
+	const [data] = useState<dataTypes.AllData>(fakedata);
 	const [timePeriod, setTimePeriod] = useState<TimePeriod>("today");
 
 	return (
@@ -126,8 +126,7 @@ function ChartCard({
 	label,
 }: ChartCardProps) {
 	const [selectedYears, setSelectedYears] = useState<dataTypes.oldData[]>([]);
-	const [isCurrentYearSelected, setIsCurrentYearSelected] = useState(true); // Set to true by default
-	const [colorLenght, setColor] = useState(0); // Set to true by default
+	const [isCurrentYearSelected] = useState(true); // Set to true by default
 
 	const currentYear = new Date().getFullYear();
 	const maxSelections = 5;
@@ -152,6 +151,7 @@ function ChartCard({
 		})();
 
 		// Ensure data is in the correct format
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		return dataSet.map((item: any) => ({
 			name: item.name,
 			value: item.value,
@@ -159,6 +159,7 @@ function ChartCard({
 	};
 
 	const getCombinedChartData = () => {
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const combinedData: { [key: string]: any } = {};
 
 		// Include data from selected old years
@@ -223,10 +224,28 @@ function ChartCard({
 			<DialogTrigger
 				asChild
 				onClick={() => {
+					let selectedData: Array<{ name: string; value: number }> | undefined;
 					setTimePeriod("year");
 					getChartData();
-					setSelectedYears([{ year: 2024, value: data[`${dataKey}ThisYear`] }]);
-					setColor(selectedYears.length);
+					if (dataKey === "powerConsumption") {
+						selectedData = (data as dataTypes.PowerConsumptionData)[
+							`${dataKey}ThisYear`
+						];
+					} else if (dataKey === "costData") {
+						selectedData = (data as dataTypes.CostData)[`${dataKey}ThisYear`];
+					} else if (dataKey === "programsRunning") {
+						selectedData = (data as dataTypes.ProgramsRunningData)[
+							`${dataKey}ThisYear`
+						];
+					}
+					setSelectedYears([
+						{
+							year: 2024,
+							value: selectedData
+								? selectedData
+								: [{ name: "Monday", value: 2 }],
+						},
+					]);
 				}}
 			>
 				<Card className="cursor-pointer hover:bg-accent/50 transition-colors">
