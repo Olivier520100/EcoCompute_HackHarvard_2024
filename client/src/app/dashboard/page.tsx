@@ -14,7 +14,7 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown, DollarSign, Server, Zap } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 import type * as dataTypes from "@/lib/datatypes"; // Adjust the path based on your project structure
@@ -22,7 +22,7 @@ import type * as dataTypes from "@/lib/datatypes"; // Adjust the path based on y
 import fakedata from "@/lib/fakedata.json";
 
 export default function Dashboard() {
-	const [data, setData] = useState<dataTypes.AllData>({ ...fakedata });
+	const [data] = useState<dataTypes.AllData>({ ...fakedata });
 
 	const [timePeriod, setTimePeriod] = useState("today");
 

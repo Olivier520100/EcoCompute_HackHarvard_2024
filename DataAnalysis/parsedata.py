@@ -1,7 +1,6 @@
 import requests
 import json
 
-
 # Parse response to JSON
 response_data = json.load(open("wind_europe_data.json"))
 country_names = {entry['countryName'] for entry in response_data['data']['dailyPrices']}

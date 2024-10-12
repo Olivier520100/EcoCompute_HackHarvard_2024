@@ -58,3 +58,22 @@
     --chart-5: 340 75% 55%;
   }
 }
+
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 12px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(22 163 74)
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #663300; /* color of the scrollbar handle */
+  border-radius: 10px; /* roundness of the handle */
+  border: 1px solid white; /* padding around the handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkbrown; /* color when hovering over the scrollbar handle */
+}
