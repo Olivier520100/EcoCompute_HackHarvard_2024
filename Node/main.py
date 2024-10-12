@@ -1,7 +1,11 @@
+import threading
 import docker
 import time
 import socket
 import random
+import websocket
+from websocket import WebSocketApp
+
 
 # Docker client setup
 client = docker.from_env()
@@ -84,12 +88,39 @@ class Node:
                 output = s.recv(4096).decode()
                 outputs.append(output.strip())
         return outputs
+    
+def on_message(ws, message):
+    print("Received message:", message)
+    # Handle incoming messages from FastAPI, e.g., start/stop containers
+    if message.startswith("START"):
+        node_id = int(message.split(" ")[1])
+        print(f"Starting container with ID: {node_id}")
+        # Here you can add logic to handle the start of the container
+    elif message.startswith("STOP"):
+        node_id = int(message.split(" ")[1])
+        print(f"Stopping container with ID: {node_id}")
+        # Here you can add logic to handle the stopping of the container
+    
+def on_error(ws,error):
+        print("Error:", error)
+    
+def on_close(ws):
+        print("### Connection closed ###")
+        
+def on_open(ws):
+        ws.send("START 1")
+    
+def run_websocket():
+        ws = websocket.WebSocketApp("ws://localhost:8000/node/ws", on_message=on_message, on_error=on_error, on_close=on_close)
+        ws.on_open = on_open
+        ws.run_forever()
 
 if __name__ == "__main__":
-
-
-    
+    ws = websocket.WebSocketApp("ws://localhost:8000/ws/test_client",
+                                on_message=on_message,
+                                on_error=on_error,
+                                on_close=on_close)
+    ws.on_open = on_open
+    ws.run_forever()
         # Cleanup
-        if 'node' in locals():
-            node.kill_node()
-        client.containers.prune()
+        
