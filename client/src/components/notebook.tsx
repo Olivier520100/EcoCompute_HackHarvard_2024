@@ -3,7 +3,7 @@ import { ChevronDown, FileText, Folder, Play, Plus, Menu, X } from 'lucide-react
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
-export default function Component() {
+export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true)
 
   return (
