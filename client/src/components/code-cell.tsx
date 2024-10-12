@@ -25,7 +25,7 @@ export default function CodeCell({
 
   const runCodeCell = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/run-code-cell`, {
+      const response = await fetch(`api/run-code-cell`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
