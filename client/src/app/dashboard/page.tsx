@@ -24,6 +24,8 @@ import { ChevronDown, DollarSign, Server, Zap } from "lucide-react";
 import { type Dispatch, type SetStateAction, useState } from "react";
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
+import MultipleFileUpload from "@/components/multiple-file-upload";
+
 import type * as dataTypes from "@/lib/datatypes"; // Adjust the path based on your project structure
 
 import { Checkbox } from "@/components/ui/checkbox";
@@ -38,6 +40,12 @@ export default function Dashboard() {
 		<div className="p-8">
 			<div className="flex justify-between items-center mb-8">
 				<h1 className="text-3xl font-bold">Company Usage Dashboard</h1>
+
+				<div className="flex flex-row gap-1">
+					<MultipleFileUpload />
+					<Button type="button">Submit</Button>
+				</div>
+
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
 						<Button variant="outline">
