@@ -4,3 +4,6 @@
 3. `pip install -r requirements.txt`
 
 After installing new dependencies, run `pip freeze > requirements.txt` to update the requirements file.
+
+# How to run the server
+1. `uvicorn main:app --reload`
