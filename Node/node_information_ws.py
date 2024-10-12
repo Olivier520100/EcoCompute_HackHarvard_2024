@@ -7,6 +7,11 @@ import websocket
 from websocket import WebSocketApp
 import docker
 import random
+from datetime import datetime, timedelta
+
+hourlyconsumption = []
+hourlycontainers = []
+
 
 # Initialize Docker client to interact with the Docker engine
 docker_client = docker.from_env()
@@ -18,75 +23,62 @@ def get_running_containers():
     """
     return docker_client.containers.list()
 
-def mock_cpu_usage():
+def remove_old():
     """
-    Generate random CPU usage to simulate container stats.
+    Remove power consumption data that is older than one hour.
     """
-    return random.uniform(10, 90)  # Mock CPU usage as a percentage (10% to 90%)
+    current_time = datetime.now()
+    hour_ago = current_time - timedelta(hours=1)
+    
+    # Keep only entries from the last hour
+    global hourlyconsumption
+    global hourlycontainers
+    hourlyconsumption = [entry for entry in hourlyconsumption if datetime.fromisoformat(entry['timestamp']) > hour_ago]
+    hourlycontainers = [entry for entry in hourlycontainers if datetime.fromisoformat(entry['timestamp']) > hour_ago]
 
-def mock_memory_usage():
-    """
-    Generate random memory usage to simulate container stats.
-    """
-    return random.randint(500, 4000) * 1024 * 1024  # Random memory usage between 500MB to 4GB
 
 
 
 # Constants
-CPU_POWER_CONSTANT = 20  # Example constant for power consumption per CPU usage
+CPU_POWER_CONSTANT = 100000  # Example constant for power consumption per CPU usage
 RANDOM_VARIANCE = 0.5  # A random variance factor for power consumption
-
-def get_running_containers():
-    """Fetch real running containers from Docker."""
-    client = docker.from_env()
-    return client.containers.list()  # List of running containers
-
 def get_container_stats():
     """
-    Fetch stats for each running container and calculate total power consumption, 
-    total CPU usage percentage, and total memory usage.
-    Returns a dictionary containing total stats.
+    Fetch stats for each running container and calculate total power consumption.
+    Returns a dictionary containing total power consumption and the current date and time.
     """
-    total_stats = {
-        "total_cpu_usage_percent": 0,
-        "total_memory_usage_mb": 0,
-        "total_power_consumption_watts": 0
-    }
 
     containers = get_running_containers()  # Fetch running containers
+    total_power_consumption = 0
 
     for container in containers:
         # Fetch real-time stats from Docker
         stats = container.stats(stream=False)  # Get stats without streaming
 
-        # Extract CPU and memory usage
+        # Extract CPU usage
         cpu_usage = stats["cpu_stats"]["cpu_usage"]["total_usage"]
-        memory_usage = stats["memory_stats"]["usage"]
 
-        # Convert CPU usage to percentage (if you need it as a percentage)
+        # Convert CPU usage to percentage
         cpu_percentage = (cpu_usage / stats["cpu_stats"]["system_cpu_usage"]) * 100.0 if stats["cpu_stats"]["system_cpu_usage"] > 0 else 0
-        
+
         # Calculate estimated power consumption
         estimated_power = (cpu_percentage * CPU_POWER_CONSTANT) + random.uniform(-RANDOM_VARIANCE, RANDOM_VARIANCE)
 
-        # Update total stats
-        total_stats["total_cpu_usage_percent"] += cpu_percentage
-        total_stats["total_memory_usage_mb"] += memory_usage / (1024 * 1024)  # Convert bytes to MB
-        total_stats["total_power_consumption_watts"] += estimated_power
+        # Update total power consumption
+        total_power_consumption += estimated_power
 
-    # If you want to get average values, you can divide by the number of containers
-    container_count = len(containers)
-    if container_count > 0:
-        total_stats["average_cpu_usage_percent"] = total_stats["total_cpu_usage_percent"] / container_count
-        total_stats["average_memory_usage_mb"] = total_stats["total_memory_usage_mb"] / container_count
-        total_stats["average_power_consumption_watts"] = total_stats["total_power_consumption_watts"] / container_count
-    else:
-        total_stats["average_cpu_usage_percent"] = 0
-        total_stats["average_memory_usage_mb"] = 0
-        total_stats["average_power_consumption_watts"] = 0
+    # Get the current date and time
+    current_datetime = datetime.now().strftime("%H:%M:%S")
 
-    return total_stats
-
+    return [{
+        "name": current_datetime,
+        "value": total_power_consumption,
+        "timestamp": datetime.now().isoformat()  # Convert timestamp to ISO format for JSON serialization        
+        },
+    {"name": current_datetime,
+        "value": len(get_running_containers()),
+        "timestamp": datetime.now().isoformat()  # Convert timestamp to ISO format for JSON serialization        
+        }]
 
 def send_periodic(ws):
     """
@@ -95,12 +87,23 @@ def send_periodic(ws):
     while True:
         # Get stats for all running containers
         container_stats = get_container_stats()
+        hourlyconsumption.append(container_stats[0])
+        hourlycontainers.append(container_stats[1])
+
+        remove_old()
+        
+        output = {"consumption": {
+            "hourly": hourlyconsumption
+        },
+        "containers": {
+            "hourly": hourlycontainers
+        }}
 
         # Convert to JSON and send over WebSocket
-        ws.send(json.dumps(container_stats))
-        print(f"Sent container stats: {json.dumps(container_stats, indent=2)}")
+        ws.send(json.dumps(output))
+        print(f"Sent container stats: {json.dumps(output, indent=2)}")
+        time.sleep(1)
         
-        time.sleep(1)  # Send updates every 5 seconds
 
 
 def on_error(ws, error):

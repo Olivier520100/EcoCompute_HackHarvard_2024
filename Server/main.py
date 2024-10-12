@@ -1,8 +1,16 @@
 # server.py
 
+import asyncio
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
-from typing import List
+from typing import List, Dict
+import docker
+import time
+import socket
+import random
+import time
+import json
+
 from pydantic import BaseModel
 import json
 
@@ -10,11 +18,27 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Be cautious with '*' in production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+runjson = {
+    "operation": "RUN",
+    "container_id": "",
+    "code_lines": [
+    ]
+}
+stopjson = {
+    "operation": "STOP",
+    "container_id": "",
+}
+startjson = {
+    "operation": "START",
+    "container_id": "",
+}
 
 
 class ConnectionManager:
@@ -36,12 +60,34 @@ class ConnectionManager:
         for connection in self.active_connections:
             await connection.send_text(data)
 
+    async def execute_code(self, code: str) -> str:
+        try:
+            exec_globals = {}
+            exec(code, exec_globals)
+            return str(exec_globals)
+        except Exception as e:
+            return f"Error: {str(e)}"
 
 manager = ConnectionManager()
 
 
-@app.websocket("/ws/{client_id}")
-async def websocket_endpoint(websocket: WebSocket, client_id: str):
+@app.websocket("/containermanagement/{client_id}")
+async def websocket_endpoint_management(websocket: WebSocket, client_id: str):
+    await manager.connect(websocket)
+    try:
+        while True:
+
+            a = json.loads(input())
+            await websocket.send_json(a)
+            response = await websocket.receive_text()
+            print(response)
+            
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+        await manager.broadcast("A client disconnected")
+
+@app.websocket("/containerinfo/{client_id}")
+async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
@@ -55,6 +101,11 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
             await websocket.send(
                 json.dumps({"cellId": response_data.cellId, "data": response_data.code})
             )
+
+
+            response = await websocket.receive_text()
+            print(response)
+            
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         print(f"Client {client_id} disconnected")
@@ -64,36 +115,25 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
         await websocket.close()
 
 
+        await manager.broadcast("A client disconnected")
+        
+
+@app.get("/")
+async def read_root():
+    return {"message": "Hello, World!"}
+
 class CodeCellRequest(BaseModel):
-    code_lines: str
-
-
-import io
-import sys
-
-
-def run_python_code(code_string):
-    # Redirect stdout to capture print statements
-    old_stdout = sys.stdout
-    new_stdout = io.StringIO()
-    sys.stdout = new_stdout
-
-    try:
-        # Execute the code string
-        exec(code_string)
-    except Exception as e:
-        # In case of an error, return the exception message
-        return f"Error: {str(e)}"
-    finally:
-        # Restore stdout to the original state
-        sys.stdout = old_stdout
-
-    # Get the output from the code execution
-    output = new_stdout.getvalue()
-    return output
-
+    code: str
 
 @app.post("/run-code-cell")
 async def run_code_cell(request: CodeCellRequest):
     code_lines = request.code_lines
-    return {"result": run_python_code(code_lines)}
+    output = "\n".join([f"Output of line {i}: {line}" for i, line in enumerate(code_lines)])
+    return {"output": output}
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    while True:
+        data = await websocket.receive_text()
+        await websocket.send_text(f"Message text was: {data}")
