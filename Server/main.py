@@ -1,5 +1,3 @@
-
-
 # FastAPI Server (server.py)
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
@@ -43,6 +41,7 @@ startjson = {
 class ConnectionManager:
     def __init__(self):
         self.active_connections: List[WebSocket] = []
+
 
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
@@ -89,4 +88,6 @@ class CodeCellRequest(BaseModel):
 
 @app.post("/run-code-cell")
 async def run_code_cell(request: CodeCellRequest):
-    return {"result": "Not implemented yet. Output of " + request.code + "will be shown here."}
+    code_lines = request.code_lines
+    output = "\n".join([f"Output of line {i}: {line}" for i, line in enumerate(code_lines)])
+    return {"output": output}
