@@ -3,6 +3,7 @@ import { ChevronDown, FileText, Folder, Play, Plus, Menu, X } from 'lucide-react
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import CodeCell from './code-cell'
+import MarkdownCell from './markdown-cell'
 
 export default function NoteBook() {
   const [sidebarOpen, setSidebarOpen] = useState(true)
@@ -55,11 +56,7 @@ export default function NoteBook() {
 
         {/* Main content */}
         <main className="flex-1 p-6 overflow-y-auto">
-          {/* Markdown cell */}
-          <div className="mb-6 bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-            <h2 className="text-2xl font-semibold mb-3 text-green-800">Welcome to Green Notebook</h2>
-            <p className="text-gray-700 leading-relaxed">This is a markdown cell. You can write explanations and documentation here. The sleek design enhances readability and focus.</p>
-          </div>
+          <MarkdownCell />
 
           {/* Code cell */}
           <div className="mb-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
