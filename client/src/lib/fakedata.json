@@ -16,7 +16,7 @@
 			{ "name": "12:00", "value": 570 },
 			{ "name": "13:00", "value": 580 },
 			{ "name": "14:00", "value": 590 },
-			{ "name": "15:00", "value": 610 },
+			{ "name": "15:00", "value": 6990 },
 			{ "name": "16:00", "value": 620 },
 			{ "name": "17:00", "value": 630 },
 			{ "name": "18:00", "value": 650 },
@@ -54,6 +54,42 @@
 			{ "name": "October", "value": 190000 },
 			{ "name": "November", "value": 200000 },
 			{ "name": "December", "value": 210000 }
+		],
+		"oldData": [
+			{
+				"year": 2023,
+				"value": [
+					{ "name": "January", "value": 48000 },
+					{ "name": "February", "value": 49000 },
+					{ "name": "March", "value": 50000 },
+					{ "name": "April", "value": 51000 },
+					{ "name": "May", "value": 52000 },
+					{ "name": "June", "value": 53000 },
+					{ "name": "July", "value": 54000 },
+					{ "name": "August", "value": 55000 },
+					{ "name": "September", "value": 56000 },
+					{ "name": "October", "value": 57000 },
+					{ "name": "November", "value": 58000 },
+					{ "name": "December", "value": 59000 }
+				]
+			},
+			{
+				"year": 2022,
+				"value": [
+					{ "name": "January", "value": 46000 },
+					{ "name": "February", "value": 47000 },
+					{ "name": "March", "value": 48000 },
+					{ "name": "April", "value": 49000 },
+					{ "name": "May", "value": 50000 },
+					{ "name": "June", "value": 51000 },
+					{ "name": "July", "value": 52000 },
+					{ "name": "August", "value": 53000 },
+					{ "name": "September", "value": 54000 },
+					{ "name": "October", "value": 55000 },
+					{ "name": "November", "value": 56000 },
+					{ "name": "December", "value": 57000 }
+				]
+			}
 		]
 	},
 	"programsRunning": {
@@ -111,7 +147,43 @@
 			{ "name": "October", "value": 2000 },
 			{ "name": "November", "value": 2100 },
 			{ "name": "December", "value": 2200 }
-		]
+		],
+		"oldData": [
+		{
+			"year": 2023,
+			"value": [
+				{ "name": "January", "value": 1500 },
+				{ "name": "February", "value": 1550 },
+				{ "name": "March", "value": 1600 },
+				{ "name": "April", "value": 1650 },
+				{ "name": "May", "value": 1700 },
+				{ "name": "June", "value": 1750 },
+				{ "name": "July", "value": 1800 },
+				{ "name": "August", "value": 1850 },
+				{ "name": "September", "value": 1900 },
+				{ "name": "October", "value": 1950 },
+				{ "name": "November", "value": 2000 },
+				{ "name": "December", "value": 2050 }
+			]
+		},
+		{
+			"year": 2022,
+			"value": [
+				{ "name": "January", "value": 1450 },
+				{ "name": "February", "value": 1500 },
+				{ "name": "March", "value": 1550 },
+				{ "name": "April", "value": 1600 },
+				{ "name": "May", "value": 1650 },
+				{ "name": "June", "value": 1700 },
+				{ "name": "July", "value": 1750 },
+				{ "name": "August", "value": 1800 },
+				{ "name": "September", "value": 1850 },
+				{ "name": "October", "value": 1900 },
+				{ "name": "November", "value": 1950 },
+				{ "name": "December", "value": 2000 }
+			]
+		}
+	]
 	},
 	"powerConsumption": {
 		"powerConsumptionToday": [
@@ -168,6 +240,43 @@
 			{ "name": "October", "value": 60000 },
 			{ "name": "November", "value": 61000 },
 			{ "name": "December", "value": 62000 }
-		]
+		],"oldData": [
+		{
+			"year": 2023,
+			"value": [
+				{ "name": "January", "value": 1500 },
+				{ "name": "February", "value": 1550 },
+				{ "name": "March", "value": 1600 },
+				{ "name": "April", "value": 1650 },
+				{ "name": "May", "value": 1700 },
+				{ "name": "June", "value": 1750 },
+				{ "name": "July", "value": 1800 },
+				{ "name": "August", "value": 1850 },
+				{ "name": "September", "value": 1900 },
+				{ "name": "October", "value": 1950 },
+				{ "name": "November", "value": 2000 },
+				{ "name": "December", "value": 2050 }
+			]
+		},
+		{
+			"year": 2022,
+			"value": [
+				{ "name": "January", "value": 1450 },
+				{ "name": "February", "value": 1500 },
+				{ "name": "March", "value": 1550 },
+				{ "name": "April", "value": 1600 },
+				{ "name": "May", "value": 1650 },
+				{ "name": "June", "value": 1700 },
+				{ "name": "July", "value": 1750 },
+				{ "name": "August", "value": 1800 },
+				{ "name": "September", "value": 1850 },
+				{ "name": "October", "value": 1900 },
+				{ "name": "November", "value": 1950 },
+				{ "name": "December", "value": 2000 }
+			]
+		}
+	]
 	}
+	
+	
 }
