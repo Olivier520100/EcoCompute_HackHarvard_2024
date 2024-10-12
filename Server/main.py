@@ -1,11 +1,10 @@
 # server.py
 
-import asyncio
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
-import json
 from pydantic import BaseModel
+import json
 
 app = FastAPI()
 
@@ -24,9 +23,13 @@ class ConnectionManager:
 
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
+        print("🚀 ~ websocketConnect:", websocket)
+
         self.active_connections.append(websocket)
 
     def disconnect(self, websocket: WebSocket):
+        print("🚀 ~ websocketDisconnect:", websocket)
+
         self.active_connections.remove(websocket)
 
     async def broadcast(self, data: str):
@@ -43,8 +46,15 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
     try:
         while True:
             data = await websocket.receive_text()
-            response = f"Message text was: {data}"
-            await websocket.send_text(response)
+            print("🚀 ~ data:", data)
+
+            response = f"Message text was: {json.loads(data)}"
+            response_data = json.loads(data)
+
+            print("🚀 ~ response:", response)
+            await websocket.send(
+                json.dumps({"cellId": response_data.cellId, "data": response_data.code})
+            )
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         print(f"Client {client_id} disconnected")
@@ -52,11 +62,6 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
         print(f"Error in websocket connection with client {client_id}: {e}")
     finally:
         await websocket.close()
-
-
-@app.get("/")
-async def read_root():
-    return {"message": "Hello, World!"}
 
 
 class CodeCellRequest(BaseModel):
