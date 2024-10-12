@@ -79,7 +79,22 @@ async def websocket_endpoint_management(websocket: WebSocket, client_id: str):
     except WebSocketDisconnect:
         manager.disconnect(websocket)
         await manager.broadcast("A client disconnected")
+
+@app.websocket("/containerinfo/{client_id}")
+async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
+    await manager.connect(websocket)
+    try:
+        while True:
+
+
+            response = await websocket.receive_text()
+            print(response)
+            
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+        await manager.broadcast("A client disconnected")
         
+            
 @app.get("/")
 async def read_root():
     return {"message": "Hello, World!"}
