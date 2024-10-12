@@ -6,6 +6,7 @@ import time
 import socket
 import random
 
+
 app = FastAPI()
 
 app.add_middleware(
@@ -84,7 +85,7 @@ class Node:
         try:
             self.run_cell(["EXIT"])
         except:
-            pass  # Ignore errors during exit
+            pass  
         self.container.stop()
         self.container.remove()
 
@@ -101,7 +102,7 @@ class Node:
 class ConnectionManager:
     def __init__(self):
         self.active_connections: List[WebSocket] = []
-        self.nodes: Dict[int, 'Node'] = {}  # Store Node instances
+        self.nodes: Dict[int, 'Node'] = {}  
 
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
@@ -115,7 +116,7 @@ class ConnectionManager:
             await connection.send_text(data)
 
     async def execute_code(self, code: str) -> str:
-        # Execute the received code and return the result
+        
         try:
             exec_globals = {}
             exec(code, exec_globals)
@@ -143,13 +144,13 @@ class ConnectionManager:
 
 manager = ConnectionManager()
 
-@app.websocket("/ws/{client_id}")
+@app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
             data = await websocket.receive_text()
-            command = data.split(" ", 1)  # Split the command and code if exists
+            command = data.split(" ", 1)  
 
             if command[0] == "CREATE":
                 node_id = int(command[1])
@@ -168,7 +169,7 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
 
             elif data == "EXIT":
                 await websocket.send_text("Connection closed")
-                break  # Close the connection when "EXIT" is received
+                break  
 
     except WebSocketDisconnect:
         manager.disconnect(websocket)

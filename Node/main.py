@@ -75,7 +75,7 @@ class Node:
         try:
             self.run_cell(["EXIT"])
         except:
-            pass  # Ignore errors during exit
+            pass  
         self.container.stop()
         self.container.remove()
 
@@ -91,15 +91,15 @@ class Node:
     
 def on_message(ws, message):
     print("Received message:", message)
-    # Handle incoming messages from FastAPI, e.g., start/stop containers
+
     if message.startswith("START"):
         node_id = int(message.split(" ")[1])
         print(f"Starting container with ID: {node_id}")
-        # Here you can add logic to handle the start of the container
+
     elif message.startswith("STOP"):
         node_id = int(message.split(" ")[1])
         print(f"Stopping container with ID: {node_id}")
-        # Here you can add logic to handle the stopping of the container
+
     
 def on_error(ws,error):
         print("Error:", error)
@@ -110,16 +110,9 @@ def on_close(ws):
 def on_open(ws):
         ws.send("START 1")
     
-def run_websocket():
-        ws = websocket.WebSocketApp("ws://localhost:8000/node/ws", on_message=on_message, on_error=on_error, on_close=on_close)
-        ws.on_open = on_open
-        ws.run_forever()
 
 if __name__ == "__main__":
-    ws = websocket.WebSocketApp("ws://localhost:8000/ws/test_client",
-                                on_message=on_message,
-                                on_error=on_error,
-                                on_close=on_close)
+    ws = websocket.WebSocketApp("ws://localhost:8000/ws",on_message=on_message,on_error=on_error,on_close=on_close)
     ws.on_open = on_open
     ws.run_forever()
         # Cleanup
