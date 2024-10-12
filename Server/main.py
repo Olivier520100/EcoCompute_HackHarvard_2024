@@ -85,8 +85,6 @@ async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
-
-
             response = await websocket.receive_text()
             print(response)
             
@@ -100,7 +98,7 @@ async def read_root():
     return {"message": "Hello, World!"}
 
 class CodeCellRequest(BaseModel):
-    code: str
+    code_lines: str
 
 @app.post("/run-code-cell")
 async def run_code_cell(request: CodeCellRequest):
