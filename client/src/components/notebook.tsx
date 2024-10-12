@@ -37,21 +37,21 @@ export default function NoteBook() {
           const notebookContent = JSON.parse(event.target?.result as string);
           let i = cellCount;
 
-          // Check if the content has 'cells' (typical structure of a .ipynb file)
           if (notebookContent.cells) {
             const codeCells: Cell[] = notebookContent.cells
-              .filter((cell: any) => cell.cell_type === "code") // Filter for code cells only
+              .filter((cell: any) => cell.cell_type === "code")
               .map((cell: any) => {
                 const newCell: Cell = {
-                  id: i++,
-                  initialCode: cell.source.join(""),
+                  id: i++, 
+                  initialCode: cell.source.join(""), 
                 };
                 return newCell;
               });
-            setCellCount(i);
-            console.log(codeCells);
 
-            setCells(codeCells); // Set the state with the extracted code cells
+            setCellCount(i);
+
+
+            setCells([...codeCells]);
           } else {
             console.error("Invalid .ipynb file format");
           }
@@ -61,6 +61,8 @@ export default function NoteBook() {
       };
 
       reader.readAsText(file);
+
+      e.target.value = "";
     }
   };
 
