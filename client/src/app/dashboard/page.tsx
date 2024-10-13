@@ -94,7 +94,7 @@ export default function Dashboard() {
 		if (!ws.current) return; // Check ws.current
 
 		const handleMessage = (event: MessageEvent) => {
-			const data  = JSON.parse(event.data);
+			const data = JSON.parse(event.data);
 			console.log("🚀 ~ handleMessage ~ data:", data);
 			setData_Hour(data);
 		};
@@ -180,7 +180,7 @@ export default function Dashboard() {
 interface ChartCardProps {
 	title: string;
 	icon: React.ReactNode;
-	data_hour: dataTypes.DataCategory | undefined
+	data_hour: dataTypes.DataCategory | undefined;
 	data:
 		| dataTypes.PowerConsumptionData
 		| dataTypes.CostData
@@ -334,15 +334,16 @@ function ChartCard({
 						{icon}
 					</CardHeader>
 					<CardContent>
-						<div className="text-2xl font-bold">AMOUNT</div>
-						<p className="text-xs text-muted-foreground">kW/h</p>
+						<p className="text-xs text-muted-foreground">{label}</p>
 						<ChartContainer
 							config={{ value: { label: label, color: "" } }}
 							className="h-[200px]"
 						>
 							<ResponsiveContainer width="100%" height="100%">
 								<AreaChart
-									data={timePeriod === "hour" ? data_hour?.hourly : getChartData()}
+									data={
+										timePeriod === "hour" ? data_hour?.hourly : getChartData()
+									}
 								>
 									<XAxis dataKey="name" tickFormatter={formatXAxis} />
 									<YAxis />
