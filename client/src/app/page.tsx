@@ -1,21 +1,19 @@
-'use client'
+"use client";
 
-import { useEffect, useRef } from 'react'
-const ReactPlayer = dynamic(() => import('react-player'), { ssr: false })
-import Link from 'next/link'
-import { Button } from "@/components/ui/button"
-import { Leaf, TreePine } from 'lucide-react'
-import Image from 'next/image'
-import logo from '@/lib/LogoGif.gif'
-import dynamic from 'next/dynamic'
+import { useEffect, useRef } from "react";
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Leaf, TreePine } from "lucide-react";
+import Image from "next/image";
+import logo from "@/lib/LogoGif.gif";
+import dynamic from "next/dynamic";
+import Navbar from "@/components/navbar";
 
 export default function VideoPlayer() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-green-100 to-green-200">
-      <header className="w-full bg-green-600 p-4 flex items-center">
-        <Leaf className="h-6 w-6 text-white mr-2" />
-        <h1 className="text-2xl font-bold text-white">EcoCompute</h1>
-      </header>
+      <Navbar />
       <div className="flex-grow flex items-center justify-center p-8">
         <div className="relative flex items-stretch bg-white rounded-3xl shadow-lg p-8 space-x-8">
           <div className="flex flex-col items-center space-y-8">
@@ -38,7 +36,7 @@ export default function VideoPlayer() {
               <Link href="/computing">
                 <Button className="w-48 h-16 text-lg bg-green-500 hover:bg-green-600 text-white rounded-full shadow-md transition-all hover:scale-105">
                   <TreePine className="mr-2 h-6 w-6" />
-                  Green Computing
+                  Eco Computing
                 </Button>
               </Link>
             </div>
@@ -59,7 +57,8 @@ export default function VideoPlayer() {
             </div>
             <div className="p-4 bg-green-200">
               <p className="text-sm text-green-800 text-center font-medium">
-                Join us in our eco-friendly adventure to make sustainable computing! 🌱💻
+                Join us in our eco-friendly adventure to make sustainable
+                computing! 🌱💻
               </p>
             </div>
           </div>
@@ -69,5 +68,5 @@ export default function VideoPlayer() {
         </div>
       </div>
     </div>
-  )
+  );
 }
