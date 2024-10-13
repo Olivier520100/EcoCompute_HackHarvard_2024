@@ -1,6 +1,7 @@
 # server.py
 
 import asyncio
+import math
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Dict
@@ -13,6 +14,10 @@ import json
 
 from pydantic import BaseModel
 import json
+
+queues = {"test" : [{"operation": "CREATE",
+    "container_id": 1}]}
+
 
 app = FastAPI()
 
@@ -31,7 +36,7 @@ stopjson = {
     "container_id": "",
 }
 startjson = {
-    "operation": "START",
+    "operation": "CREATE",
     "container_id": "",
 }
 
@@ -69,13 +74,16 @@ manager = ConnectionManager()
 
 @app.websocket("/containermanagement/{client_id}")
 async def websocket_endpoint_management(websocket: WebSocket, client_id: str):
+    queues[client_id] = []
     await manager.connect(websocket)
     try:
         while True:
-            a = json.loads(input())
-            await websocket.send_json(a)
-            response = await websocket.receive_text()
-            print(response)
+            if len(queues[client_id]) > 0 :
+                code = queues[client_id][0]
+                await websocket.send_json(code)
+                response = await websocket.receive_text()
+                queues[client_id][0].pop(0)
+                print(response)
 
     except WebSocketDisconnect:
         manager.disconnect(websocket)
@@ -98,12 +106,6 @@ async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
 
 
 
-
-
-
-#route for client
-
-
 @app.websocket("/notebookconnection/{client_id}")
 async def websocket_notebook_connection(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
@@ -115,12 +117,13 @@ async def websocket_notebook_connection(websocket: WebSocket, client_id: str):
             response = f"Message text was: {json.loads(data)}"
             response_data = json.loads(data)
 
-            print("🚀 ~ response:", response)
-            await websocket.send_text(
-                json.dumps(
-                    {"cellId": response_data["cellId"], "code": response_data["code"]}
-                )
-            )
+            # queues..send_json({"operation": "RUN", "container_id": client_id, "code_lines": response_data["code"].split("")})
+            # print("🚀 ~ response:", response)
+            # await websocket.send_text(
+            #     json.dumps(
+            #         {"cellId": response_data["cellId"], "code": response_data["code"]}
+            #     )
+            # )
 
     except WebSocketDisconnect:
         manager.disconnect(websocket)
