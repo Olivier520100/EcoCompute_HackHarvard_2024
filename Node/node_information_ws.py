@@ -8,7 +8,7 @@ from websocket import WebSocketApp
 import docker
 import random
 from datetime import datetime, timedelta
-from get_mean_wind_speed import get_mean_wind_speed
+from get_mean_wind_speed import get_wind_speed
 import pandas as pd
 
 import joblib
@@ -89,15 +89,15 @@ def get_power_production() -> float:
     ai model from power_model.pkl
     """
     # Get wind speed data
-    mean_wind_speed = get_mean_wind_speed(200)
-    if not mean_wind_speed:
+    wind_speed = get_wind_speed(52.52, 13.41)
+    if not wind_speed:
         return None
 
     # Load the AI model
     model = joblib.load("power_model.pkl")
 
     # Predict power production
-    scaled_power = model.predict([[mean_wind_speed]])
+    scaled_power = model.predict([[wind_speed]])
     power_production = power_scaler.inverse_transform(scaled_power)[0][0]
 
     return power_production
