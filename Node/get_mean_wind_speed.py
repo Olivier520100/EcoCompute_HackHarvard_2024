@@ -63,7 +63,7 @@ def get_wind_speed(lat, lon):
             new_columns["date"].append(formatted_date)
             new_columns["wind_speed_120m"].append(wind_speeds)
             print(f"Data for coordinates ({lat}, {lon}) fetched successfully")
-            return new_columns
+            return new_columns["wind_speed_120m"][0]
         else:
             print(f"No data for coordinates ({lat}, {lon})")
             return None
