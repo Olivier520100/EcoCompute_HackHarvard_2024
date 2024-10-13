@@ -1,6 +1,6 @@
 // NoteBook.tsx
 import { useEffect, useState } from "react";
-import { Menu, X, Trees, Leaf } from "lucide-react";
+import { Menu, X, Trees, Leaf, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
 import { handleDownload } from "@/lib/utils";
@@ -86,7 +86,10 @@ export default function NoteBook() {
   return (
     <div className="flex flex-col h-screen bg-green-50">
       {/* Header */}
-      <header className="bg-green-600 text-white p-3 flex justify-between items-center shadow-md">
+      <header
+        className={`bg-green-600 text-white p-3 flex justify-between items-center shadow-md
+        } transition-all duration-300`}
+      >
         <div className="flex items-center space-x-4">
           <Button
             variant="ghost"
@@ -107,24 +110,40 @@ export default function NoteBook() {
             </h1>
           </Link>
         </div>
-        <div className="flex space-x-2">
-          <Button
-            onClick={() => addCodeCell()}
-            variant="outline"
-            size="sm"
-            className="text-green-700 border-green-500 bg-white hover:bg-green-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
-          >
-            + Add Code
-          </Button>
-          <Button
-            onClick={clearAll}
-            variant="outline"
-            size="sm"
-            className="text-red-700 border-red-500 bg-white hover:bg-red-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
-          >
-            Clear All
-          </Button>
-        </div>
+        <div className="flex space-x-4">
+            <Link
+              href="/dashboard"
+              className="hover:text-green-900 text-lg font-bold px-2 py-1 rounded transition-all duration-1000"
+            >
+              Dashboard
+            </Link>
+            <Link
+              href="/computing"
+              className="hover:text-green-900 text-lg font-bold px-2 py-1 rounded transition-all duration-1000"
+            >
+              Computing
+            </Link>
+            <Link
+              href="/"
+              className="hover:text-green-900 text-lg font-bold px-2 py-1 rounded transition-all duration-1000"
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              className="hover:text-green-900 text-lg font-bold px-2 py-1 rounded transition-all duration-1000"
+            >
+              About
+            </Link>
+            <Link
+              href="https://github.com/Olivier520100/EcoCompute_HackHarvard_2024"
+              className="hover:text-green-900 transition-all duration-1000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="h-8 w-8" />
+            </Link>
+          </div>
       </header>
 
       <div className="flex flex-1 overflow-hidden">
@@ -133,6 +152,24 @@ export default function NoteBook() {
           <aside className="bg-green-100 p-4 overflow-y-auto transition-all duration-300 ease-in-out sm:transition-none sm:duration-0 md:w-1/4">
             <div className="flex justify-between items-center mb-4">
               <h2 className="font-semibold text-green-800">Settings</h2>
+              <div className="flex space-x-2">
+                <Button
+                  onClick={() => addCodeCell()}
+                  variant="outline"
+                  size="sm"
+                  className="text-green-700 border-green-500 bg-white hover:bg-green-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
+                >
+                  + Add Code
+                </Button>
+                <Button
+                  onClick={clearAll}
+                  variant="outline"
+                  size="sm"
+                  className="text-red-700 border-red-500 bg-white hover:bg-red-500 hover:text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200"
+                >
+                  Clear All
+                </Button>
+              </div>
             </div>
 
             <div className="space-y-4">
