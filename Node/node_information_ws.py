@@ -94,7 +94,7 @@ def get_power_production() -> float:
         return None
 
     # Load the AI model
-    model = joblib.load("power_model.pkl")
+    model = joblib.load("./models/power_model.pkl")
 
     # Predict power production
     scaled_power = model.predict([[wind_speed]])
