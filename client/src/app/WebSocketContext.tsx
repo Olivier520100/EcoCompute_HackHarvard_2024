@@ -45,9 +45,9 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> =
 			};
 
 			ws.current.onerror = (error) => {
-				console.error("WebSocket error observed:", error);
+				 console.error("WebSocket error observed:", error);
 			};
-
+  
 			return () => {
 				console.log("WebSocketProvider unmounted");
 				ws.current?.close();
