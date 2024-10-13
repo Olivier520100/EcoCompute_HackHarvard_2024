@@ -95,6 +95,15 @@ async def websocket_endpoint_info(websocket: WebSocket, client_id: str):
         await manager.broadcast("A client disconnected")
 
 
+
+
+
+
+
+
+#route for client
+
+
 @app.websocket("/notebookconnection/{client_id}")
 async def websocket_notebook_connection(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
@@ -122,16 +131,3 @@ async def websocket_notebook_connection(websocket: WebSocket, client_id: str):
         await websocket.close()
 
         await manager.broadcast("A client disconnected")
-
-
-class CodeCellRequest(BaseModel):
-    code: str
-
-
-@app.post("/run-code-cell")
-async def run_code_cell(request: CodeCellRequest):
-    code_lines = request.code_lines
-    output = "\n".join(
-        [f"Output of line {i}: {line}" for i, line in enumerate(code_lines)]
-    )
-    return {"output": output}
