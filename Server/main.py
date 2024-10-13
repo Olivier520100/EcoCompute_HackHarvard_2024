@@ -72,6 +72,7 @@ async def websocket_endpoint_management(websocket: WebSocket, client_id: str):
     await manager.connect(websocket)
     try:
         while True:
+            # Add something to queue and websocket id?
             a = json.loads(input())
             await websocket.send_json(a)
             response = await websocket.receive_text()
@@ -115,12 +116,14 @@ async def websocket_notebook_connection(websocket: WebSocket, client_id: str):
             response = f"Message text was: {json.loads(data)}"
             response_data = json.loads(data)
 
-            print("🚀 ~ response:", response)
-            await websocket.send_text(
-                json.dumps(
-                    {"cellId": response_data["cellId"], "code": response_data["code"]}
-                )
-            )
+
+
+            # print("🚀 ~ response:", response)
+            # await websocket.send_text(
+            #     json.dumps(
+            #         {"cellId": response_data["cellId"], "code": response_data["code"]}
+            #     )
+            # )
 
     except WebSocketDisconnect:
         manager.disconnect(websocket)
