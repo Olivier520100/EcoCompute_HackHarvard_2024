@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import CodeCell from "./code-cell";
 import { handleDownload } from "@/lib/utils";
 import OutputCell from "./output-cell";
+import Link from "next/link";
 
 export type Cell = {
 	id: number;
@@ -21,8 +22,6 @@ export default function NoteBook() {
 	const [clientId, setClientId] = useState(
 		Math.floor(new Date().getTime() / 1000),
 	);
-
-
 		
 
 	const addCodeCell = (code: string = "") => {
@@ -103,7 +102,9 @@ export default function NoteBook() {
 						)}
 					</Button>
 					<Trees className="h-8 w-8" />
-					<h1 className="text-xl font-bold">EcoCompute</h1>
+					<Link href="/">
+					  <h1 className="text-xl font-bold">EcoCompute</h1>
+				  </Link>
 				</div>
 				<div className="flex space-x-2">
 					<Button
