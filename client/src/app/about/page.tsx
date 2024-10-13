@@ -77,13 +77,13 @@ export default function AboutPage() {
           
           <Card className="bg-white bg-opacity-80 backdrop-blur-md">
             <CardHeader>
-              <CardTitle className="text-xl font-semibold text-green-700">AI</CardTitle>
+              <CardTitle className="text-xl font-semibold text-green-700">Artificial Intelligence</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col items-center space-y-4">
               <Database className="w-16 h-16 text-red-500" />
               <div className="flex flex-wrap justify-center gap-2">
                 <Badge variant="secondary">Prophet</Badge>
-                <Badge variant="secondary">TenserFLow</Badge>
+                <Badge variant="secondary">Tenserflow</Badge>
                 <Badge variant="secondary">sklearn</Badge>
                 <Badge variant="secondary">pandas</Badge>
               </div>
