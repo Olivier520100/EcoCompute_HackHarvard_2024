@@ -30,7 +30,6 @@ hourlyproduction = []
 hourlyprices = []
 
 
-
 # Initialize Docker client to interact with the Docker engine
 docker_client = docker.from_env()
 
@@ -83,9 +82,10 @@ def remove_old():
 CPU_POWER_CONSTANT = 100000  # Example constant for power consumption per CPU usage
 RANDOM_VARIANCE = 0.5  # A random variance factor for power consumption
 
+
 def get_power_production() -> float:
     """
-    Fetch wind data from `get_mean_wind_speed` and calculate power production through 
+    Fetch wind data from `get_mean_wind_speed` and calculate power production through
     ai model from power_model.pkl
     """
     # Get wind speed data
@@ -102,6 +102,7 @@ def get_power_production() -> float:
 
     return power_production
 
+
 def get_power_price() -> float:
     """
     Fetch power production data from `get_power_production` and calculate power price
@@ -110,13 +111,13 @@ def get_power_price() -> float:
     power_production = get_power_production()
     if not power_production:
         return None
-    
-    last_train_date = pd.Timestamp('2023-10-11 00:00:00').date()
+
+    last_train_date = pd.Timestamp("2023-10-11 00:00:00").date()
     now = pd.to_datetime("now").date()
     difference = now - last_train_date
     diff_in_days = difference.days
 
-    future = price_model.make_future_dataframe(periods=diff_in_days, freq='D')
+    future = price_model.make_future_dataframe(periods=diff_in_days, freq="D")
     power_price = price_model.predict(future).iloc[-1]["trend"]
 
     return power_price
@@ -227,7 +228,7 @@ def on_open(ws):
 if __name__ == "__main__":
     # Initialize WebSocket connection to the server
     ws_information = websocket.WebSocketApp(
-        "wss://58ca-35-196-186-75.ngrok-free.app/containerinfo/fake_client_id",
+        "wss://meerkat-expert-rarely.ngrok-free.app/containerinfo/fake_client_id",
         on_open=on_open,
         on_error=on_error,
         on_close=on_close,
