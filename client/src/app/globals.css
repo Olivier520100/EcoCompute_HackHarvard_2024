@@ -69,9 +69,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #663300; /* color of the scrollbar handle */
-  border-radius: 10px; /* roundness of the handle */
-  border: 1px solid white; /* padding around the handle */
+  background-color: #064e3b; /* Tailwind's bg-green-900 */
+  border: 1px solid olivedrab; /* padding around the handle */
 }
 
 ::-webkit-scrollbar-thumb:hover {

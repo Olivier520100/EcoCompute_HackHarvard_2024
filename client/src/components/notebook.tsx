@@ -102,7 +102,7 @@ export default function NoteBook() {
           </Button>
           <Leaf className="h-8 w-8 text-white ml-2" />
           <Link href="/" className="py-1 rounded">
-            <h1 className="text-2xl font-bold text-white hover:text-green-300 transition-all duration-1000">
+            <h1 className="text-2xl font-bold text-white hover:text-green-900 transition-all duration-1000">
               EcoCompute
             </h1>
           </Link>
