@@ -6,7 +6,7 @@ from node import Node
 import json
 import uuid
 
-id = "test"
+id = "fake_client_id"
 
 runjson = {"operation": "RUN", "container_id": "", "code_lines": []}
 stopjson = {
@@ -75,7 +75,7 @@ def on_open(ws):
 
 if __name__ == "__main__":
     ws_manager = websocket.WebSocketApp(
-        f"ws://127.0.0.1:8000/containermanagement/test",
+        f"ws://127.0.0.1:8000/containermanagement/fake_client_id",
         on_open=on_open,
         on_message=on_message,
         on_error=on_error,

@@ -34,11 +34,12 @@ runjson = {"operation": "RUN", "container_id": "", "code_lines": []}
 stopjson = {"operation": "STOP", "container_id": ""}
 startjson = {"operation": "CREATE", "container_id": ""}
 
-
 class ConnectionManager:
     def __init__(self):
         self.active_connections: List[WebSocket] = []
         self.notebook_connections: Dict[str, WebSocket] = {}
+        self.information_connections: Dict[str, WebSocket] = {}
+        self.node_connections: Dict[str, WebSocket] = {}
 
     async def connect(self, websocket: WebSocket):
         await websocket.accept()
@@ -49,17 +50,6 @@ class ConnectionManager:
         print("🚀 ~ websocketDisconnect:", websocket)
         self.active_connections.remove(websocket)
 
-    async def broadcast(self, data: str):
-        for connection in self.active_connections:
-            await connection.send_text(data)
-
-    async def execute_code(self, code: str) -> str:
-        try:
-            exec_globals = {}
-            exec(code, exec_globals)
-            return str(exec_globals)
-        except Exception as e:
-            return f"Error: {str(e)}"
 
 
 manager = ConnectionManager()
@@ -108,14 +98,21 @@ async def websocket_endpoint_management(websocket: WebSocket, provider_id: str):
 @app.websocket("/containerinfo/{provider_id}")
 async def websocket_endpoint_info(websocket: WebSocket, provider_id: str):
     await manager.connect(websocket)
+    manager.node_connections[provider_id] = websocket
     try:
         while True:
             response = await websocket.receive_text()
-            print(response)
-
+            print(f"🚀 ~ Received data from node {provider_id}: ", response)
+            if provider_id in manager.information_connections:
+                await manager.information_connections[provider_id].send_text(response)
+            else:
+                print(f"No React client connected for provider {provider_id}")
     except WebSocketDisconnect:
         manager.disconnect(websocket)
-        await manager.broadcast(f"Provider {provider_id} disconnected")
+        print(f"Node {provider_id} disconnected")
+        if provider_id in manager.node_connections:
+            del manager.node_connections[provider_id]
+
 
 
 @app.websocket("/notebookconnection")
@@ -205,3 +202,20 @@ async def websocket_notebook_connection(websocket: WebSocket):
     finally:
         await websocket.close()
         await manager.broadcast(f"Notebook for container {container_id} disconnected")
+
+
+@app.websocket("/infoconnection/{provider_id}")
+async def websocket_info_connection(websocket: WebSocket, provider_id: str):
+    await manager.connect(websocket)
+    manager.information_connections[provider_id] = websocket
+    try:
+        while True:
+            data = await websocket.receive_text()
+            print(f"🚀 ~ Received data from React client {provider_id}: ", data)
+            # Handle any data sent from the React client if necessary
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+        print(f"React client {provider_id} disconnected")
+        if provider_id in manager.information_connections:
+            del manager.information_connections[provider_id]
+
