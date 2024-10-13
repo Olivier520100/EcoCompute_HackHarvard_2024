@@ -153,14 +153,14 @@ export default function Dashboard() {
 					label="kWh"
 				/>
 				<ChartCard
-					title="Compute Power Cost"
+					title="Energy Production"
 					icon={<DollarSign className="h-4 w-4 text-muted-foreground" />}
 					data={data.costData}
 					data_hour={data_hour?.production}
 					timePeriod={timePeriod}
 					setTimePeriod={setTimePeriod}
 					dataKey="costData"
-					label="USD"
+					label="MW"
 				/>
 				<ChartCard
 					title="Programs Running"
