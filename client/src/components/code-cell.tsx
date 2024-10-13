@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import CodeMirror from "@uiw/react-codemirror";
 import { python } from "@codemirror/lang-python";
 import { Button } from "./ui/button";
@@ -14,6 +14,14 @@ interface CodeCellProps {
 	initialCode: string;
 	children?: React.ReactNode; // This allows you to pass OutputCell as a child
 }
+interface WebSocketMessage {
+	result: {
+		operation: string;
+		status: string;
+		result: string[];
+	};
+	cellId: number;
+}
 
 export default function CodeCell({
 	onDelete,
@@ -23,12 +31,18 @@ export default function CodeCell({
 	onCodeChange,
 }: CodeCellProps) {
 	const [code, setCode] = useState(initialCode);
+	const [output, setOutput] = useState<string[] | null>(null);
 
 	const { ws, isConnected } = useWebSocket();
 
 	const handleRun = () => {
 		if (isConnected && ws && ws.readyState === WebSocket.OPEN) {
-			ws.send(JSON.stringify({ cellId: id, code }));
+			console.log(
+				"🚀 ~ handleRun ~ JSON.stringify({ cellId: id, code }):",
+				JSON.stringify({ cellId: id, code }),
+			);
+			const split_code = code.split("\n");
+			ws.send(JSON.stringify({ cellId: id, code: split_code }));
 		} else {
 			console.error("WebSocket is not open");
 		}
@@ -38,11 +52,26 @@ export default function CodeCell({
 		if (!ws) return;
 
 		const handleMessage = (event: MessageEvent) => {
-			const data = JSON.parse(event.data);
+			const data: WebSocketMessage = JSON.parse(event.data);
 			console.log("🚀 ~ handleMessage ~ data:", data);
 
 			if (data.cellId === id) {
-				setOutput(data.code);
+				// Parse the stringified result if it's a string
+				const parsedResult =
+					typeof data.result === "string"
+						? JSON.parse(data.result)
+						: data.result;
+
+				// Access the result array
+				const resultArray = parsedResult?.result;
+
+				console.log("🚀 ~ resultArray:", resultArray); // Debugging line
+
+				if (resultArray && resultArray.length > 0) {
+					setOutput(resultArray); // Set the output to the parsed result
+				} else {
+					setOutput([]); // Reset to an empty array if no results
+				}
 			}
 		};
 
@@ -53,8 +82,7 @@ export default function CodeCell({
 		};
 	}, [ws, id]);
 
-	const [output, setOutput] = useState<string>("");
-
+	console.log("🚀 ~ output:", output);
 	return (
 		<div className="mb-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
 			<div className="bg-green-100 p-3 flex justify-between items-center">
@@ -116,7 +144,9 @@ export default function CodeCell({
 				/>
 			</div>
 
-			{output && <OutputCell id={id} output={output} />}
+			{output?.map((ligne, index) => (
+				<OutputCell key={index} id={id} output={ligne} />
+			))}
 		</div>
 	);
 }

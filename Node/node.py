@@ -36,6 +36,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             conn.sendall(result.encode())
 """
 
+
 class Node:
     def __init__(self, id):
         self.id = id
@@ -44,7 +45,7 @@ class Node:
             "python:3.9",
             command=["python", "-c", CONTAINER_SCRIPT],
             detach=True,
-            ports={'12345/tcp': self.host_port}
+            ports={"12345/tcp": self.host_port},
         )
         self.container_id = self.container.id
         self._wait_for_container_ready()
@@ -53,7 +54,7 @@ class Node:
         while True:
             port = random.randint(10000, 65535)
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                if s.connect_ex(('localhost', port)) != 0:
+                if s.connect_ex(("localhost", port)) != 0:
                     return port
 
     def _wait_for_container_ready(self):
@@ -61,7 +62,7 @@ class Node:
         for attempt in range(max_attempts):
             try:
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                    s.connect(('localhost', self.host_port))
+                    s.connect(("localhost", self.host_port))
                     return
             except ConnectionRefusedError:
                 time.sleep(1)
@@ -75,14 +76,14 @@ class Node:
         self.container.stop()
         self.container.remove()
 
-    def run_cell(self, cell: list[str]) -> list[str]:
-        outputs = []
-        for line in cell:
-            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.connect(('localhost', self.host_port))
-                s.sendall(line.encode())
-                output = s.recv(4096).decode()
-                outputs.append(output.strip())
-        
-        return outputs
+    def run_cell(self, cell: list[str]) -> str:
+        # Join the lines into a single string with line breaks
+        code_to_execute = "\n".join(cell)
 
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.connect(("localhost", self.host_port))
+            s.sendall(code_to_execute.encode())
+            output = s.recv(4096).decode()
+
+        # Strip leading/trailing whitespace and return the output
+        return output.strip().replace("\n", " ")  # Combine output into a single line
