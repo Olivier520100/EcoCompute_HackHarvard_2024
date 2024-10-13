@@ -12,7 +12,7 @@ export default function Navbar() {
           </h1>
         </Link>
       </div>
-      <div className="flex space-x-4">
+      <div className="flex space-x-4">  
         <Link
           href="/dashboard"
           className="hover:text-green-300 text-lg px-2 py-1 rounded transition-all duration-1000"
@@ -30,6 +30,12 @@ export default function Navbar() {
           className="hover:text-green-300 text-lg px-2 py-1 rounded transition-all duration-1000"
         >
           Home
+        </Link>
+        <Link
+          href="/about"
+          className="hover:text-green-300 text-lg px-2 py-1 rounded transition-all duration-1000"
+        >
+          About
         </Link>
         <Link
           href="https://github.com/Olivier520100/EcoCompute_HackHarvard_2024"

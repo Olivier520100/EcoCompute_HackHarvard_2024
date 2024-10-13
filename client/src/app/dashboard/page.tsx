@@ -33,6 +33,7 @@ import { Label } from "@/components/ui/label";
 import fakedata from "@/lib/fakedata.json";
 
 export default function Dashboard() {
+	// eslint-disable-line
 	const [data] = useState<dataTypes.AllData>(fakedata);
 	const [timePeriod, setTimePeriod] = useState<TimePeriod>("today");
 
@@ -125,6 +126,7 @@ function ChartCard({
 	dataKey,
 	label,
 }: ChartCardProps) {
+	// eslint-disable-line
 	const [selectedYears, setSelectedYears] = useState<dataTypes.oldData[]>([]);
 	const [isCurrentYearSelected] = useState(true); // Set to true by default
 
@@ -157,7 +159,7 @@ function ChartCard({
 			value: item.value,
 		}));
 	};
-
+	// eslint-disable-line
 	const getCombinedChartData = () => {
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const combinedData: { [key: string]: any } = {};
