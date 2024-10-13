@@ -6,9 +6,7 @@ from node import Node
 import json
 import uuid
 
-
 id = "test"
-
 
 runjson = {"operation": "RUN", "container_id": "", "code_lines": []}
 stopjson = {

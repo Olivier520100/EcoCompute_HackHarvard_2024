@@ -8,9 +8,27 @@ from websocket import WebSocketApp
 import docker
 import random
 from datetime import datetime, timedelta
+from get_mean_wind_speed import get_mean_wind_speed
+import pandas as pd
+
+import joblib
+
+# Load the model globally
+try:
+    power_model = joblib.load("./models/power_model.pkl")
+    power_scaler = joblib.load("./models/power_scaler.pkl")
+    price_model = joblib.load("./models/price_model.pkl")
+except Exception as e:
+    # Handle exceptions during model loading
+    print(f"Error loading model: {e}")
+    power_model = None
 
 hourlyconsumption = []
 hourlycontainers = []
+
+hourlyproduction = []
+hourlyprices = []
+
 
 
 # Initialize Docker client to interact with the Docker engine
@@ -34,6 +52,10 @@ def remove_old():
     # Keep only entries from the last hour
     global hourlyconsumption
     global hourlycontainers
+
+    global hourlyproduction
+    global hourlyprices
+
     hourlyconsumption = [
         entry
         for entry in hourlyconsumption
@@ -45,10 +67,59 @@ def remove_old():
         if datetime.fromisoformat(entry["timestamp"]) > hour_ago
     ]
 
+    hourlyproduction = [
+        entry
+        for entry in hourlyproduction
+        if datetime.fromisoformat(entry["timestamp"]) > hour_ago
+    ]
+    hourlyprices = [
+        entry
+        for entry in hourlyprices
+        if datetime.fromisoformat(entry["timestamp"]) > hour_ago
+    ]
+
 
 # Constants
 CPU_POWER_CONSTANT = 100000  # Example constant for power consumption per CPU usage
 RANDOM_VARIANCE = 0.5  # A random variance factor for power consumption
+
+def get_power_production() -> float:
+    """
+    Fetch wind data from `get_mean_wind_speed` and calculate power production through 
+    ai model from power_model.pkl
+    """
+    # Get wind speed data
+    mean_wind_speed = get_mean_wind_speed(200)
+    if not mean_wind_speed:
+        return None
+
+    # Load the AI model
+    model = joblib.load("power_model.pkl")
+
+    # Predict power production
+    scaled_power = model.predict([[mean_wind_speed]])
+    power_production = power_scaler.inverse_transform(scaled_power)[0][0]
+
+    return power_production
+
+def get_power_price() -> float:
+    """
+    Fetch power production data from `get_power_production` and calculate power price
+    """
+    # Get power production data
+    power_production = get_power_production()
+    if not power_production:
+        return None
+    
+    last_train_date = pd.Timestamp('2023-10-11 00:00:00').date()
+    now = pd.to_datetime("now").date()
+    difference = now - last_train_date
+    diff_in_days = difference.days
+
+    future = price_model.make_future_dataframe(periods=diff_in_days, freq='D')
+    power_price = price_model.predict(future).iloc[-1]["trend"]
+
+    return power_price
 
 
 def get_container_stats():
@@ -96,6 +167,16 @@ def get_container_stats():
             "value": len(get_running_containers()),
             "timestamp": datetime.now().isoformat(),  # Convert timestamp to ISO format for JSON serialization
         },
+        {
+            "name": current_datetime,
+            "value": get_power_production(),
+            "timestamp": datetime.now().isoformat(),  # Convert timestamp to ISO format for JSON serialization
+        },
+        {
+            "name": current_datetime,
+            "value": get_power_price(),
+            "timestamp": datetime.now().isoformat(),  # Convert timestamp to ISO format for JSON serialization
+        },
     ]
 
 
@@ -109,11 +190,16 @@ def send_periodic(ws):
         hourlyconsumption.append(container_stats[0])
         hourlycontainers.append(container_stats[1])
 
+        hourlyproduction.append(container_stats[2])
+        hourlyprices.append(container_stats[3])
+
         remove_old()
 
         output = {
             "consumption": {"hourly": hourlyconsumption},
             "containers": {"hourly": hourlycontainers},
+            "production": {"hourly": hourlyproduction},
+            "prices": {"hourly": hourlyprices},
         }
 
         # Convert to JSON and send over WebSocket
