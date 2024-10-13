@@ -60,3 +60,20 @@ export interface AllData {
 	programsRunning: ProgramsRunningData;
 	powerConsumption: PowerConsumptionData;
 }
+
+export interface HourlyDataHourly {
+	name: string;
+	value: number;
+	timestamp: string;
+}
+
+export interface DataCategory {
+	hourly: HourlyData[];
+}
+
+export interface DataHourly {
+	consumption: DataCategory;
+	containers: DataCategory;
+	production: DataCategory;
+	prices: DataCategory;
+}

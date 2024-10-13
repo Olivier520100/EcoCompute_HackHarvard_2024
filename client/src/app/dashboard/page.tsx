@@ -21,12 +21,36 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown, DollarSign, Server, Zap } from "lucide-react";
-import { type Dispatch, type SetStateAction, useEffect, useRef, useState } from "react";
+import {
+	type Dispatch,
+	type SetStateAction,
+	useEffect,
+	useRef,
+	useState,
+} from "react";
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 import MultipleFileUpload from "@/components/multiple-file-upload";
 
-import type * as dataTypes from "@/lib/datatypes"; // Adjust the path based on your project structure
+import * as dataTypes from "@/lib/datatypes"; // Adjust the path based on your project structure
+
+const data_labels_x = [
+	{ name: "0", value: 10 },
+	{ name: "10", value: 20 },
+	{ name: "20", value: 30 },
+	{ name: "30", value: 40 },
+	{ name: "40", value: 50 },
+	{ name: "50", value: 60 },
+	{ name: "60", value: 70 },
+	// More data points (700x700)
+];
+
+const formatXAxis = (tick: string) => {
+	// Show only ticks for 10, 20, 30, 40, 50, 60 mins
+	return ["10", "20", "30", "40", "50", "60"].includes(tick)
+		? `${tick} mins`
+		: "";
+};
 
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
@@ -35,13 +59,16 @@ import fakedata from "@/lib/fakedata.json";
 export default function Dashboard() {
 	// eslint-disable-line
 	const [data] = useState<dataTypes.AllData>(fakedata);
-	const [timePeriod, setTimePeriod] = useState<TimePeriod>("today");
+	const [data_hour, setData_Hour] = useState<dataTypes.DataHourly>();
+	const [timePeriod, setTimePeriod] = useState<TimePeriod>("hour");
 	const [isConnected, setIsConnected] = useState(false);
 	const ws = useRef<WebSocket | null>(null);
 
 	useEffect(() => {
 		console.log("WebSocketProvider mounted");
-		ws.current = new WebSocket("wss://58ca-35-196-186-75.ngrok-free.app/infoconnection/fake_client_id");
+		ws.current = new WebSocket(
+			"wss://58ca-35-196-186-75.ngrok-free.app/infoconnection/fake_client_id",
+		);
 
 		ws.current.onopen = () => {
 			console.log("WebSocket connected");
@@ -64,15 +91,16 @@ export default function Dashboard() {
 	}, []);
 
 	useEffect(() => {
-		if (!ws.current) return;  // Check ws.current
-	
+		if (!ws.current) return; // Check ws.current
+
 		const handleMessage = (event: MessageEvent) => {
-			const data = JSON.parse(event.data);
+			const data  = JSON.parse(event.data);
 			console.log("🚀 ~ handleMessage ~ data:", data);
+			setData_Hour(data);
 		};
-	
+
 		ws.current.addEventListener("message", handleMessage);
-	
+
 		return () => {
 			ws.current?.removeEventListener("message", handleMessage);
 		};
@@ -95,6 +123,9 @@ export default function Dashboard() {
 						</Button>
 					</DropdownMenuTrigger>
 					<DropdownMenuContent>
+						<DropdownMenuItem onClick={() => setTimePeriod("hour")}>
+							Hourly
+						</DropdownMenuItem>
 						<DropdownMenuItem onClick={() => setTimePeriod("today")}>
 							Today
 						</DropdownMenuItem>
@@ -115,6 +146,7 @@ export default function Dashboard() {
 					title="Power Consumption"
 					icon={<Zap className="h-4 w-4 text-muted-foreground" />}
 					data={data.powerConsumption}
+					data_hour={data_hour?.consumption}
 					timePeriod={timePeriod}
 					setTimePeriod={setTimePeriod}
 					dataKey="powerConsumption"
@@ -124,6 +156,7 @@ export default function Dashboard() {
 					title="Compute Power Cost"
 					icon={<DollarSign className="h-4 w-4 text-muted-foreground" />}
 					data={data.costData}
+					data_hour={data_hour?.production}
 					timePeriod={timePeriod}
 					setTimePeriod={setTimePeriod}
 					dataKey="costData"
@@ -133,6 +166,7 @@ export default function Dashboard() {
 					title="Programs Running"
 					icon={<Server className="h-4 w-4 text-muted-foreground" />}
 					data={data.programsRunning}
+					data_hour={data_hour?.containers}
 					setTimePeriod={setTimePeriod}
 					timePeriod={timePeriod}
 					dataKey="programsRunning"
@@ -146,6 +180,7 @@ export default function Dashboard() {
 interface ChartCardProps {
 	title: string;
 	icon: React.ReactNode;
+	data_hour: dataTypes.DataCategory | undefined
 	data:
 		| dataTypes.PowerConsumptionData
 		| dataTypes.CostData
@@ -156,17 +191,19 @@ interface ChartCardProps {
 	label: string;
 }
 
-type TimePeriod = "today" | "week" | "month" | "year" | "";
+type TimePeriod = "hour" | "today" | "week" | "month" | "year" | "";
 
 function ChartCard({
 	title,
 	icon,
 	data,
+	data_hour,
 	timePeriod,
 	setTimePeriod,
 	dataKey,
 	label,
 }: ChartCardProps) {
+	console.log("🚀 ~ data_hour:", data_hour);
 	// eslint-disable-line
 	const [selectedYears, setSelectedYears] = useState<dataTypes.oldData[]>([]);
 	const [isCurrentYearSelected] = useState(true); // Set to true by default
@@ -298,19 +335,21 @@ function ChartCard({
 					</CardHeader>
 					<CardContent>
 						<div className="text-2xl font-bold">AMOUNT</div>
-						<p className="text-xs text-muted-foreground">PERCENTAGE</p>
+						<p className="text-xs text-muted-foreground">kW/h</p>
 						<ChartContainer
 							config={{ value: { label: label, color: "" } }}
 							className="h-[200px]"
 						>
 							<ResponsiveContainer width="100%" height="100%">
-								<AreaChart data={getChartData()}>
-									<XAxis dataKey="name" />
+								<AreaChart
+									data={timePeriod === "hour" ? data_hour?.hourly : getChartData()}
+								>
+									<XAxis dataKey="name" tickFormatter={formatXAxis} />
 									<YAxis />
 									<ChartTooltip content={<ChartTooltipContent />} />
 									{/* Render current year's data in the initial chart */}
 									<Area
-										key={"currentYear"}
+										key={"hour"}
 										type="monotone"
 										dataKey="value"
 										strokeWidth={2}
