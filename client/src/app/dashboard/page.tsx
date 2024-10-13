@@ -21,7 +21,7 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown, DollarSign, Server, Zap } from "lucide-react";
-import { type Dispatch, type SetStateAction, useState } from "react";
+import { type Dispatch, type SetStateAction, useEffect, useRef, useState } from "react";
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 import MultipleFileUpload from "@/components/multiple-file-upload";
@@ -36,6 +36,33 @@ export default function Dashboard() {
 	// eslint-disable-line
 	const [data] = useState<dataTypes.AllData>(fakedata);
 	const [timePeriod, setTimePeriod] = useState<TimePeriod>("today");
+	const [isConnected, setIsConnected] = useState(false);
+	const ws = useRef<WebSocket | null>(null);
+
+	useEffect(() => {
+		console.log("WebSocketProvider mounted");
+		ws.current = new WebSocket("ws://127.0.0.1:8000/notebookconnection");
+
+		ws.current.onopen = () => {
+			console.log("WebSocket connected");
+			setIsConnected(true);
+		};
+
+		ws.current.onclose = (event) => {
+			console.log("WebSocket disconnected:", event);
+			setIsConnected(false);
+		};
+
+		ws.current.onerror = (error) => {
+			console.error("WebSocket error observed:", error);
+		};
+
+		return () => {
+			console.log("WebSocketProvider unmounted");
+			ws.current?.close();
+		};
+	}, []);
+
 
 	return (
 		<div className="p-8">
