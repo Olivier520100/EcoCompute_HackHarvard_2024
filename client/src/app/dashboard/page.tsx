@@ -41,7 +41,7 @@ export default function Dashboard() {
 
 	useEffect(() => {
 		console.log("WebSocketProvider mounted");
-		ws.current = new WebSocket("ws://127.0.0.1:8000/notebookconnection");
+		ws.current = new WebSocket("wss://58ca-35-196-186-75.ngrok-free.app/infoconnection/fake_client_id");
 
 		ws.current.onopen = () => {
 			console.log("WebSocket connected");

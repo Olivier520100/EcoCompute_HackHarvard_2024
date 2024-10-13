@@ -227,7 +227,7 @@ def on_open(ws):
 if __name__ == "__main__":
     # Initialize WebSocket connection to the server
     ws_information = websocket.WebSocketApp(
-        "ws://127.0.0.1:8000/containerinfo/fake_client_id",
+        "wss://58ca-35-196-186-75.ngrok-free.app/containerinfo/fake_client_id",
         on_open=on_open,
         on_error=on_error,
         on_close=on_close,
