@@ -175,7 +175,7 @@ export default function Dashboard() {
 			</div>
 
 			<h1>
-				`Computing Price per MW/h:
+				`Compute Price per MW/h:
 				{data_hour?.production.hourly[0].value
 					? Math.abs(data_hour?.prices.hourly[0].value)
 					: data_hour?.prices.hourly[0].value}
