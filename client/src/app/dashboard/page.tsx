@@ -63,6 +63,20 @@ export default function Dashboard() {
 		};
 	}, []);
 
+	useEffect(() => {
+		if (!ws.current) return;  // Check ws.current
+	
+		const handleMessage = (event: MessageEvent) => {
+			const data = JSON.parse(event.data);
+			console.log("🚀 ~ handleMessage ~ data:", data);
+		};
+	
+		ws.current.addEventListener("message", handleMessage);
+	
+		return () => {
+			ws.current?.removeEventListener("message", handleMessage);
+		};
+	}, []);
 
 	return (
 		<div className="p-8">
