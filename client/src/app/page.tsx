@@ -1,12 +1,13 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import ReactPlayer from 'react-player'
+const ReactPlayer = dynamic(() => import('react-player'), { ssr: false })
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Leaf, TreePine } from 'lucide-react'
 import Image from 'next/image'
 import logo from '@/lib/LogoGif.gif'
+import dynamic from 'next/dynamic'
 
 export default function VideoPlayer() {
   return (
