@@ -27,7 +27,7 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> =
 
 		useEffect(() => {
 			console.log("WebSocketProvider mounted");
-			ws.current = new WebSocket("wss://58ca-35-196-186-75.ngrok-free.app/notebookconnection");
+			ws.current = new WebSocket("wss://meerkat-expert-rarely.ngrok-free.app/notebookconnection");
 
 			ws.current.onopen = () => {
 				console.log("WebSocket connected");

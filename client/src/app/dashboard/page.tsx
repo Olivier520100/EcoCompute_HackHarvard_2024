@@ -67,7 +67,7 @@ export default function Dashboard() {
 	useEffect(() => {
 		console.log("WebSocketProvider mounted");
 		ws.current = new WebSocket(
-			"wss://58ca-35-196-186-75.ngrok-free.app/infoconnection/fake_client_id",
+			"wss://meerkat-expert-rarely.ngrok-free.app/infoconnection/fake_client_id",
 		);
 
 		ws.current.onopen = () => {
@@ -153,14 +153,14 @@ export default function Dashboard() {
 					label="kWh"
 				/>
 				<ChartCard
-					title="Compute Power Cost"
+					title="Energy Production"
 					icon={<DollarSign className="h-4 w-4 text-muted-foreground" />}
 					data={data.costData}
 					data_hour={data_hour?.production}
 					timePeriod={timePeriod}
 					setTimePeriod={setTimePeriod}
 					dataKey="costData"
-					label="USD"
+					label="MW"
 				/>
 				<ChartCard
 					title="Programs Running"
@@ -173,6 +173,14 @@ export default function Dashboard() {
 					label="Programs"
 				/>
 			</div>
+
+			<h1>
+				`Compute Price per MW/h:
+				{data_hour?.production.hourly[0].value
+					? Math.abs(data_hour?.prices.hourly[0].value)
+					: data_hour?.prices.hourly[0].value}
+				$`
+			</h1>
 		</div>
 	);
 }
